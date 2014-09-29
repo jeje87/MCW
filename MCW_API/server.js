@@ -18,7 +18,8 @@ var port = process.env.PORT || 8080; 		// set our port
 var mongoose   = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/MyClub'); 
 
-var Club     = require('./app/models/club');
+var path = require('path');
+var tools = require('./app/utils/tools'); //fonction utilitaires
 
 // ROUTES FOR OUR API
 // =============================================================================
@@ -26,80 +27,28 @@ var router = express.Router(); 				// get an instance of the express Router
 
 // test route to make sure everything is working (accessed at GET http://localhost:8080/api)
 router.get('/', function(req, res) {
-	res.json({ message: 'hooray! welcome to our api!' });	
+	res.json({ message: 'Bienvenue sur notre API!' });	
 });
 
+
 // more routes for our API will happen here
+ // Initialize ALL routes including subfolders
+var fs = require('fs');
+function recursiveRoutes(folderName) {
+    fs.readdirSync(folderName).forEach(function(file) {
 
-// Club route
+        var fullName = path.join(folderName, file);
+        var stat = fs.lstatSync(fullName);
 
-router.route('/clubs')
-
-	// create a clubs (accessed at POST http://localhost:8080/api/clubs)
-	.post(function(req, res) {
-		
-		var club = new Club(); 		// create a new instance of the Club model
-		club.name = req.body.name;  // set the bears name (comes from the request)
-
-		// save the bear and check for errors
-		club.save(function(err) {
-			if (err) 
-                res.send(err);
-            else
-                res.json({ message: 'Club ' + club.name + 'created!' });
-		})
-    
-    })
-    .get(function(req, res) {
-		Club.find(function(err, clubs) {
-			if (err)
-				res.send(err);
-            else
-			    res.json(clubs);
-		}); 
-		
-	});
-
-router.route('/clubs/:club_id')
-
-	.get(function(req, res) {
-		Club.findById(req.params.club_id, function(err, club) {
-			if (err)
-				res.send(err);
-            else
-			 res.json(club);
-		});
-	})
-    .put(function(req, res) {
-
-		Club.findById(req.params.club_id, function(err, club) {
-
-			if (err)
-				res.send(err);
-
-            var oldName = club.name;
-			club.name = req.body.name; 	// update the club info
-
-			// save the club
-			club.save(function(err) {
-				if (err)
-					res.send(err);
-                else
-				    res.json({ message: 'Club ' + oldName + ' updated!' });
-			});
-
-		});
-	})
-	.delete(function(req, res) {
-		Club.remove({
-			_id: req.params.club_id
-		}, function(err, club) {
-			if (err)
-				res.send(err);
-            else
-                res.json({ message: "Club " + req.params.club_id  + ' successfully deleted' });
-		});
-	});
+        if (stat.isDirectory()) {
+            recursiveRoutes(fullName);
+        } else if (file.toLowerCase().indexOf('.js')) {
+            console.log("require('./" + fullName + "')");
+            require('./' + fullName)(router);
+        }
+    });
+}
+recursiveRoutes('app/routes'); // Initialize it
 
 
 // REGISTER OUR ROUTES -------------------------------
