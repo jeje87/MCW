@@ -1,0 +1,12 @@
+
+
+<div ng-controller="viewListClubCtrl">
+  <label>Afficher les personnes ?</label>
+  <input type="checkbox" ng-model="showPeople">
+  <ul ng-show="showPeople">
+    <li ng-repeat="club in listeClub">
+      {{ club.nom }} {{club.ville }}
+    </li>
+  </ul>
+  <p ng-hide="showClub">Il n'y a personne de visible.</p>
+</div>
