@@ -3,13 +3,7 @@
 module.exports = function(router) {
     
     var Club = require('../models/club');
-
-     // mapping générique
-    var map = function(obj,req) {
-        for(var parameter in req.body) {
-           obj[parameter] = req.body[parameter];
-        }                      
-    }
+    var Tools = require('../utils/tools')
     
     router.route('/clubs')
 
@@ -17,7 +11,7 @@ module.exports = function(router) {
 	.post(function(req, res) {
 		
 		var club = new Club(); 
-        map(club,req);
+        Tools.map(club,req);
 
 		// save the bear and check for errors
 		club.save(function(err) {
@@ -62,7 +56,7 @@ module.exports = function(router) {
 				res.send(err);
 
             var oldName = club.nom;
-			map(club,req);
+			Tools.map(club,req);
 
 			// save the club
 			club.save(function(err) {

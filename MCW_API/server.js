@@ -19,7 +19,9 @@ var mongoose   = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/MyClub'); 
 
 var path = require('path');
-var tools = require('./app/utils/tools'); //fonction utilitaires
+global.appRoot = path.resolve(__dirname); //root directory
+
+var Tools = require('./app/utils/tools'); //fonction utilitaires
 
 // ROUTES FOR OUR API
 // =============================================================================
@@ -32,23 +34,7 @@ router.get('/', function(req, res) {
 
 
 // more routes for our API will happen here
- // Initialize ALL routes including subfolders
-var fs = require('fs');
-function recursiveRoutes(folderName) {
-    fs.readdirSync(folderName).forEach(function(file) {
-
-        var fullName = path.join(folderName, file);
-        var stat = fs.lstatSync(fullName);
-
-        if (stat.isDirectory()) {
-            recursiveRoutes(fullName);
-        } else if (file.toLowerCase().indexOf('.js')) {
-            console.log("require('./" + fullName + "')");
-            require('./' + fullName)(router);
-        }
-    });
-}
-recursiveRoutes('app/routes'); // Initialize it
+Tools.recursiveRoutes('app/routes', router); // Initialize it
 
 
 // REGISTER OUR ROUTES -------------------------------
