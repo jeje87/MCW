@@ -1,20 +1,20 @@
-// Club route
+// type_membre route
 
 module.exports = function(router) {
     
-    var Club = require('../models/club');
+    var Type_Membre = require('../models/type_membre');
     var Tools = require('../utils/tools')
     
-    router.route('/clubs')
+    router.route('/type_membres')
 
 	// création 
 	.post(function(req, res) {
 		
-		var club = new Club(); 
-        Tools.map(club,req);
+		var type_membre = new Type_Membre(); 
+        Tools.map(type_membre,req);
 
 		// save the bear and check for errors
-		club.save(function(err) {
+		type_membre.save(function(err) {
 			if (err) 
                 res.send(err);
             else
@@ -25,40 +25,40 @@ module.exports = function(router) {
     
     // sélection de tous les items
     .get(function(req, res) {
-		Club.find(function(err, clubs) {
+		Type_Membre.find(function(err, type_membres) {
 			if (err)
 				res.send(err);
             else
-			    res.json(clubs);
+			    res.json(type_membres);
 		}); 
 		
 	});
 
     
-    router.route('/clubs/:club_id')
+    router.route('/type_membres/:type_membre_id')
 
     // Sélection d'un item via son id
 	.get(function(req, res) {
-		Club.findById(req.params.club_id, function(err, club) {
+		Type_Membre.findById(req.params.type_membre_id, function(err, type_membre) {
 			if (err)
 				res.send(err);
             else
-			 res.json(club);
+			 res.json(type_membre);
 		});
 	})
     
     // Modification d'un item via son id
     .put(function(req, res) {
 
-		Club.findById(req.params.club_id, function(err, club) {
+		Type_Membre.findById(req.params.type_membre_id, function(err, type_membre) {
 
 			if (err)
 				res.send(err);
 
-			Tools.map(club,req);
+			Tools.map(type_membre,req);
 
-			// save the club
-			club.save(function(err) {
+			// save the type_membre
+			type_membre.save(function(err) {
 				if (err)
 					res.send(err);
                 else
@@ -70,9 +70,9 @@ module.exports = function(router) {
     
     // Suppression d'un item via son id
 	.delete(function(req, res) {
-		Club.remove({
-			_id: req.params.club_id
-		}, function(err, club) {
+		Type_Membre.remove({
+			_id: req.params.type_membre_id
+		}, function(err, type_membre) {
 			if (err)
 				res.send(err);
             else

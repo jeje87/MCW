@@ -1,20 +1,19 @@
-// Club route
+// categorie route
 
 module.exports = function(router) {
     
-    var Club = require('../models/club');
+    var Categorie = require('../models/categorie');
     var Tools = require('../utils/tools')
     
-    router.route('/clubs')
+    router.route('/categories')
 
 	// création 
 	.post(function(req, res) {
 		
-		var club = new Club(); 
-        Tools.map(club,req);
+		var categorie = new Categorie(); 
+        Tools.map(categorie,req);
 
-		// save the bear and check for errors
-		club.save(function(err) {
+		categorie.save(function(err) {
 			if (err) 
                 res.send(err);
             else
@@ -25,40 +24,40 @@ module.exports = function(router) {
     
     // sélection de tous les items
     .get(function(req, res) {
-		Club.find(function(err, clubs) {
+		Categorie.find(function(err, categories) {
 			if (err)
 				res.send(err);
             else
-			    res.json(clubs);
+			    res.json(categories);
 		}); 
 		
 	});
 
     
-    router.route('/clubs/:club_id')
+    router.route('/categories/:categorie_id')
 
     // Sélection d'un item via son id
 	.get(function(req, res) {
-		Club.findById(req.params.club_id, function(err, club) {
+		Categorie.findById(req.params.categorie_id, function(err, categorie) {
 			if (err)
 				res.send(err);
             else
-			 res.json(club);
+                res.json(categorie);
 		});
 	})
     
     // Modification d'un item via son id
     .put(function(req, res) {
 
-		Club.findById(req.params.club_id, function(err, club) {
+		Categorie.findById(req.params.categorie_id, function(err, categorie) {
 
 			if (err)
 				res.send(err);
 
-			Tools.map(club,req);
+			Tools.map(categorie,req);
 
-			// save the club
-			club.save(function(err) {
+			// save 
+			categorie.save(function(err) {
 				if (err)
 					res.send(err);
                 else
@@ -70,9 +69,9 @@ module.exports = function(router) {
     
     // Suppression d'un item via son id
 	.delete(function(req, res) {
-		Club.remove({
-			_id: req.params.club_id
-		}, function(err, club) {
+		Categorie.remove({
+			_id: req.params.categorie_id
+		}, function(err, categorie) {
 			if (err)
 				res.send(err);
             else

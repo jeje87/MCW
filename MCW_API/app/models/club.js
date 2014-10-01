@@ -3,16 +3,14 @@ var Schema       = mongoose.Schema;
 
 var ClubSchema   = new Schema({
 	nom: String,
-    adresse1: String,
-    adresse2: String,
+    adresse: [String],
     codePostal: String,
     ville: String,
     description: String,
-    telephone: String,
-    email: String,
-    facebookUrl: String,
-    GoogleUrl: String,
-    externalUrl: String
+    telephones: [{ libelle: String, telephone: String }],
+    emails: [{ libelle: String, email: String }],
+    urls: [{ libelle: String, date: Date, url: String }],
+    commentaires: [{ de: String, date: Date, message: String }],
 });
 
 module.exports = mongoose.model('Club', ClubSchema);

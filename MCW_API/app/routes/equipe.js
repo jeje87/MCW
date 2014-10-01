@@ -1,20 +1,20 @@
-// Club route
+// equipe route
 
 module.exports = function(router) {
     
-    var Club = require('../models/club');
+    var Equipe = require('../models/equipe');
     var Tools = require('../utils/tools')
     
-    router.route('/clubs')
+    router.route('/equipes')
 
 	// création 
 	.post(function(req, res) {
 		
-		var club = new Club(); 
-        Tools.map(club,req);
+		var equipe = new Equipe(); 
+        Tools.map(equipe,req);
 
 		// save the bear and check for errors
-		club.save(function(err) {
+		equipe.save(function(err) {
 			if (err) 
                 res.send(err);
             else
@@ -25,40 +25,40 @@ module.exports = function(router) {
     
     // sélection de tous les items
     .get(function(req, res) {
-		Club.find(function(err, clubs) {
+		Equipe.find(function(err, equipes) {
 			if (err)
 				res.send(err);
             else
-			    res.json(clubs);
+			    res.json(equipes);
 		}); 
 		
 	});
 
     
-    router.route('/clubs/:club_id')
+    router.route('/equipes/:equipe_id')
 
     // Sélection d'un item via son id
 	.get(function(req, res) {
-		Club.findById(req.params.club_id, function(err, club) {
+		Equipe.findById(req.params.equipe_id, function(err, equipe) {
 			if (err)
 				res.send(err);
             else
-			 res.json(club);
+                res.json(equipe);
 		});
 	})
     
     // Modification d'un item via son id
     .put(function(req, res) {
 
-		Club.findById(req.params.club_id, function(err, club) {
+		Equipe.findById(req.params.equipe_id, function(err, equipe) {
 
 			if (err)
 				res.send(err);
 
-			Tools.map(club,req);
+			Tools.map(equipe,req);
 
-			// save the club
-			club.save(function(err) {
+			// save 
+			equipe.save(function(err) {
 				if (err)
 					res.send(err);
                 else
@@ -70,9 +70,9 @@ module.exports = function(router) {
     
     // Suppression d'un item via son id
 	.delete(function(req, res) {
-		Club.remove({
-			_id: req.params.club_id
-		}, function(err, club) {
+		Equipe.remove({
+			_id: req.params.equipe_id
+		}, function(err, equipe) {
 			if (err)
 				res.send(err);
             else

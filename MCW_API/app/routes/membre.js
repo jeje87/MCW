@@ -1,20 +1,19 @@
-// Club route
+// membre route
 
 module.exports = function(router) {
     
-    var Club = require('../models/club');
+    var Membre = require('../models/membre');
     var Tools = require('../utils/tools')
     
-    router.route('/clubs')
+    router.route('/membres')
 
 	// création 
 	.post(function(req, res) {
 		
-		var club = new Club(); 
-        Tools.map(club,req);
+		var membre = new Membre(); 
+        Tools.map(membre,req);
 
-		// save the bear and check for errors
-		club.save(function(err) {
+		membre.save(function(err) {
 			if (err) 
                 res.send(err);
             else
@@ -25,40 +24,40 @@ module.exports = function(router) {
     
     // sélection de tous les items
     .get(function(req, res) {
-		Club.find(function(err, clubs) {
+		Membre.find(function(err, membres) {
 			if (err)
 				res.send(err);
             else
-			    res.json(clubs);
+			    res.json(membres);
 		}); 
 		
 	});
 
     
-    router.route('/clubs/:club_id')
+    router.route('/membres/:membre_id')
 
     // Sélection d'un item via son id
 	.get(function(req, res) {
-		Club.findById(req.params.club_id, function(err, club) {
+		Membre.findById(req.params.membre_id, function(err, membre) {
 			if (err)
 				res.send(err);
             else
-			 res.json(club);
+                res.json(membre);
 		});
 	})
     
     // Modification d'un item via son id
     .put(function(req, res) {
 
-		Club.findById(req.params.club_id, function(err, club) {
+		Membre.findById(req.params.membre_id, function(err, membre) {
 
 			if (err)
 				res.send(err);
 
-			Tools.map(club,req);
+			Tools.map(membre,req);
 
-			// save the club
-			club.save(function(err) {
+			// save 
+			membre.save(function(err) {
 				if (err)
 					res.send(err);
                 else
@@ -70,9 +69,9 @@ module.exports = function(router) {
     
     // Suppression d'un item via son id
 	.delete(function(req, res) {
-		Club.remove({
-			_id: req.params.club_id
-		}, function(err, club) {
+		Membre.remove({
+			_id: req.params.membre_id
+		}, function(err, membre) {
 			if (err)
 				res.send(err);
             else
