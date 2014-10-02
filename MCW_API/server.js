@@ -7,22 +7,28 @@
 var express    = require('express'); 		// call express
 var app        = express(); 				// define our app using express
 var bodyParser = require('body-parser');
+var passport = require('passport'), LocalStrategy = require('passport-local').Strategy;
+var mongoose   = require('mongoose');
+var path = require('path');
+var Tools = require('./app/utils/tools'); //fonction utilitaires
 
+app.use(passport.initialize());
+app.use(passport.session()); 
+app.use(express.static(__dirname + '/public'));
 // configure app to use bodyParser()
 // this will let us get the data from a POST
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 var port = process.env.PORT || 8080; 		// set our port
-
-var mongoose   = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/MyClub'); 
-
-var path = require('path');
 global.appRoot = path.resolve(__dirname); //root directory
 
-var Tools = require('./app/utils/tools'); //fonction utilitaires
 
+// =============================================================================
+// =============================================================================
+// REGISTER OUR ROUTES -------------------------------
+// all of our routes will be prefixed with /api
 // ROUTES FOR OUR API
 // =============================================================================
 var router = express.Router(); 				// get an instance of the express Router
@@ -32,16 +38,65 @@ router.get('/', function(req, res) {
 	res.json({ message: 'Bienvenue sur notre API!' });	
 });
 
-
 // more routes for our API will happen here
 Tools.recursiveRoutes('app/routes', router); // Initialize it
-
-
-// REGISTER OUR ROUTES -------------------------------
-// all of our routes will be prefixed with /api
 app.use('/api', router);
+
+// =============================================================================
+// =============================================================================
+
+
+
+// =============================================================================
+// =============================================================================
+// Authentification
+// =============================================================================
+
+var Membre = require('./app/models/membre');
+
+passport.use(new LocalStrategy(
+  function(username, password, done) {
+    Membre.findOne({login: username}, function(err, membre) {
+      if (err) { return done(err); }
+      if (!membre) {
+        return done(null, false, { message: 'Incorrect username.' });
+      }
+      if (membre.mdp != password) {
+        return done(null, false, { message: 'Incorrect password.' });
+      }
+      return done(null, membre);
+    });
+  }
+));
+
+passport.serializeUser(function(user, done) {
+  done(null, user);
+});
+
+passport.deserializeUser(function(user, done) {
+  done(null, user);
+});
+
+app.get('/', function(req,res) {
+  res.sendfile('index.htm');
+});
+app.get('/login', function(req,res) {
+  res.sendfile('index.htm');
+});
+app.post('/login',
+    passport.authenticate('local', { successRedirect: '/?authentication=OK',
+                                   failureRedirect: '/?authentication=error',
+                                   failureFlash: false })
+);
+
+// =============================================================================
+// =============================================================================
+
 
 // START THE SERVER
 // =============================================================================
 app.listen(port);
 console.log('Magic happens on port ' + port);
+// enjoy
+// =============================================================================
+// =============================================================================
