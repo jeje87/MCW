@@ -2,8 +2,9 @@
 
 module.exports = function(router) {
     
-    var Membre = require('../models/membre');
-    var Tools = require('../utils/tools')
+    var Membre   = require('../models/membre');
+    var Tools    = require('../utils/tools');
+    var bcrypt   = require('bcrypt-nodejs');
     
     router.route('/membres')
 
@@ -12,6 +13,8 @@ module.exports = function(router) {
 		
 		var membre = new Membre(); 
         Tools.map(membre,req);
+        var salt = bcrypt.genSaltSync(10);
+        membre.mdp = bcrypt.hashSync(membre.mdp,salt,null);
 
 		membre.save(function(err) {
 			if (err) 

@@ -7,13 +7,14 @@
 var express    = require('express'); 		// call express
 var app        = express(); 				// define our app using express
 var bodyParser = require('body-parser');
-var passport = require('passport'), LocalStrategy = require('passport-local').Strategy;
+var passport = require('passport');
+var authController = require('./app/controllers/auth');
 var mongoose   = require('mongoose');
 var path = require('path');
 var Tools = require('./app/utils/tools'); //fonction utilitaires
 
 app.use(passport.initialize());
-app.use(passport.session()); 
+//app.use(passport.session()); 
 app.use(express.static(__dirname + '/public'));
 // configure app to use bodyParser()
 // this will let us get the data from a POST
@@ -52,6 +53,7 @@ app.use('/api', router);
 // Authentification
 // =============================================================================
 
+/*
 var Membre = require('./app/models/membre');
 
 passport.use(new LocalStrategy(
@@ -88,6 +90,7 @@ app.post('/login',
                                    failureRedirect: '/?authentication=error',
                                    failureFlash: false })
 );
+*/
 
 // =============================================================================
 // =============================================================================
