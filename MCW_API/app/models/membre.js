@@ -18,7 +18,8 @@ var MembreSchema   = new Schema({
     photo_url: String,
     type_membre: {type_membre_id:Number, libelle: String},
     login: { type: String, index: { unique: true } },
-    mdp: String
+    mdp: String,
+    droit: Number /*0 SA - 10 Admin club - 20 Admin Catégorie - 30 Admin Equipe - 40 Admin user = user */ 
 });
 
 MembreSchema.methods.verifyMdp = function(mdp, cb) {

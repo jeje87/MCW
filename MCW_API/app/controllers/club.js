@@ -19,7 +19,7 @@ exports.postItem = function(req, res) {
 };
 
 // sélection de tous les items
-exports.getItem = function(req, res) {
+exports.getItems = function(req, res) {
     Club.find(function(err, clubs) {
         if (err)
             res.send(err);

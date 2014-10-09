@@ -1,22 +1,20 @@
 // Club route
-
 module.exports = function(router) {
     
     var ClubControler = require('../controllers/club');
-    var authController = require('../controllers/auth');
+    var AuthController = require('../controllers/auth');
     
     router.route('/clubs')
 	// création 
-	.post(authController.isAuthenticated, ClubControler.postItem)
+	.post(AuthController.isAuthenticated, ClubControler.postItem)
     // sélection de tous les items
-    .get(authController.isAuthenticated, ClubControler.getItem);
+    .get(AuthController.isAuthenticated, ClubControler.getItems);
 
-    
     router.route('/clubs/:club_id')
     // Sélection d'un item via son id
-	.get(authController.isAuthenticated, ClubControler.getItemById)
+	.get(AuthController.isAuthenticated, ClubControler.getItemById)
     // Modification d'un item via son id
-    .put(authController.isAuthenticated, ClubControler.putItem)
+    .put(AuthController.isAuthenticated, ClubControler.putItem)
     // Suppression d'un item via son id
-	.delete(authController.isAuthenticated, ClubControler.deleteItem);
+	.delete(AuthController.isAuthenticated, ClubControler.deleteItem);
 }
