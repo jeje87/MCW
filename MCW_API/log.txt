@@ -1,0 +1,2 @@
+{"level":"info","message":"Initialisation du serveur","timestamp":"2014-10-09T19:54:26.250Z"}
+{"level":"info","message":"Serveur démarré sur le port 8080","timestamp":"2014-10-09T19:54:26.328Z"}

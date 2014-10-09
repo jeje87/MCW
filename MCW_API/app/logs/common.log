@@ -1,0 +1,15 @@
+2014-10-09T20:36:05.469Z - info: Initialisation du serveur
+2014-10-09T20:36:05.500Z - info: require('./app\routes\categorie.js')
+2014-10-09T20:36:05.515Z - info: require('./app\routes\club.js')
+2014-10-09T20:36:05.531Z - info: require('./app\routes\equipe.js')
+2014-10-09T20:36:05.547Z - info: require('./app\routes\membre.js')
+2014-10-09T20:36:05.562Z - info: require('./app\routes\type_membre.js')
+2014-10-09T20:36:05.578Z - info: Serveur démarré sur le port 8080
+2014-10-09T20:36:06.841Z - error: uncaughtException: failed to connect to [localhost:27017] date=Thu Oct 09 2014 22:36:06 GMT+0200 (Paris, Madrid (heure d’été)), pid=14856, uid=null, gid=null, cwd=D:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[node, D:\Perso\MCW\MCW_API\server.js], rss=35786752, heapTotal=28055552, heapUsed=16858536, loadavg=[0, 0, 0], uptime=204508.3154476, trace=[column=74, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\server.js, function=, line=540, method=null, native=false, column=17, file=events.js, function=emit, line=106, method=null, native=false, column=15, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection_pool.js, function=, line=140, method=null, native=false, column=17, file=events.js, function=emit, line=98, method=null, native=false, column=10, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection.js, function=, line=478, method=null, native=false, column=17, file=events.js, function=Socket.emit, line=95, method=emit, native=false, column=14, file=net.js, function=null, line=440, method=null, native=false, column=13, file=node.js, function=process._tickCallback, line=419, method=_tickCallback, native=false], stack=[Error: failed to connect to [localhost:27017],     at null.<anonymous> (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\server.js:540:74),     at emit (events.js:106:17),     at null.<anonymous> (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:140:15),     at emit (events.js:98:17),     at Socket.<anonymous> (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection.js:478:10),     at Socket.emit (events.js:95:17),     at net.js:440:14,     at process._tickCallback (node.js:419:13)]
+2014-10-09T20:39:14.608Z - info: Initialisation du serveur
+2014-10-09T20:39:14.635Z - info: require('./app\routes\categorie.js')
+2014-10-09T20:39:14.648Z - info: require('./app\routes\club.js')
+2014-10-09T20:39:14.662Z - info: require('./app\routes\equipe.js')
+2014-10-09T20:39:14.672Z - info: require('./app\routes\membre.js')
+2014-10-09T20:39:14.681Z - info: require('./app\routes\type_membre.js')
+2014-10-09T20:39:14.699Z - info: Serveur démarré sur le port 8080

@@ -12,6 +12,9 @@ var authController = require('./app/controllers/auth');
 var mongoose   = require('mongoose');
 var path = require('path');
 var Tools = require('./app/utils/tools'); //fonction utilitaires
+var logger = require('./app/utils/logger'); //logger winston
+
+logger.info('Initialisation du serveur');
 
 app.use(passport.initialize());
 //app.use(passport.session()); 
@@ -99,7 +102,7 @@ app.post('/login',
 // START THE SERVER
 // =============================================================================
 app.listen(port);
-console.log('Magic happens on port ' + port);
+logger.info('Serveur démarré sur le port ' + port);
 // enjoy
 // =============================================================================
 // =============================================================================

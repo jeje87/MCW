@@ -1,4 +1,5 @@
-    
+var logger = require('./logger'); 
+
 // mapping générique
 var map = function(obj,req) {
     for(var parameter in req.body) {
@@ -20,7 +21,7 @@ var recursiveRoutes = function(folderName, router) {
         if (stat.isDirectory()) {
             recursiveRoutes(fullName);
         } else if (file.toLowerCase().indexOf('.js')) {
-            console.log("require('./" + fullName + "')");
+            logger.info("require('./" + fullName + "')");
             require(appRoot + '/' + fullName)(router);
         }
     });

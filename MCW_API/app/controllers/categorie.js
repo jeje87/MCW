@@ -3,7 +3,7 @@ var Categorie = require('../models/categorie');
 var Tools = require('../utils/tools')
 
 // création 
-exports.postItem(function(req, res) {
+exports.postItem = function(req, res) {
 
     var categorie = new Categorie(); 
     Tools.map(categorie,req);
@@ -15,10 +15,10 @@ exports.postItem(function(req, res) {
             res.json({ message: 'OK' });
     })
 
-});
+};
 
 // sélection de tous les items
-exports.getItems(function(req, res) {
+exports.getItems = function(req, res) {
     Categorie.find(function(err, categories) {
         if (err)
             res.send(err);
@@ -26,20 +26,20 @@ exports.getItems(function(req, res) {
             res.json(categories);
     }); 
 
-});
+};
 
 // Sélection d'un item via son id
-exports.getItemById(function(req, res) {
+exports.getItemById = function(req, res) {
     Categorie.findById(req.params.categorie_id, function(err, categorie) {
         if (err)
             res.send(err);
         else
             res.json(categorie);
     });
-});
+};
 
 // Modification d'un item via son id
-exports.putItem(function(req, res) {
+exports.putItem = function(req, res) {
 
     Categorie.findById(req.params.categorie_id, function(err, categorie) {
 
@@ -57,10 +57,10 @@ exports.putItem(function(req, res) {
         });
 
     });
-});
+};
 
 // Suppression d'un item via son id
-exports.deleteItem(function(req, res) {
+exports.deleteItem = function(req, res) {
     Categorie.remove({
         _id: req.params.categorie_id
     }, function(err, categorie) {
@@ -69,5 +69,5 @@ exports.deleteItem(function(req, res) {
         else
             res.json({ message: 'OK' });
     });
-});
+};
 

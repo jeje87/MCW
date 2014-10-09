@@ -1,0 +1,37 @@
+{"level":"info","message":"Initialisation du serveur","timestamp":"2014-10-09T20:00:36.410Z"}
+{"level":"info","message":"Serveur démarré sur le port 8080","timestamp":"2014-10-09T20:00:36.504Z"}
+{"level":"info","message":"   Initialisation du serveur","timestamp":"2014-10-09T20:04:41.138Z"}
+{"level":"info","message":"   Serveur démarré sur le port 8080","timestamp":"2014-10-09T20:04:41.229Z"}
+{"level":"info","message":"   Initialisation du serveur","timestamp":"2014-10-09T20:07:51.560Z"}
+{"level":"info","message":"   Serveur démarré sur le port 8080","timestamp":"2014-10-09T20:07:51.653Z"}
+{"level":"info","message":"   Initialisation du serveur","timestamp":"2014-10-09T20:10:00.550Z"}
+{"level":"info","message":"   Initialisation du serveur","timestamp":"2014-10-09T20:13:14.184Z"}
+{"level":"info","message":"   Initialisation du serveur","timestamp":"2014-10-09T20:15:44.612Z"}
+{"level":"info","message":"   Initialisation du serveur","timestamp":"2014-10-09T20:17:41.973Z"}
+{"level":"info","message":"   require('./app\\routes\\categorie.js')","timestamp":"2014-10-09T20:17:42.006Z"}
+{"level":"info","message":"   require('./app\\routes\\club.js')","timestamp":"2014-10-09T20:17:42.022Z"}
+{"level":"info","message":"   require('./app\\routes\\equipe.js')","timestamp":"2014-10-09T20:17:42.038Z"}
+{"level":"info","message":"   require('./app\\routes\\membre.js')","timestamp":"2014-10-09T20:17:42.048Z"}
+{"level":"info","message":"   require('./app\\routes\\type_membre.js')","timestamp":"2014-10-09T20:17:42.059Z"}
+{"level":"info","message":"   Serveur démarré sur le port 8080","timestamp":"2014-10-09T20:17:42.081Z"}
+{"level":"info","message":"   Initialisation du serveur","timestamp":"2014-10-09T20:18:05.402Z"}
+{"level":"info","message":"   require('./app\\routes\\categorie.js')","timestamp":"2014-10-09T20:18:05.449Z"}
+{"level":"info","message":"   require('./app\\routes\\club.js')","timestamp":"2014-10-09T20:18:05.465Z"}
+{"level":"info","message":"   require('./app\\routes\\equipe.js')","timestamp":"2014-10-09T20:18:05.480Z"}
+{"level":"info","message":"   require('./app\\routes\\membre.js')","timestamp":"2014-10-09T20:18:05.496Z"}
+{"level":"info","message":"   require('./app\\routes\\type_membre.js')","timestamp":"2014-10-09T20:18:05.496Z"}
+{"level":"info","message":"   Serveur démarré sur le port 8080","timestamp":"2014-10-09T20:18:05.527Z"}
+{"level":"info","message":"   Initialisation du serveur","timestamp":"2014-10-09T20:18:27.565Z"}
+{"level":"info","message":"   require('./app\\routes\\categorie.js')","timestamp":"2014-10-09T20:18:27.596Z"}
+{"level":"info","message":"   require('./app\\routes\\club.js')","timestamp":"2014-10-09T20:18:27.612Z"}
+{"level":"info","message":"   require('./app\\routes\\equipe.js')","timestamp":"2014-10-09T20:18:27.627Z"}
+{"level":"info","message":"   require('./app\\routes\\membre.js')","timestamp":"2014-10-09T20:18:27.643Z"}
+{"level":"info","message":"   require('./app\\routes\\type_membre.js')","timestamp":"2014-10-09T20:18:27.659Z"}
+{"level":"info","message":"   Serveur démarré sur le port 8080","timestamp":"2014-10-09T20:18:27.674Z"}
+{"level":"info","message":"   Initialisation du serveur","timestamp":"2014-10-09T20:19:54.942Z"}
+{"level":"info","message":"   require('./app\\routes\\categorie.js')","timestamp":"2014-10-09T20:19:54.971Z"}
+{"level":"info","message":"   require('./app\\routes\\club.js')","timestamp":"2014-10-09T20:19:54.984Z"}
+{"level":"info","message":"   require('./app\\routes\\equipe.js')","timestamp":"2014-10-09T20:19:54.998Z"}
+{"level":"info","message":"   require('./app\\routes\\membre.js')","timestamp":"2014-10-09T20:19:55.008Z"}
+{"level":"info","message":"   require('./app\\routes\\type_membre.js')","timestamp":"2014-10-09T20:19:55.017Z"}
+{"level":"info","message":"   Serveur démarré sur le port 8080","timestamp":"2014-10-09T20:19:55.036Z"}
