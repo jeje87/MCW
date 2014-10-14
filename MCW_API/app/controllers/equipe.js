@@ -1,14 +1,15 @@
-    
-var Categorie = require('../models/categorie');
+// equipe controller
+
+var Equipe = require('../models/equipe');
 var Tools = require('../utils/tools')
 
 // création 
-exports.postItem = function(req, res) {
+exports.postItem=  function(req, res) {
 
-    var categorie = new Categorie(); 
-    Tools.map(categorie,req);
+    var equipe = new Equipe(); 
+    Tools.map(equipe,req);
 
-    categorie.save(function(err) {
+    equipe.save(function(err) {
         if (err) 
             res.send(err);
         else
@@ -19,37 +20,37 @@ exports.postItem = function(req, res) {
 
 // sélection de tous les items
 exports.getItems = function(req, res) {
-    Categorie.find(function(err, categories) {
+    Equipe.find(function(err, equipes) {
         if (err)
             res.send(err);
         else
-            res.json(categories);
+            res.json(equipes);
     }); 
 
 };
 
 // Sélection d'un item via son id
 exports.getItemById = function(req, res) {
-    Categorie.findById(req.params.categorie_id, function(err, categorie) {
+    Equipe.findById(req.params.equipe_id, function(err, equipe) {
         if (err)
             res.send(err);
         else
-            res.json(categorie);
+            res.json(equipe);
     });
 };
 
 // Modification d'un item via son id
 exports.putItem = function(req, res) {
 
-    Categorie.findById(req.params.categorie_id, function(err, categorie) {
+    Equipe.findById(req.params.equipe_id, function(err, equipe) {
 
         if (err)
             res.send(err);
 
-        Tools.map(categorie,req);
+        Tools.map(equipe,req);
 
         // save 
-        categorie.save(function(err) {
+        equipe.save(function(err) {
             if (err)
                 res.send(err);
             else
@@ -61,9 +62,9 @@ exports.putItem = function(req, res) {
 
 // Suppression d'un item via son id
 exports.deleteItem = function(req, res) {
-    Categorie.remove({
-        _id: req.params.categorie_id
-    }, function(err, categorie) {
+    Equipe.remove({
+        _id: req.params.equipe_id
+    }, function(err, equipe) {
         if (err)
             res.send(err);
         else

@@ -1,14 +1,16 @@
+// type_membre controller
     
-var Categorie = require('../models/categorie');
+var Type_Membre = require('../models/type_membre');
 var Tools = require('../utils/tools')
 
 // création 
 exports.postItem = function(req, res) {
 
-    var categorie = new Categorie(); 
-    Tools.map(categorie,req);
+    var type_membre = new Type_Membre(); 
+    Tools.map(type_membre,req);
 
-    categorie.save(function(err) {
+    // save the bear and check for errors
+    type_membre.save(function(err) {
         if (err) 
             res.send(err);
         else
@@ -19,37 +21,38 @@ exports.postItem = function(req, res) {
 
 // sélection de tous les items
 exports.getItems = function(req, res) {
-    Categorie.find(function(err, categories) {
+    Type_Membre.find(function(err, type_membres) {
         if (err)
             res.send(err);
         else
-            res.json(categories);
+            res.json(type_membres);
     }); 
 
 };
 
+
 // Sélection d'un item via son id
 exports.getItemById = function(req, res) {
-    Categorie.findById(req.params.categorie_id, function(err, categorie) {
+    Type_Membre.findById(req.params.type_membre_id, function(err, type_membre) {
         if (err)
             res.send(err);
         else
-            res.json(categorie);
+         res.json(type_membre);
     });
 };
 
 // Modification d'un item via son id
 exports.putItem = function(req, res) {
 
-    Categorie.findById(req.params.categorie_id, function(err, categorie) {
+    Type_Membre.findById(req.params.type_membre_id, function(err, type_membre) {
 
         if (err)
             res.send(err);
 
-        Tools.map(categorie,req);
+        Tools.map(type_membre,req);
 
-        // save 
-        categorie.save(function(err) {
+        // save the type_membre
+        type_membre.save(function(err) {
             if (err)
                 res.send(err);
             else
@@ -61,9 +64,9 @@ exports.putItem = function(req, res) {
 
 // Suppression d'un item via son id
 exports.deleteItem = function(req, res) {
-    Categorie.remove({
-        _id: req.params.categorie_id
-    }, function(err, categorie) {
+    Type_Membre.remove({
+        _id: req.params.type_membre_id
+    }, function(err, type_membre) {
         if (err)
             res.send(err);
         else

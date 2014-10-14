@@ -1,14 +1,18 @@
-    
-var Categorie = require('../models/categorie');
-var Tools = require('../utils/tools')
+// membre controller
+
+var Membre   = require('../models/membre');
+var Tools    = require('../utils/tools');
+var bcrypt   = require('bcrypt-nodejs');
 
 // création 
 exports.postItem = function(req, res) {
 
-    var categorie = new Categorie(); 
-    Tools.map(categorie,req);
+    var membre = new Membre(); 
+    Tools.map(membre,req);
+    var salt = bcrypt.genSaltSync(10);
+    membre.mdp = bcrypt.hashSync(membre.mdp,salt,null);
 
-    categorie.save(function(err) {
+    membre.save(function(err) {
         if (err) 
             res.send(err);
         else
@@ -19,37 +23,37 @@ exports.postItem = function(req, res) {
 
 // sélection de tous les items
 exports.getItems = function(req, res) {
-    Categorie.find(function(err, categories) {
+    Membre.find(function(err, membres) {
         if (err)
             res.send(err);
         else
-            res.json(categories);
+            res.json(membres);
     }); 
 
 };
 
 // Sélection d'un item via son id
 exports.getItemById = function(req, res) {
-    Categorie.findById(req.params.categorie_id, function(err, categorie) {
+    Membre.findById(req.params.membre_id, function(err, membre) {
         if (err)
             res.send(err);
         else
-            res.json(categorie);
+            res.json(membre);
     });
 };
 
 // Modification d'un item via son id
 exports.putItem = function(req, res) {
 
-    Categorie.findById(req.params.categorie_id, function(err, categorie) {
+    Membre.findById(req.params.membre_id, function(err, membre) {
 
         if (err)
             res.send(err);
 
-        Tools.map(categorie,req);
+        Tools.map(membre,req);
 
         // save 
-        categorie.save(function(err) {
+        membre.save(function(err) {
             if (err)
                 res.send(err);
             else
@@ -61,9 +65,9 @@ exports.putItem = function(req, res) {
 
 // Suppression d'un item via son id
 exports.deleteItem = function(req, res) {
-    Categorie.remove({
-        _id: req.params.categorie_id
-    }, function(err, categorie) {
+    Membre.remove({
+        _id: req.params.membre_id
+    }, function(err, membre) {
         if (err)
             res.send(err);
         else
