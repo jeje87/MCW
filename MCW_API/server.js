@@ -6,6 +6,7 @@
 // call the packages we need
 var express    = require('express'); 		// call express
 var app        = express(); 				// define our app using express
+var config = require('./config');
 var bodyParser = require('body-parser');
 var passport = require('passport');
 var authController = require('./app/controllers/auth');
@@ -24,8 +25,8 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-var port = process.env.PORT || 8080; 		// set our port
-mongoose.connect('mongodb://localhost:27017/MyClub'); 
+var port = config.web.port; 		// set our port
+mongoose.connect(config.db.mongodb); 
 global.appRoot = path.resolve(__dirname); //root directory
 
 

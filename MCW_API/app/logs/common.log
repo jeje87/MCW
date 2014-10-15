@@ -43,3 +43,64 @@
 2014-10-14T11:57:21.177Z - info: require('./app\routes\membre.js')
 2014-10-14T11:57:21.187Z - info: require('./app\routes\type_membre.js')
 2014-10-14T11:57:21.217Z - info: Serveur démarré sur le port 8080
+2014-10-15T20:29:46.487Z - info: Initialisation du serveur
+2014-10-15T20:29:46.525Z - info: require('./app\routes\categorie.js')
+2014-10-15T20:29:46.543Z - info: require('./app\routes\club.js')
+2014-10-15T20:29:46.560Z - info: require('./app\routes\equipe.js')
+2014-10-15T20:29:46.574Z - info: require('./app\routes\membre.js')
+2014-10-15T20:29:46.586Z - info: require('./app\routes\type_membre.js')
+2014-10-15T20:29:46.631Z - info: Serveur démarré sur le port 8080
+2014-10-15T20:40:16.237Z - info: Initialisation du serveur
+2014-10-15T20:40:16.250Z - info: require('./app\routes\categorie.js')
+2014-10-15T20:40:16.265Z - info: require('./app\routes\club.js')
+2014-10-15T20:40:16.281Z - info: require('./app\routes\equipe.js')
+2014-10-15T20:40:16.281Z - info: require('./app\routes\membre.js')
+2014-10-15T20:40:16.296Z - info: require('./app\routes\type_membre.js')
+2014-10-15T20:40:16.312Z - info: Serveur démarré sur le port 8080
+2014-10-15T20:46:24.597Z - info: Initialisation du serveur
+2014-10-15T20:46:24.628Z - info: require('./app\routes\categorie.js')
+2014-10-15T20:46:24.644Z - info: require('./app\routes\club.js')
+2014-10-15T20:46:24.659Z - info: require('./app\routes\equipe.js')
+2014-10-15T20:46:24.675Z - info: require('./app\routes\membre.js')
+2014-10-15T20:46:24.675Z - info: require('./app\routes\type_membre.js')
+2014-10-15T20:46:24.706Z - info: Serveur démarré sur le port 8080
+2014-10-15T21:11:09.468Z - info: Initialisation du serveur
+2014-10-15T21:11:09.499Z - info: require('./app\routes\categorie.js')
+2014-10-15T21:11:09.515Z - info: require('./app\routes\club.js')
+2014-10-15T21:11:09.531Z - info: require('./app\routes\equipe.js')
+2014-10-15T21:11:09.531Z - info: require('./app\routes\membre.js')
+2014-10-15T21:11:09.546Z - info: require('./app\routes\type_membre.js')
+2014-10-15T21:11:09.577Z - info: Serveur démarré sur le port 8080
+2014-10-15T21:11:26.849Z - info: Authentification OK pour toto2
+2014-10-15T21:12:53.671Z - info: Initialisation du serveur
+2014-10-15T21:12:53.703Z - info: require('./app\routes\categorie.js')
+2014-10-15T21:12:53.718Z - info: require('./app\routes\club.js')
+2014-10-15T21:12:53.749Z - info: require('./app\routes\equipe.js')
+2014-10-15T21:12:53.749Z - info: require('./app\routes\membre.js')
+2014-10-15T21:12:53.765Z - info: require('./app\routes\type_membre.js')
+2014-10-15T21:12:53.796Z - info: Serveur démarré sur le port 8080
+2014-10-15T21:12:59.334Z - info: Authentification OK pour toto2
+2014-10-15T21:13:54.576Z - info: Initialisation du serveur
+2014-10-15T21:13:54.611Z - info: require('./app\routes\categorie.js')
+2014-10-15T21:13:54.627Z - info: require('./app\routes\club.js')
+2014-10-15T21:13:54.644Z - info: require('./app\routes\equipe.js')
+2014-10-15T21:13:54.660Z - info: require('./app\routes\membre.js')
+2014-10-15T21:13:54.676Z - info: require('./app\routes\type_membre.js')
+2014-10-15T21:13:54.703Z - info: Serveur démarré sur le port 8080
+2014-10-15T21:14:00.362Z - info: Authentification OK pour toto2
+2014-10-15T21:14:05.603Z - info: Authentification OK pour toto2
+2014-10-15T21:18:17.806Z - info: Initialisation du serveur
+2014-10-15T21:18:17.837Z - info: require('./app\routes\categorie.js')
+2014-10-15T21:18:17.853Z - info: require('./app\routes\club.js')
+2014-10-15T21:18:17.868Z - info: require('./app\routes\equipe.js')
+2014-10-15T21:18:17.868Z - info: require('./app\routes\membre.js')
+2014-10-15T21:18:17.884Z - info: require('./app\routes\type_membre.js')
+2014-10-15T21:18:17.962Z - info: Serveur démarré sur le port 8080
+2014-10-15T21:21:37.424Z - info: Authentification OK pour toto2
+2014-10-15T21:22:02.928Z - info: Initialisation du serveur
+2014-10-15T21:22:02.951Z - info: require('./app\routes\categorie.js')
+2014-10-15T21:22:02.960Z - info: require('./app\routes\club.js')
+2014-10-15T21:22:02.969Z - info: require('./app\routes\equipe.js')
+2014-10-15T21:22:02.975Z - info: require('./app\routes\membre.js')
+2014-10-15T21:22:02.981Z - info: require('./app\routes\type_membre.js')
+2014-10-15T21:22:02.997Z - info: Serveur démarré sur le port 8080
