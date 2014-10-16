@@ -13,13 +13,19 @@ exports.postItem = function(req, res) {
         if (err) 
             res.send(err);
         else
-            res.json({ message: 'OK' });
+            res.json(club);
     })
 
 };
 
 // sélection de tous les items
 exports.getItems = function(req, res) {
+    console.log(req.user.droit);
+    if (typeof req.user.droit != 'number' || req.user.droit > 0) {
+        res.send(403);
+        return;
+    }
+
     Club.find(function(err, clubs) {
         if (err)
             res.send(err);
@@ -54,7 +60,7 @@ exports.putItem = function(req, res) {
             if (err)
                 res.send(err);
             else
-                res.json({ message: 'OK' });
+                res.json(club);
         });
 
     });

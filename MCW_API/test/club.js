@@ -4,6 +4,7 @@ var request = require('supertest');
 var mongoose = require('mongoose');
 var winston = require('winston');
 var config = require('../config');
+var moment = require('moment');
 
 describe('Routing', function() {
   var url = 'http://localhost:8080';
@@ -11,7 +12,7 @@ describe('Routing', function() {
   // I want to create a connection with the database, and when I'm done, I call done().
   before(function(done) {
     // In our tests we use the test db
-    mongoose.connect(config.db.mongodb);							
+    mongoose.connect(config.db.mongodb);
     done();
   });
   // use describe to give a title to your test suite, in this case the tile is "Account"
@@ -22,27 +23,207 @@ describe('Routing', function() {
   // to specify when our test is completed, and that's what makes easy
   // to perform async test!
   describe('Club', function() {
-    it('l\'appel doit retourner un http code 200 lors de l\'ajout d\'un nouveau club', function(done) {
+
+      var now = moment();
+
       var club = {
-        nom: 'test'
+          nom: "Club " + now.format('YYYY-MM-DD HH:mm:ss Z')
       };
-    // once we have specified the info we want to send to the server via POST verb,
-    // we need to actually perform the action on the resource, in this case we want to 
-    // POST on /api/profiles and we want to send some info
-    // We do this using the request object, requiring supertest!
-    request(url)
-	.post('/api/clubs')
-    .set('Authorization', 'Basic dG90bzI6MTIzNDU2')
-	.send(club)
-    // end handles the response
-	.end(function(err, res) {
-          if (err) {
-            throw err;
-          }
-          // this is should.js syntax, very clear
-          res.statusCode.should.equal(200);
-          done();
+
+      it("Ajout : l'appel doit retourner un code 200 et le club ajouté", function(done) {
+
+        // once we have specified the info we want to send to the server via POST verb,
+        // we need to actually perform the action on the resource, in this case we want to
+        // POST on /api/profiles and we want to send some info
+        // We do this using the request object, requiring supertest!
+        request(url)
+        .post('/api/clubs')
+        .set('Authorization', 'Basic dG90bzI6MTIzNDU2')
+        .send(club)
+        // end handles the response
+        .end(function(err, res) {
+              if (err) {
+                throw err;
+              }
+              // this is should.js syntax, very clear
+              res.statusCode.should.equal(200);
+              res.body.should.have.property('nom', club.nom);
+              res.body.should.have.property('_id').and.should.be.ok;
+              club=res.body;
+              done();
+            });
         });
-    });
+
+      it("Modification : l'appel doit retourner un code 200 et le club modifié", function(done) {
+
+          club.nom += "_TestModif";
+
+          // once we have specified the info we want to send to the server via POST verb,
+          // we need to actually perform the action on the resource, in this case we want to
+          // POST on /api/profiles and we want to send some info
+          // We do this using the request object, requiring supertest!
+          request(url)
+              .put('/api/clubs/'+club._id)
+              .set('Authorization', 'Basic dG90bzI6MTIzNDU2')
+              .send(club)
+              // end handles the response
+              .end(function(err, res) {
+                  if (err) {
+                      throw err;
+                  }
+                  // this is should.js syntax, very clear
+                  res.statusCode.should.equal(200);
+                  res.body.should.have.property('nom', club.nom);
+                  club=res.body;
+                  done();
+              });
+      });
+
+      it("Chargement : l'appel doit retourner un code 200 et le club demandé", function(done) {
+
+          request(url)
+              .get('/api/clubs/'+club._id)
+              .set('Authorization', 'Basic dG90bzI6MTIzNDU2')
+              .send()
+              // end handles the response
+              .end(function(err, res) {
+                  if (err) {
+                      throw err;
+                  }
+                  // this is should.js syntax, very clear
+                  res.statusCode.should.equal(200);
+                  res.body.should.have.property('nom', club.nom);
+                  done();
+              });
+      });
+
+      it("Chargement avec erreur de mdp : l'appel doit retourner un code 401 et rien d'autre", function(done) {
+
+          request(url)
+              .get('/api/clubs/'+club._id)
+              .set('Authorization', 'Basic dG90bzI6MTIzNDU3')
+              .send()
+              // end handles the response
+              .end(function(err, res) {
+                  if (err) {
+                      throw err;
+                  }
+                  // this is should.js syntax, very clear
+                  res.statusCode.should.equal(401);
+                  res.body.should.not.have.property('nom');
+                  done();
+              });
+      });
+
+      it("Chargement sans authentification : l'appel doit retourner un code 401 et rien d'autre", function(done) {
+
+          request(url)
+              .get('/api/clubs/'+club._id)
+              .send()
+              // end handles the response
+              .end(function(err, res) {
+                  if (err) {
+                      throw err;
+                  }
+                  // this is should.js syntax, very clear
+                  res.statusCode.should.equal(401);
+                  res.body.should.not.have.property('nom');
+                  done();
+              });
+      });
+
+      //SuperAdmin:sa1897813; : U3VwZXJBZG1pbjpzYTE4OTc4MTM7
+      //AdminClub:ac769823! : QWRtaW5DbHViOmFjNzY5ODIzIQ==
+      //AdminCategorie:aca24896= : QWRtaW5DYXRlZ29yaWU6YWNhMjQ4OTY9
+      //AdminEquipe:ae24936" : QWRtaW5FcXVpcGU6YWUyNDkzNiI=
+      //Utilisateur:ut311985& : VXRpbGlzYXRldXI6dXQzMTE5ODUm
+      it("Chargement de la liste des club pour un super admin: l'appel doit retourner un code 200 avec la liste", function(done) {
+
+          request(url)
+              .get('/api/clubs/')
+              .set('Authorization', 'Basic U3VwZXJBZG1pbjpzYTE4OTc4MTM7')
+              .send()
+              // end handles the response
+              .end(function(err, res) {
+                  if (err) {
+                      throw err;
+                  }
+                  // this is should.js syntax, very clear
+                  res.statusCode.should.equal(200);
+                  res.body.should.be.an.Array.and.an.Object;
+                  done();
+              });
+      });
+
+
+      it("Chargement de la liste des club pour un admin club : l'appel doit retourner un code 403 et rien d'autre", function(done) {
+
+          request(url)
+              .get('/api/clubs/')
+              .set('Authorization', 'Basic QWRtaW5DbHViOmFjNzY5ODIzIQ==')
+              .send()
+              // end handles the response
+              .end(function(err, res) {
+                  if (err) {
+                      throw err;
+                  }
+                  // this is should.js syntax, very clear
+                  res.statusCode.should.equal(403);
+                  done();
+              });
+      });
+
+      it("Chargement de la liste des club pour un admin categorie : l'appel doit retourner un code 403 et rien d'autre", function(done) {
+
+          request(url)
+              .get('/api/clubs/')
+              .set('Authorization', 'Basic QWRtaW5DYXRlZ29yaWU6YWNhMjQ4OTY9')
+              .send()
+              // end handles the response
+              .end(function(err, res) {
+                  if (err) {
+                      throw err;
+                  }
+                  // this is should.js syntax, very clear
+                  res.statusCode.should.equal(403);
+                  done();
+              });
+      });
+
+      it("Chargement de la liste des club pour un admin equipe : l'appel doit retourner un code 403 et rien d'autre", function(done) {
+
+          request(url)
+              .get('/api/clubs/')
+              .set('Authorization', 'Basic QWRtaW5FcXVpcGU6YWUyNDkzNiI=')
+              .send()
+              // end handles the response
+              .end(function(err, res) {
+                  if (err) {
+                      throw err;
+                  }
+                  // this is should.js syntax, very clear
+                  res.statusCode.should.equal(403);
+                  done();
+              });
+      });
+
+      it("Chargement de la liste des club pour un utilisateur : l'appel doit retourner un code 403 et rien d'autre", function(done) {
+
+          request(url)
+              .get('/api/clubs/')
+              .set('Authorization', 'Basic VXRpbGlzYXRldXI6dXQzMTE5ODUm=')
+              .send()
+              // end handles the response
+              .end(function(err, res) {
+                  if (err) {
+                      throw err;
+                  }
+                  // this is should.js syntax, very clear
+                  res.statusCode.should.equal(403);
+                  done();
+              });
+      });
+
+
   });
 });

@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 var port = config.web.port; 		// set our port
-mongoose.connect(config.db.mongodb); 
+mongoose.connect(config.db.mongodb);
 global.appRoot = path.resolve(__dirname); //root directory
 
 

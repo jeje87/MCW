@@ -162,3 +162,230 @@
 2014-10-16T11:36:58.409Z - info: require('./app\routes\type_membre.js')
 2014-10-16T11:36:58.422Z - info: Serveur démarré sur le port 8080
 2014-10-16T11:37:04.782Z - info: Authentification OK pour toto2
+2014-10-16T11:40:57.148Z - info: Authentification OK pour toto2
+2014-10-16T19:08:14.980Z - info: Initialisation du serveur
+2014-10-16T19:08:15.013Z - info: require('./app\routes\categorie.js')
+2014-10-16T19:08:15.059Z - info: require('./app\routes\club.js')
+2014-10-16T19:08:15.115Z - info: require('./app\routes\equipe.js')
+2014-10-16T19:08:15.168Z - info: require('./app\routes\membre.js')
+2014-10-16T19:08:15.201Z - info: require('./app\routes\type_membre.js')
+2014-10-16T19:08:15.269Z - info: Serveur démarré sur le port 8080
+2014-10-16T19:08:16.345Z - error: uncaughtException: failed to connect to [localhost:27017] date=Thu Oct 16 2014 21:08:16 GMT+0200 (Paris, Madrid (heure d’été)), pid=5004, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=35934208, heapTotal=28055552, heapUsed=17024120, loadavg=[0, 0, 0], uptime=2035.3874039, trace=[column=74, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\server.js, function=, line=540, method=null, native=false, column=17, file=events.js, function=emit, line=106, method=null, native=false, column=15, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection_pool.js, function=, line=140, method=null, native=false, column=17, file=events.js, function=emit, line=98, method=null, native=false, column=10, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection.js, function=, line=478, method=null, native=false, column=17, file=events.js, function=Socket.emit, line=95, method=emit, native=false, column=14, file=net.js, function=null, line=440, method=null, native=false, column=13, file=node.js, function=process._tickCallback, line=419, method=_tickCallback, native=false], stack=[Error: failed to connect to [localhost:27017],     at null.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\server.js:540:74),     at emit (events.js:106:17),     at null.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:140:15),     at emit (events.js:98:17),     at Socket.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection.js:478:10),     at Socket.emit (events.js:95:17),     at net.js:440:14,     at process._tickCallback (node.js:419:13)]
+2014-10-16T19:09:45.013Z - info: Initialisation du serveur
+2014-10-16T19:09:45.046Z - info: require('./app\routes\categorie.js')
+2014-10-16T19:09:45.063Z - info: require('./app\routes\club.js')
+2014-10-16T19:09:45.079Z - info: require('./app\routes\equipe.js')
+2014-10-16T19:09:45.091Z - info: require('./app\routes\membre.js')
+2014-10-16T19:09:45.102Z - info: require('./app\routes\type_membre.js')
+2014-10-16T19:09:45.128Z - info: Serveur démarré sur le port 8080
+2014-10-16T19:10:43.411Z - info: Authentification OK pour toto2
+2014-10-16T19:11:22.706Z - info: Initialisation du serveur
+2014-10-16T19:11:22.732Z - info: require('./app\routes\categorie.js')
+2014-10-16T19:11:22.745Z - info: require('./app\routes\club.js')
+2014-10-16T19:11:22.757Z - info: require('./app\routes\equipe.js')
+2014-10-16T19:11:22.766Z - info: require('./app\routes\membre.js')
+2014-10-16T19:11:22.775Z - info: require('./app\routes\type_membre.js')
+2014-10-16T19:11:22.795Z - info: Serveur démarré sur le port 8080
+2014-10-16T19:11:31.047Z - info: Login inconnu : toto2
+2014-10-16T19:12:29.078Z - info: Authentification OK pour toto2
+2014-10-16T19:20:50.159Z - info: Authentification OK pour toto2
+2014-10-16T19:22:22.502Z - info: Initialisation du serveur
+2014-10-16T19:22:22.532Z - info: require('./app\routes\categorie.js')
+2014-10-16T19:22:22.546Z - info: require('./app\routes\club.js')
+2014-10-16T19:22:22.561Z - info: require('./app\routes\equipe.js')
+2014-10-16T19:22:22.572Z - info: require('./app\routes\membre.js')
+2014-10-16T19:22:22.583Z - info: require('./app\routes\type_membre.js')
+2014-10-16T19:22:22.606Z - info: Serveur démarré sur le port 8080
+2014-10-16T19:22:33.779Z - info: Authentification OK pour toto2
+2014-10-16T19:25:26.346Z - info: Authentification OK pour toto2
+2014-10-16T19:27:08.903Z - info: Authentification OK pour toto2
+2014-10-16T19:27:27.936Z - info: Authentification OK pour toto2
+2014-10-16T19:31:36.247Z - info: Authentification OK pour toto2
+2014-10-16T19:36:27.734Z - info: Authentification OK pour toto2
+2014-10-16T19:44:37.788Z - info: Authentification OK pour toto2
+2014-10-16T19:44:44.591Z - info: Initialisation du serveur
+2014-10-16T19:44:44.614Z - info: require('./app\routes\categorie.js')
+2014-10-16T19:44:44.634Z - info: require('./app\routes\club.js')
+2014-10-16T19:44:44.651Z - info: require('./app\routes\equipe.js')
+2014-10-16T19:44:44.666Z - info: require('./app\routes\membre.js')
+2014-10-16T19:44:44.683Z - info: require('./app\routes\type_membre.js')
+2014-10-16T19:44:44.711Z - info: Serveur démarré sur le port 8080
+2014-10-16T19:44:52.400Z - info: Authentification OK pour toto2
+2014-10-16T19:46:01.281Z - info: Authentification OK pour toto2
+2014-10-16T19:46:28.821Z - info: Initialisation du serveur
+2014-10-16T19:46:28.849Z - info: require('./app\routes\categorie.js')
+2014-10-16T19:46:28.861Z - info: require('./app\routes\club.js')
+2014-10-16T19:46:28.875Z - info: require('./app\routes\equipe.js')
+2014-10-16T19:46:28.884Z - info: require('./app\routes\membre.js')
+2014-10-16T19:46:28.893Z - info: require('./app\routes\type_membre.js')
+2014-10-16T19:46:28.913Z - info: Serveur démarré sur le port 8080
+2014-10-16T19:47:52.087Z - info: Authentification OK pour toto2
+2014-10-16T19:49:38.375Z - info: Authentification OK pour toto2
+2014-10-16T19:59:57.939Z - info: Authentification OK pour toto2
+2014-10-16T19:59:59.092Z - info: Authentification OK pour toto2
+2014-10-16T20:03:58.286Z - info: Authentification OK pour toto2
+2014-10-16T20:03:59.402Z - info: Authentification OK pour toto2
+2014-10-16T20:04:00.499Z - info: Authentification OK pour toto2
+2014-10-16T20:05:45.649Z - info: Authentification OK pour toto2
+2014-10-16T20:05:46.788Z - info: Authentification OK pour toto2
+2014-10-16T20:05:47.874Z - info: Authentification OK pour toto2
+2014-10-16T20:05:48.960Z - info: Authentification KO pour toto2
+2014-10-16T20:06:24.833Z - info: Authentification OK pour toto2
+2014-10-16T20:06:25.748Z - info: Authentification OK pour toto2
+2014-10-16T20:06:26.499Z - info: Authentification OK pour toto2
+2014-10-16T20:06:27.193Z - info: Authentification KO pour toto2
+2014-10-16T20:10:39.060Z - info: Authentification OK pour toto2
+2014-10-16T20:10:40.167Z - info: Authentification OK pour toto2
+2014-10-16T20:10:41.271Z - info: Authentification OK pour toto2
+2014-10-16T20:10:42.370Z - info: Authentification KO pour toto2
+2014-10-16T20:10:43.387Z - info: Authentification KO pour toto2
+2014-10-16T20:11:04.842Z - info: Initialisation du serveur
+2014-10-16T20:11:04.864Z - info: require('./app\routes\categorie.js')
+2014-10-16T20:11:04.874Z - info: require('./app\routes\club.js')
+2014-10-16T20:11:04.884Z - info: require('./app\routes\equipe.js')
+2014-10-16T20:11:04.891Z - info: require('./app\routes\membre.js')
+2014-10-16T20:11:04.899Z - info: require('./app\routes\type_membre.js')
+2014-10-16T20:11:04.916Z - info: Serveur démarré sur le port 8080
+2014-10-16T20:11:32.932Z - info: Authentification OK pour toto2
+2014-10-16T20:11:34.072Z - info: Authentification OK pour toto2
+2014-10-16T20:11:35.172Z - info: Authentification OK pour toto2
+2014-10-16T20:11:36.266Z - info: Authentification KO pour toto2
+2014-10-16T20:11:37.369Z - info: Authentification OK pour toto2
+2014-10-16T20:13:34.407Z - info: Authentification OK pour toto2
+2014-10-16T20:13:35.273Z - info: Authentification OK pour toto2
+2014-10-16T20:13:36.127Z - info: Authentification OK pour toto2
+2014-10-16T20:13:36.971Z - info: Authentification KO pour toto2
+2014-10-16T20:13:37.842Z - info: Authentification OK pour toto2
+2014-10-16T20:13:38.736Z - info: Authentification OK pour toto2
+2014-10-16T20:25:39.538Z - info: Initialisation du serveur
+2014-10-16T20:25:39.560Z - info: require('./app\routes\categorie.js')
+2014-10-16T20:25:39.571Z - info: require('./app\routes\club.js')
+2014-10-16T20:25:39.582Z - info: require('./app\routes\equipe.js')
+2014-10-16T20:25:39.590Z - info: require('./app\routes\membre.js')
+2014-10-16T20:25:39.597Z - info: require('./app\routes\type_membre.js')
+2014-10-16T20:25:39.614Z - info: Serveur démarré sur le port 8080
+2014-10-16T20:26:03.870Z - info: Authentification OK pour toto2
+2014-10-16T20:28:46.026Z - info: Initialisation du serveur
+2014-10-16T20:28:46.063Z - info: require('./app\routes\categorie.js')
+2014-10-16T20:28:46.079Z - info: require('./app\routes\club.js')
+2014-10-16T20:28:46.097Z - info: require('./app\routes\equipe.js')
+2014-10-16T20:28:46.107Z - info: require('./app\routes\membre.js')
+2014-10-16T20:28:46.118Z - info: require('./app\routes\type_membre.js')
+2014-10-16T20:28:46.148Z - info: Serveur démarré sur le port 8080
+2014-10-16T20:28:49.261Z - info: Authentification OK pour toto2
+2014-10-16T20:28:54.058Z - info: Authentification OK pour toto2
+2014-10-16T20:29:17.030Z - info: Initialisation du serveur
+2014-10-16T20:29:17.066Z - info: require('./app\routes\categorie.js')
+2014-10-16T20:29:17.081Z - info: require('./app\routes\club.js')
+2014-10-16T20:29:17.096Z - info: require('./app\routes\equipe.js')
+2014-10-16T20:29:17.104Z - info: require('./app\routes\membre.js')
+2014-10-16T20:29:17.114Z - info: require('./app\routes\type_membre.js')
+2014-10-16T20:29:17.136Z - info: Serveur démarré sur le port 8080
+2014-10-16T20:29:22.155Z - info: Authentification OK pour toto2
+2014-10-16T20:33:13.366Z - info: Initialisation du serveur
+2014-10-16T20:33:13.403Z - info: require('./app\routes\categorie.js')
+2014-10-16T20:33:13.418Z - info: require('./app\routes\club.js')
+2014-10-16T20:33:13.436Z - info: require('./app\routes\equipe.js')
+2014-10-16T20:33:13.448Z - info: require('./app\routes\membre.js')
+2014-10-16T20:33:13.459Z - info: require('./app\routes\type_membre.js')
+2014-10-16T20:33:13.485Z - info: Serveur démarré sur le port 8080
+2014-10-16T20:33:20.575Z - info: Authentification OK pour toto2
+2014-10-16T20:35:11.519Z - info: Initialisation du serveur
+2014-10-16T20:35:11.551Z - info: require('./app\routes\categorie.js')
+2014-10-16T20:35:11.566Z - info: require('./app\routes\club.js')
+2014-10-16T20:35:11.584Z - info: require('./app\routes\equipe.js')
+2014-10-16T20:35:11.594Z - info: require('./app\routes\membre.js')
+2014-10-16T20:35:11.604Z - info: require('./app\routes\type_membre.js')
+2014-10-16T20:35:11.629Z - info: Serveur démarré sur le port 8080
+2014-10-16T20:35:14.942Z - info: Authentification OK pour toto2
+2014-10-16T20:38:33.229Z - info: Initialisation du serveur
+2014-10-16T20:38:33.256Z - info: require('./app\routes\categorie.js')
+2014-10-16T20:38:33.268Z - info: require('./app\routes\club.js')
+2014-10-16T20:38:33.283Z - info: require('./app\routes\equipe.js')
+2014-10-16T20:38:33.291Z - info: require('./app\routes\membre.js')
+2014-10-16T20:38:33.299Z - info: require('./app\routes\type_membre.js')
+2014-10-16T20:38:33.320Z - info: Serveur démarré sur le port 8080
+2014-10-16T20:39:10.336Z - info: Initialisation du serveur
+2014-10-16T20:39:10.358Z - info: require('./app\routes\categorie.js')
+2014-10-16T20:39:10.368Z - info: require('./app\routes\club.js')
+2014-10-16T20:39:10.379Z - info: require('./app\routes\equipe.js')
+2014-10-16T20:39:10.386Z - info: require('./app\routes\membre.js')
+2014-10-16T20:39:10.394Z - info: require('./app\routes\type_membre.js')
+2014-10-16T20:39:10.411Z - info: Serveur démarré sur le port 8080
+2014-10-16T20:39:19.336Z - info: Authentification OK pour toto2
+2014-10-16T20:39:22.035Z - info: Authentification OK pour toto2
+2014-10-16T20:40:20.788Z - info: Initialisation du serveur
+2014-10-16T20:40:20.822Z - info: require('./app\routes\categorie.js')
+2014-10-16T20:40:20.839Z - info: require('./app\routes\club.js')
+2014-10-16T20:40:20.854Z - info: require('./app\routes\equipe.js')
+2014-10-16T20:40:20.868Z - info: require('./app\routes\membre.js')
+2014-10-16T20:40:20.878Z - info: require('./app\routes\type_membre.js')
+2014-10-16T20:40:20.907Z - info: Serveur démarré sur le port 8080
+2014-10-16T20:40:24.226Z - info: Authentification OK pour toto2
+2014-10-16T20:40:48.356Z - info: Initialisation du serveur
+2014-10-16T20:40:48.382Z - info: require('./app\routes\categorie.js')
+2014-10-16T20:40:48.394Z - info: require('./app\routes\club.js')
+2014-10-16T20:40:48.409Z - info: require('./app\routes\equipe.js')
+2014-10-16T20:40:48.418Z - info: require('./app\routes\membre.js')
+2014-10-16T20:40:48.428Z - info: require('./app\routes\type_membre.js')
+2014-10-16T20:40:48.447Z - info: Serveur démarré sur le port 8080
+2014-10-16T20:40:55.755Z - info: Authentification OK pour toto2
+2014-10-16T20:42:22.072Z - info: Initialisation du serveur
+2014-10-16T20:42:22.103Z - info: require('./app\routes\categorie.js')
+2014-10-16T20:42:22.120Z - info: require('./app\routes\club.js')
+2014-10-16T20:42:22.137Z - info: require('./app\routes\equipe.js')
+2014-10-16T20:42:22.148Z - info: require('./app\routes\membre.js')
+2014-10-16T20:42:22.159Z - info: require('./app\routes\type_membre.js')
+2014-10-16T20:42:22.184Z - info: Serveur démarré sur le port 8080
+2014-10-16T20:42:28.956Z - info: Authentification OK pour toto2
+2014-10-16T20:44:01.696Z - info: Initialisation du serveur
+2014-10-16T20:44:01.718Z - info: require('./app\routes\categorie.js')
+2014-10-16T20:44:01.734Z - info: require('./app\routes\club.js')
+2014-10-16T20:44:01.747Z - info: require('./app\routes\equipe.js')
+2014-10-16T20:44:01.753Z - info: require('./app\routes\membre.js')
+2014-10-16T20:44:01.761Z - info: require('./app\routes\type_membre.js')
+2014-10-16T20:44:01.779Z - info: Serveur démarré sur le port 8080
+2014-10-16T20:44:25.706Z - info: Authentification OK pour toto2
+2014-10-16T20:45:45.541Z - info: Authentification OK pour toto2
+2014-10-16T20:49:49.700Z - info: Authentification OK pour toto2
+2014-10-16T20:50:05.457Z - info: Authentification OK pour toto2
+2014-10-16T20:51:35.385Z - info: Authentification OK pour toto2
+2014-10-16T20:52:03.357Z - info: Authentification OK pour toto2
+2014-10-16T20:56:15.831Z - info: Authentification OK pour toto2
+2014-10-16T20:58:24.049Z - info: Authentification OK pour toto2
+2014-10-16T21:01:04.833Z - info: Authentification OK pour toto2
+2014-10-16T21:03:00.018Z - info: Authentification OK pour toto2
+2014-10-16T21:07:29.144Z - info: Initialisation du serveur
+2014-10-16T21:07:29.182Z - info: require('./app\routes\categorie.js')
+2014-10-16T21:07:29.198Z - info: require('./app\routes\club.js')
+2014-10-16T21:07:29.213Z - info: require('./app\routes\equipe.js')
+2014-10-16T21:07:29.225Z - info: require('./app\routes\membre.js')
+2014-10-16T21:07:29.236Z - info: require('./app\routes\type_membre.js')
+2014-10-16T21:07:29.262Z - info: Serveur démarré sur le port 8080
+2014-10-16T21:07:38.058Z - info: Authentification OK pour toto2
+2014-10-16T21:07:39.237Z - info: Authentification OK pour toto2
+2014-10-16T21:07:40.348Z - info: Authentification OK pour toto2
+2014-10-16T21:07:41.467Z - info: Authentification KO pour toto2
+2014-10-16T21:07:42.562Z - info: Authentification OK pour SuperAdmin
+2014-10-16T21:07:43.775Z - info: Authentification OK pour AdminClub
+2014-10-16T21:07:44.678Z - info: Authentification OK pour AdminCategorie
+2014-10-16T21:07:45.455Z - info: Authentification OK pour AdminEquipe
+2014-10-16T21:07:46.156Z - info: Authentification OK pour Utilisateur
+2014-10-16T21:08:36.934Z - info: Authentification OK pour toto2
+2014-10-16T21:08:38.019Z - info: Authentification OK pour toto2
+2014-10-16T21:08:39.155Z - info: Authentification OK pour toto2
+2014-10-16T21:08:40.268Z - info: Authentification KO pour toto2
+2014-10-16T21:08:41.387Z - info: Authentification OK pour SuperAdmin
+2014-10-16T21:08:42.500Z - info: Authentification OK pour AdminClub
+2014-10-16T21:08:43.581Z - info: Authentification OK pour AdminCategorie
+2014-10-16T21:08:44.673Z - info: Authentification OK pour AdminEquipe
+2014-10-16T21:08:45.782Z - info: Authentification OK pour Utilisateur
+2014-10-16T21:11:33.170Z - info: Authentification OK pour toto2
+2014-10-16T21:11:33.957Z - info: Authentification OK pour toto2
+2014-10-16T21:11:34.613Z - info: Authentification OK pour toto2
+2014-10-16T21:11:35.236Z - info: Authentification KO pour toto2
+2014-10-16T21:11:35.947Z - info: Authentification OK pour SuperAdmin
+2014-10-16T21:11:37.086Z - info: Authentification OK pour AdminClub
+2014-10-16T21:11:38.202Z - info: Authentification OK pour AdminCategorie
+2014-10-16T21:11:39.351Z - info: Authentification OK pour AdminEquipe
+2014-10-16T21:11:40.457Z - info: Authentification OK pour Utilisateur
