@@ -104,3 +104,61 @@
 2014-10-15T21:22:02.975Z - info: require('./app\routes\membre.js')
 2014-10-15T21:22:02.981Z - info: require('./app\routes\type_membre.js')
 2014-10-15T21:22:02.997Z - info: Serveur démarré sur le port 8080
+2014-10-16T11:18:15.880Z - info: Initialisation du serveur
+2014-10-16T11:18:15.916Z - info: require('./app\routes\categorie.js')
+2014-10-16T11:18:15.931Z - info: require('./app\routes\club.js')
+2014-10-16T11:18:15.948Z - info: require('./app\routes\equipe.js')
+2014-10-16T11:18:15.963Z - info: require('./app\routes\membre.js')
+2014-10-16T11:18:15.980Z - info: require('./app\routes\type_membre.js')
+2014-10-16T11:18:16.055Z - info: Serveur démarré sur le port 8080
+2014-10-16T11:19:04.750Z - error: uncaughtException: Cannot read property 'login' of null date=Thu Oct 16 2014 13:19:04 GMT+0200 (Paris, Madrid (heure d’été)), pid=12552, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=37199872, heapTotal=29075456, heapUsed=18102216, loadavg=[0, 0, 0], uptime=75545.322522, trace=[column=50, file=d:\Perso\MCW\MCW_API\app\controllers\auth.js, function=, line=16, method=null, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=30, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1794, method=null, native=false, column=16, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js, function=null, line=414, method=null, native=false, column=5, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection.js, function=null, line=953, method=null, native=false, column=35, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursor.js, function=null, line=683, method=null, native=false, column=5, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursor.js, function=Cursor.close, line=903, method=close, native=false], stack=[TypeError: Cannot read property 'login' of null,     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\auth.js:16:50),     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1794:30,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js:414:16,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection.js:953:5,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursor.js:683:35,     at Cursor.close (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursor.js:903:5)]
+2014-10-16T11:19:44.992Z - error: uncaughtException: Cannot read property 'login' of null date=Thu Oct 16 2014 13:19:44 GMT+0200 (Paris, Madrid (heure d’été)), pid=12552, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=39518208, heapTotal=30107392, heapUsed=11259040, loadavg=[0, 0, 0], uptime=75585.6711552, trace=[column=50, file=d:\Perso\MCW\MCW_API\app\controllers\auth.js, function=, line=16, method=null, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=30, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1794, method=null, native=false, column=16, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js, function=null, line=414, method=null, native=false, column=5, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection.js, function=null, line=953, method=null, native=false, column=35, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursor.js, function=null, line=683, method=null, native=false, column=5, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursor.js, function=Cursor.close, line=903, method=close, native=false], stack=[TypeError: Cannot read property 'login' of null,     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\auth.js:16:50),     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1794:30,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js:414:16,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection.js:953:5,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursor.js:683:35,     at Cursor.close (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursor.js:903:5)]
+2014-10-16T11:20:46.829Z - info: Initialisation du serveur
+2014-10-16T11:20:46.855Z - info: require('./app\routes\categorie.js')
+2014-10-16T11:20:46.867Z - info: require('./app\routes\club.js')
+2014-10-16T11:20:46.879Z - info: require('./app\routes\equipe.js')
+2014-10-16T11:20:46.888Z - info: require('./app\routes\membre.js')
+2014-10-16T11:20:46.896Z - info: require('./app\routes\type_membre.js')
+2014-10-16T11:20:46.916Z - info: Serveur démarré sur le port 8080
+2014-10-16T11:20:47.026Z - info: Login inconnu :  toto2
+2014-10-16T11:20:55.314Z - info: Authentification OK pour toto2
+2014-10-16T11:21:20.708Z - info: Initialisation du serveur
+2014-10-16T11:21:20.725Z - info: require('./app\routes\categorie.js')
+2014-10-16T11:21:20.767Z - info: require('./app\routes\club.js')
+2014-10-16T11:21:20.810Z - info: require('./app\routes\equipe.js')
+2014-10-16T11:21:20.851Z - info: require('./app\routes\membre.js')
+2014-10-16T11:21:20.881Z - info: require('./app\routes\type_membre.js')
+2014-10-16T11:21:20.969Z - info: Serveur démarré sur le port 8080
+2014-10-16T11:21:50.078Z - info: Authentification OK pour toto2
+2014-10-16T11:22:11.368Z - info: Initialisation du serveur
+2014-10-16T11:22:11.386Z - info: require('./app\routes\categorie.js')
+2014-10-16T11:22:11.427Z - info: require('./app\routes\club.js')
+2014-10-16T11:22:11.466Z - info: require('./app\routes\equipe.js')
+2014-10-16T11:22:11.505Z - info: require('./app\routes\membre.js')
+2014-10-16T11:22:11.533Z - info: require('./app\routes\type_membre.js')
+2014-10-16T11:22:11.627Z - info: Serveur démarré sur le port 8080
+2014-10-16T11:26:27.964Z - info: Authentification OK pour toto2
+2014-10-16T11:26:34.205Z - info: Authentification OK pour toto2
+2014-10-16T11:28:15.955Z - info: Initialisation du serveur
+2014-10-16T11:28:15.971Z - info: require('./app\routes\categorie.js')
+2014-10-16T11:28:16.006Z - info: require('./app\routes\club.js')
+2014-10-16T11:28:16.040Z - info: require('./app\routes\equipe.js')
+2014-10-16T11:28:16.074Z - info: require('./app\routes\membre.js')
+2014-10-16T11:28:16.100Z - info: require('./app\routes\type_membre.js')
+2014-10-16T11:28:16.172Z - info: Serveur démarré sur le port 8080
+2014-10-16T11:28:19.403Z - info: Authentification OK pour toto2
+2014-10-16T11:30:30.815Z - info: Initialisation du serveur
+2014-10-16T11:30:30.840Z - info: require('./app\routes\categorie.js')
+2014-10-16T11:30:30.855Z - info: require('./app\routes\club.js')
+2014-10-16T11:30:30.866Z - info: require('./app\routes\equipe.js')
+2014-10-16T11:30:30.875Z - info: require('./app\routes\membre.js')
+2014-10-16T11:30:30.883Z - info: require('./app\routes\type_membre.js')
+2014-10-16T11:30:30.902Z - info: Serveur démarré sur le port 8080
+2014-10-16T11:36:58.362Z - info: Initialisation du serveur
+2014-10-16T11:36:58.380Z - info: require('./app\routes\categorie.js')
+2014-10-16T11:36:58.388Z - info: require('./app\routes\club.js')
+2014-10-16T11:36:58.396Z - info: require('./app\routes\equipe.js')
+2014-10-16T11:36:58.402Z - info: require('./app\routes\membre.js')
+2014-10-16T11:36:58.409Z - info: require('./app\routes\type_membre.js')
+2014-10-16T11:36:58.422Z - info: Serveur démarré sur le port 8080
+2014-10-16T11:37:04.782Z - info: Authentification OK pour toto2
