@@ -389,3 +389,241 @@
 2014-10-16T21:11:38.202Z - info: Authentification OK pour AdminCategorie
 2014-10-16T21:11:39.351Z - info: Authentification OK pour AdminEquipe
 2014-10-16T21:11:40.457Z - info: Authentification OK pour Utilisateur
+2014-10-17T10:35:53.425Z - info: Initialisation du serveur
+2014-10-17T10:35:53.452Z - info: require('./app\routes\categorie.js')
+2014-10-17T10:35:53.464Z - info: require('./app\routes\club.js')
+2014-10-17T10:35:53.476Z - info: require('./app\routes\equipe.js')
+2014-10-17T10:35:53.485Z - info: require('./app\routes\membre.js')
+2014-10-17T10:35:53.495Z - info: require('./app\routes\type_membre.js')
+2014-10-17T10:35:53.519Z - info: Serveur démarré sur le port 8080
+2014-10-17T10:36:10.794Z - info: Login inconnu : toto2
+2014-10-17T10:36:10.867Z - info: Login inconnu : toto2
+2014-10-17T10:36:10.894Z - info: Login inconnu : toto2
+2014-10-17T10:36:10.959Z - info: Login inconnu : toto2
+2014-10-17T10:36:12.010Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:36:13.195Z - info: Authentification OK pour AdminClub
+2014-10-17T10:36:14.275Z - info: Authentification OK pour AdminCategorie
+2014-10-17T10:36:15.354Z - info: Authentification OK pour AdminEquipe
+2014-10-17T10:36:16.442Z - info: Authentification OK pour Utilisateur
+2014-10-17T10:42:07.890Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:42:08.793Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:42:09.663Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:42:09.677Z - info: Login inconnu : toto2
+2014-10-17T10:42:10.724Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:42:11.875Z - info: Authentification OK pour AdminClub
+2014-10-17T10:42:12.972Z - info: Authentification OK pour AdminCategorie
+2014-10-17T10:42:14.057Z - info: Authentification OK pour AdminEquipe
+2014-10-17T10:42:15.092Z - info: Authentification OK pour Utilisateur
+2014-10-17T10:46:25.442Z - info: Initialisation du serveur
+2014-10-17T10:46:25.468Z - info: require('./app\routes\categorie.js')
+2014-10-17T10:46:25.481Z - info: require('./app\routes\club.js')
+2014-10-17T10:46:25.493Z - info: require('./app\routes\equipe.js')
+2014-10-17T10:46:25.501Z - info: require('./app\routes\membre.js')
+2014-10-17T10:46:25.511Z - info: require('./app\routes\type_membre.js')
+2014-10-17T10:46:25.531Z - info: Serveur démarré sur le port 8080
+2014-10-17T10:46:46.473Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:46:47.447Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:46:48.307Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:46:48.327Z - info: Login inconnu : toto2
+2014-10-17T10:46:49.059Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:46:49.802Z - info: Authentification OK pour AdminClub
+2014-10-17T10:46:50.510Z - info: Authentification OK pour AdminCategorie
+2014-10-17T10:46:51.214Z - info: Authentification OK pour AdminEquipe
+2014-10-17T10:46:51.929Z - info: Authentification OK pour Utilisateur
+2014-10-17T10:47:37.685Z - info: Initialisation du serveur
+2014-10-17T10:47:37.701Z - info: require('./app\routes\categorie.js')
+2014-10-17T10:47:37.717Z - info: require('./app\routes\club.js')
+2014-10-17T10:47:37.732Z - info: require('./app\routes\equipe.js')
+2014-10-17T10:47:37.732Z - info: require('./app\routes\membre.js')
+2014-10-17T10:47:37.748Z - info: require('./app\routes\type_membre.js')
+2014-10-17T10:47:37.763Z - info: Serveur démarré sur le port 8080
+2014-10-17T10:47:51.801Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:47:52.422Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:47:53.030Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:47:53.046Z - info: Login inconnu : toto2
+2014-10-17T10:47:53.607Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:47:54.138Z - info: Authentification OK pour AdminClub
+2014-10-17T10:47:54.590Z - info: Authentification OK pour AdminCategorie
+2014-10-17T10:47:54.980Z - info: Authentification OK pour AdminEquipe
+2014-10-17T10:47:55.339Z - info: Authentification OK pour Utilisateur
+2014-10-17T10:50:09.824Z - info: Initialisation du serveur
+2014-10-17T10:50:09.847Z - info: require('./app\routes\categorie.js')
+2014-10-17T10:50:09.858Z - info: require('./app\routes\club.js')
+2014-10-17T10:50:09.870Z - info: require('./app\routes\equipe.js')
+2014-10-17T10:50:09.877Z - info: require('./app\routes\membre.js')
+2014-10-17T10:50:09.885Z - info: require('./app\routes\type_membre.js')
+2014-10-17T10:50:09.901Z - info: Serveur démarré sur le port 8080
+2014-10-17T10:50:09.963Z - error: uncaughtException: listen EADDRINUSE date=Fri Oct 17 2014 12:50:09 GMT+0200 (Paris, Madrid (heure d’été)), pid=9896, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=34983936, heapTotal=28055552, heapUsed=16624760, loadavg=[0, 0, 0], uptime=22607.1323975, trace=[column=11, file=net.js, function=errnoException, line=904, method=null, native=false, column=14, file=net.js, function=Server._listen2, line=1042, method=_listen2, native=false, column=10, file=net.js, function=listen, line=1064, method=null, native=false, column=5, file=net.js, function=Server.listen, line=1138, method=listen, native=false, column=24, file=d:\Perso\MCW\MCW_API\node_modules\express\lib\application.js, function=Function.app.listen, line=531, method=app.listen, native=false, column=5, file=d:\Perso\MCW\MCW_API\server.js, function=, line=105, method=null, native=false, column=26, file=module.js, function=Module._compile, line=456, method=_compile, native=false, column=10, file=module.js, function=Object.Module._extensions..js, line=474, method=Module._extensions..js, native=false, column=32, file=module.js, function=Module.load, line=356, method=load, native=false, column=12, file=module.js, function=Function.Module._load, line=312, method=Module._load, native=false], stack=[Error: listen EADDRINUSE,     at errnoException (net.js:904:11),     at Server._listen2 (net.js:1042:14),     at listen (net.js:1064:10),     at Server.listen (net.js:1138:5),     at Function.app.listen (d:\Perso\MCW\MCW_API\node_modules\express\lib\application.js:531:24),     at Object.<anonymous> (d:\Perso\MCW\MCW_API\server.js:105:5),     at Module._compile (module.js:456:26),     at Object.Module._extensions..js (module.js:474:10),     at Module.load (module.js:356:32),     at Function.Module._load (module.js:312:12)]
+2014-10-17T10:50:44.039Z - info: Initialisation du serveur
+2014-10-17T10:50:44.062Z - info: require('./app\routes\categorie.js')
+2014-10-17T10:50:44.072Z - info: require('./app\routes\club.js')
+2014-10-17T10:50:44.083Z - info: require('./app\routes\equipe.js')
+2014-10-17T10:50:44.091Z - info: require('./app\routes\membre.js')
+2014-10-17T10:50:44.097Z - info: require('./app\routes\type_membre.js')
+2014-10-17T10:50:44.114Z - info: Serveur démarré sur le port 8080
+2014-10-17T10:50:44.157Z - error: uncaughtException: listen EADDRINUSE date=Fri Oct 17 2014 12:50:44 GMT+0200 (Paris, Madrid (heure d’été)), pid=1272, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=35241984, heapTotal=28055552, heapUsed=16887120, loadavg=[0, 0, 0], uptime=22641.2981981, trace=[column=11, file=net.js, function=errnoException, line=904, method=null, native=false, column=14, file=net.js, function=Server._listen2, line=1042, method=_listen2, native=false, column=10, file=net.js, function=listen, line=1064, method=null, native=false, column=5, file=net.js, function=Server.listen, line=1138, method=listen, native=false, column=24, file=d:\Perso\MCW\MCW_API\node_modules\express\lib\application.js, function=Function.app.listen, line=531, method=app.listen, native=false, column=5, file=d:\Perso\MCW\MCW_API\server.js, function=, line=105, method=null, native=false, column=26, file=module.js, function=Module._compile, line=456, method=_compile, native=false, column=10, file=module.js, function=Object.Module._extensions..js, line=474, method=Module._extensions..js, native=false, column=32, file=module.js, function=Module.load, line=356, method=load, native=false, column=12, file=module.js, function=Function.Module._load, line=312, method=Module._load, native=false], stack=[Error: listen EADDRINUSE,     at errnoException (net.js:904:11),     at Server._listen2 (net.js:1042:14),     at listen (net.js:1064:10),     at Server.listen (net.js:1138:5),     at Function.app.listen (d:\Perso\MCW\MCW_API\node_modules\express\lib\application.js:531:24),     at Object.<anonymous> (d:\Perso\MCW\MCW_API\server.js:105:5),     at Module._compile (module.js:456:26),     at Object.Module._extensions..js (module.js:474:10),     at Module.load (module.js:356:32),     at Function.Module._load (module.js:312:12)]
+2014-10-17T10:51:42.598Z - info: Initialisation du serveur
+2014-10-17T10:51:42.624Z - info: require('./app\routes\categorie.js')
+2014-10-17T10:51:42.638Z - info: require('./app\routes\club.js')
+2014-10-17T10:51:42.649Z - info: require('./app\routes\equipe.js')
+2014-10-17T10:51:42.659Z - info: require('./app\routes\membre.js')
+2014-10-17T10:51:42.668Z - info: require('./app\routes\type_membre.js')
+2014-10-17T10:51:42.688Z - info: Serveur démarré sur le port 8080
+2014-10-17T10:51:52.173Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:51:53.062Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:51:53.923Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:51:53.941Z - info: Login inconnu : toto2
+2014-10-17T10:51:54.799Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:51:55.688Z - info: Authentification OK pour AdminClub
+2014-10-17T10:51:56.552Z - info: Authentification OK pour AdminCategorie
+2014-10-17T10:51:57.406Z - info: Authentification OK pour AdminEquipe
+2014-10-17T10:51:58.162Z - info: Authentification OK pour Utilisateur
+2014-10-17T10:52:17.941Z - info: Initialisation du serveur
+2014-10-17T10:52:17.965Z - info: require('./app\routes\categorie.js')
+2014-10-17T10:52:17.979Z - info: require('./app\routes\club.js')
+2014-10-17T10:52:17.991Z - info: require('./app\routes\equipe.js')
+2014-10-17T10:52:17.999Z - info: require('./app\routes\membre.js')
+2014-10-17T10:52:18.008Z - info: require('./app\routes\type_membre.js')
+2014-10-17T10:52:18.028Z - info: Serveur démarré sur le port 8080
+2014-10-17T10:52:24.379Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:52:25.124Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:52:25.768Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:52:25.780Z - info: Login inconnu : toto2
+2014-10-17T10:52:26.394Z - info: Authentification OK pour SuperAdmin
+2014-10-17T10:52:26.935Z - info: Authentification OK pour AdminClub
+2014-10-17T10:52:26.936Z - info: Droits insufisants : AdminClub
+2014-10-17T10:52:27.440Z - info: Authentification OK pour AdminCategorie
+2014-10-17T10:52:27.440Z - info: Droits insufisants : AdminCategorie
+2014-10-17T10:52:27.891Z - info: Authentification OK pour AdminEquipe
+2014-10-17T10:52:27.891Z - info: Droits insufisants : AdminEquipe
+2014-10-17T10:52:28.260Z - info: Authentification OK pour Utilisateur
+2014-10-17T10:52:28.261Z - info: Droits insufisants : Utilisateur
+2014-10-17T11:00:37.317Z - info: Initialisation du serveur
+2014-10-17T11:00:37.348Z - info: require('./app\routes\categorie.js')
+2014-10-17T11:00:37.362Z - info: require('./app\routes\club.js')
+2014-10-17T11:00:37.377Z - info: require('./app\routes\equipe.js')
+2014-10-17T11:00:37.388Z - info: require('./app\routes\membre.js')
+2014-10-17T11:00:37.399Z - info: require('./app\routes\type_membre.js')
+2014-10-17T11:00:37.425Z - info: Serveur démarré sur le port 8080
+2014-10-17T11:00:46.036Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:00:46.927Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:00:47.688Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:00:47.691Z - info: Droits insufisants : SuperAdmin
+2014-10-17T11:00:47.705Z - info: Login inconnu : toto2
+2014-10-17T11:00:48.442Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:00:49.464Z - info: Authentification OK pour AdminClub
+2014-10-17T11:00:49.465Z - info: Droits insufisants : AdminClub
+2014-10-17T11:00:50.530Z - info: Authentification OK pour AdminCategorie
+2014-10-17T11:00:50.531Z - info: Droits insufisants : AdminCategorie
+2014-10-17T11:00:51.370Z - info: Authentification OK pour AdminEquipe
+2014-10-17T11:00:51.370Z - info: Droits insufisants : AdminEquipe
+2014-10-17T11:00:52.223Z - info: Authentification OK pour Utilisateur
+2014-10-17T11:00:52.223Z - info: Droits insufisants : Utilisateur
+2014-10-17T11:02:08.101Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:02:09.258Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:02:10.383Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:02:10.388Z - info: Droits insufisants : SuperAdmin
+2014-10-17T11:02:10.411Z - info: Login inconnu : toto2
+2014-10-17T11:02:11.505Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:02:12.641Z - info: Authentification OK pour AdminClub
+2014-10-17T11:02:12.641Z - info: Droits insufisants : AdminClub
+2014-10-17T11:02:13.726Z - info: Authentification OK pour AdminCategorie
+2014-10-17T11:02:13.727Z - info: Droits insufisants : AdminCategorie
+2014-10-17T11:02:14.803Z - info: Authentification OK pour AdminEquipe
+2014-10-17T11:02:14.803Z - info: Droits insufisants : AdminEquipe
+2014-10-17T11:02:15.887Z - info: Authentification OK pour Utilisateur
+2014-10-17T11:02:15.887Z - info: Droits insufisants : Utilisateur
+2014-10-17T11:04:22.316Z - info: Initialisation du serveur
+2014-10-17T11:04:22.352Z - info: require('./app\routes\categorie.js')
+2014-10-17T11:04:22.369Z - info: require('./app\routes\club.js')
+2014-10-17T11:04:22.385Z - info: require('./app\routes\equipe.js')
+2014-10-17T11:04:22.396Z - info: require('./app\routes\membre.js')
+2014-10-17T11:04:22.410Z - info: require('./app\routes\type_membre.js')
+2014-10-17T11:04:22.436Z - info: Serveur démarré sur le port 8080
+2014-10-17T11:04:30.020Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:04:30.761Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:04:31.476Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:04:31.492Z - info: Login inconnu : toto2
+2014-10-17T11:04:32.223Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:04:32.975Z - info: Authentification OK pour AdminClub
+2014-10-17T11:04:32.975Z - info: Droits insufisants : AdminClub
+2014-10-17T11:04:33.691Z - info: Authentification OK pour AdminCategorie
+2014-10-17T11:04:33.691Z - info: Droits insufisants : AdminCategorie
+2014-10-17T11:04:34.390Z - info: Authentification OK pour AdminEquipe
+2014-10-17T11:04:34.390Z - info: Droits insufisants : AdminEquipe
+2014-10-17T11:04:35.098Z - info: Authentification OK pour Utilisateur
+2014-10-17T11:04:35.098Z - info: Droits insufisants : Utilisateur
+2014-10-17T11:06:31.315Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:06:32.203Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:06:33.072Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:06:33.932Z - info: Authentification OK pour Utilisateur
+2014-10-17T11:06:33.933Z - info: Droits insufisants : Utilisateur
+2014-10-17T11:06:33.947Z - info: Login inconnu : toto2
+2014-10-17T11:06:34.817Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:06:35.717Z - info: Authentification OK pour AdminClub
+2014-10-17T11:06:35.717Z - info: Droits insufisants : AdminClub
+2014-10-17T11:06:36.601Z - info: Authentification OK pour AdminCategorie
+2014-10-17T11:06:36.603Z - info: Droits insufisants : AdminCategorie
+2014-10-17T11:06:37.500Z - info: Authentification OK pour AdminEquipe
+2014-10-17T11:06:37.500Z - info: Droits insufisants : AdminEquipe
+2014-10-17T11:06:38.366Z - info: Authentification OK pour Utilisateur
+2014-10-17T11:06:38.366Z - info: Droits insufisants : Utilisateur
+2014-10-17T11:06:54.955Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:06:56.060Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:06:56.921Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:06:57.793Z - info: Authentification OK pour Utilisateur
+2014-10-17T11:06:57.794Z - info: Droits insufisants : Utilisateur
+2014-10-17T11:06:57.812Z - info: Login inconnu : toto2
+2014-10-17T11:06:58.652Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:06:59.337Z - info: Authentification OK pour AdminClub
+2014-10-17T11:06:59.337Z - info: Droits insufisants : AdminClub
+2014-10-17T11:06:59.898Z - info: Authentification OK pour AdminCategorie
+2014-10-17T11:06:59.898Z - info: Droits insufisants : AdminCategorie
+2014-10-17T11:07:00.395Z - info: Authentification OK pour AdminEquipe
+2014-10-17T11:07:00.395Z - info: Droits insufisants : AdminEquipe
+2014-10-17T11:07:00.842Z - info: Authentification OK pour Utilisateur
+2014-10-17T11:07:00.842Z - info: Droits insufisants : Utilisateur
+2014-10-17T11:08:22.075Z - info: Initialisation du serveur
+2014-10-17T11:08:22.107Z - info: require('./app\routes\categorie.js')
+2014-10-17T11:08:22.121Z - info: require('./app\routes\club.js')
+2014-10-17T11:08:22.137Z - info: require('./app\routes\equipe.js')
+2014-10-17T11:08:22.149Z - info: require('./app\routes\membre.js')
+2014-10-17T11:08:22.159Z - info: require('./app\routes\type_membre.js')
+2014-10-17T11:08:22.183Z - info: Serveur démarré sur le port 8080
+2014-10-17T11:08:28.789Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:08:29.995Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:08:31.109Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:08:32.186Z - info: Authentification OK pour Utilisateur
+2014-10-17T11:08:32.189Z - info: Droits insufisants : Utilisateur
+2014-10-17T11:08:32.206Z - info: Login inconnu : toto2
+2014-10-17T11:08:33.079Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:08:34.033Z - info: Authentification OK pour AdminClub
+2014-10-17T11:08:34.033Z - info: Droits insufisants : AdminClub
+2014-10-17T11:08:34.728Z - info: Authentification OK pour AdminCategorie
+2014-10-17T11:08:34.729Z - info: Droits insufisants : AdminCategorie
+2014-10-17T11:08:35.460Z - info: Authentification OK pour AdminEquipe
+2014-10-17T11:08:35.460Z - info: Droits insufisants : AdminEquipe
+2014-10-17T11:08:36.182Z - info: Authentification OK pour Utilisateur
+2014-10-17T11:08:36.182Z - info: Droits insufisants : Utilisateur
+2014-10-17T11:10:08.443Z - info: Initialisation du serveur
+2014-10-17T11:10:08.475Z - info: require('./app\routes\categorie.js')
+2014-10-17T11:10:08.491Z - info: require('./app\routes\club.js')
+2014-10-17T11:10:08.507Z - info: require('./app\routes\equipe.js')
+2014-10-17T11:10:08.518Z - info: require('./app\routes\membre.js')
+2014-10-17T11:10:08.528Z - info: require('./app\routes\type_membre.js')
+2014-10-17T11:10:08.552Z - info: Serveur démarré sur le port 8080
+2014-10-17T11:10:17.048Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:10:17.966Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:10:18.678Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:10:19.394Z - info: Authentification OK pour Utilisateur
+2014-10-17T11:10:19.397Z - info: Droits insufisants : Utilisateur
+2014-10-17T11:10:19.411Z - info: Login inconnu : toto2
+2014-10-17T11:10:20.158Z - info: Authentification OK pour SuperAdmin
+2014-10-17T11:10:21.242Z - info: Authentification OK pour AdminClub
+2014-10-17T11:10:21.242Z - info: Droits insufisants : AdminClub
+2014-10-17T11:10:22.093Z - info: Authentification OK pour AdminCategorie
+2014-10-17T11:10:22.093Z - info: Droits insufisants : AdminCategorie
+2014-10-17T11:10:22.797Z - info: Authentification OK pour AdminEquipe
+2014-10-17T11:10:22.798Z - info: Droits insufisants : AdminEquipe
+2014-10-17T11:10:23.656Z - info: Authentification OK pour Utilisateur
+2014-10-17T11:10:23.657Z - info: Droits insufisants : Utilisateur

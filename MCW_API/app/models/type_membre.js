@@ -4,7 +4,8 @@ var Schema       = mongoose.Schema;
 var Type_MembreSchema   = new Schema({
 	libelle: String,
     description: String,
-    club_id: Number
+    club_id: Number,
+    dateSuppression: Date
 });
 
 module.exports = mongoose.model('Type_Membre', Type_MembreSchema);

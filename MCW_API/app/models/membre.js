@@ -13,13 +13,13 @@ var MembreSchema   = new Schema({
     telephones: [{ libelle: String, telephone: String }],
     emails: [{ libelle: String, email: String }],
     commentaires: [{ de: String, date: Date, message: String }],
-    club_id: Number,
+    club_id: { type: Number, required: true },
     categorie_id: Number,
     photo_url: String,
     type_membre: {type_membre_id:Number, libelle: String},
     login: { type: String, index: { unique: true } },
     mdp: String,
-    droit: Number /*0 SA - 10 Admin club - 20 Admin Catégorie - 30 Admin Equipe - 40 user */
+    droit: { type: Number, required: true } /*0 SA - 10 Admin club - 20 Admin Catégorie - 30 Admin Equipe - 40 user */
 });
 
 MembreSchema.methods.verifyMdp = function(mdp, cb) {

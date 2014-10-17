@@ -8,7 +8,8 @@ var CategorieSchema   = new Schema({
     anneeSup: Number,
     club_id: Number,
     commentaires: [{ de: String, date: Date, message: String }],
-    responsables: [{ membre_id: String, nom: String, prenom: String, }]
+    responsables: [{ membre_id: String, nom: String, prenom: String }],
+    dateSuppression: Date
 });
 
 module.exports = mongoose.model('Categorie', CategorieSchema);
