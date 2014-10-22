@@ -5,11 +5,11 @@ angular.module('myApp', [
   'ngRoute',
   'ui.bootstrap',
   'ui.calendar',
-  'myApp.viewAdmin',
+  'clubList',
   'myApp.viewListClub',
   'myApp.viewCalendrier',
   'myApp.viewTest'   
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/viewAdmin'});
+  $routeProvider.otherwise({redirectTo: '/admin'});
 }]);

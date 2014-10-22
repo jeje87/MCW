@@ -8,7 +8,8 @@ module.exports = function(router) {
 	// création 
 	.post(AuthController.isAuthenticated, ClubControler.postItem)
     // sélection de tous les items
-    .get(AuthController.isAuthenticated, ClubControler.getItems);
+    //.get(AuthController.isAuthenticated, ClubControler.getItems);
+    .get( ClubControler.getItems);
 
     router.route('/clubs/:club_id')
     // Sélection d'un item via son id

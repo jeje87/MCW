@@ -30,11 +30,11 @@ exports.postItem = function(req, res) {
 exports.getItems = function(req, res) {
 
     //test des droits
-    if (typeof req.user.droit != 'number' || req.user.droit > 0) {
+    /*if (typeof req.user.droit != 'number' || req.user.droit > 0) {
         logger.info('Droits insufisants : ' + req.user.login );
         res.send(403);
         return;
-    }
+    }*/
 
     Club.find(function(err, clubs) {
         if (err)

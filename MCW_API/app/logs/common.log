@@ -627,3 +627,73 @@
 2014-10-17T11:10:22.798Z - info: Droits insufisants : AdminEquipe
 2014-10-17T11:10:23.656Z - info: Authentification OK pour Utilisateur
 2014-10-17T11:10:23.657Z - info: Droits insufisants : Utilisateur
+2014-10-20T19:03:31.785Z - info: Initialisation du serveur
+2014-10-20T19:03:31.837Z - info: require('./app\routes\categorie.js')
+2014-10-20T19:03:31.861Z - info: require('./app\routes\club.js')
+2014-10-20T19:03:31.886Z - info: require('./app\routes\equipe.js')
+2014-10-20T19:03:31.905Z - info: require('./app\routes\membre.js')
+2014-10-20T19:03:31.921Z - info: require('./app\routes\type_membre.js')
+2014-10-20T19:03:31.961Z - info: Serveur démarré sur le port 8080
+2014-10-20T19:03:45.777Z - info: Authentification OK pour SuperAdmin
+2014-10-20T19:03:47.068Z - info: Authentification OK pour SuperAdmin
+2014-10-20T19:03:48.245Z - info: Authentification OK pour SuperAdmin
+2014-10-20T19:03:49.361Z - info: Authentification OK pour Utilisateur
+2014-10-20T19:03:49.364Z - info: Droits insufisants : Utilisateur
+2014-10-20T19:03:49.383Z - info: Login inconnu : toto2
+2014-10-20T19:03:50.535Z - info: Authentification OK pour SuperAdmin
+2014-10-20T19:03:51.712Z - info: Authentification OK pour AdminClub
+2014-10-20T19:03:51.712Z - info: Droits insufisants : AdminClub
+2014-10-20T19:03:52.695Z - info: Authentification OK pour AdminCategorie
+2014-10-20T19:03:52.696Z - info: Droits insufisants : AdminCategorie
+2014-10-20T19:03:53.861Z - info: Authentification OK pour AdminEquipe
+2014-10-20T19:03:53.861Z - info: Droits insufisants : AdminEquipe
+2014-10-20T19:03:55.009Z - info: Authentification OK pour Utilisateur
+2014-10-20T19:03:55.009Z - info: Droits insufisants : Utilisateur
+2014-10-20T19:03:55.994Z - info: Authentification OK pour Utilisateur
+2014-10-20T19:03:55.994Z - info: Droits insufisants : Utilisateur
+2014-10-21T11:31:32.543Z - info: Initialisation du serveur
+2014-10-21T11:31:32.591Z - info: require('./app\routes\categorie.js')
+2014-10-21T11:31:32.629Z - info: require('./app\routes\club.js')
+2014-10-21T11:31:32.665Z - info: require('./app\routes\equipe.js')
+2014-10-21T11:31:32.693Z - info: require('./app\routes\membre.js')
+2014-10-21T11:31:32.725Z - info: require('./app\routes\type_membre.js')
+2014-10-21T11:31:32.764Z - info: Serveur démarré sur le port 8080
+2014-10-21T11:31:59.022Z - info: Authentification OK pour SuperAdmin
+2014-10-21T11:31:59.887Z - info: Authentification OK pour SuperAdmin
+2014-10-21T11:32:00.791Z - info: Authentification OK pour SuperAdmin
+2014-10-21T11:32:01.907Z - info: Authentification OK pour Utilisateur
+2014-10-21T11:32:01.912Z - info: Droits insufisants : Utilisateur
+2014-10-21T11:32:01.936Z - info: Login inconnu : toto2
+2014-10-21T11:32:03.082Z - info: Authentification OK pour SuperAdmin
+2014-10-21T11:32:04.340Z - info: Authentification OK pour AdminClub
+2014-10-21T11:32:04.341Z - info: Droits insufisants : AdminClub
+2014-10-21T11:32:05.463Z - info: Authentification OK pour AdminCategorie
+2014-10-21T11:32:05.464Z - info: Droits insufisants : AdminCategorie
+2014-10-21T11:32:06.597Z - info: Authentification OK pour AdminEquipe
+2014-10-21T11:32:06.598Z - info: Droits insufisants : AdminEquipe
+2014-10-21T11:32:07.719Z - info: Authentification OK pour Utilisateur
+2014-10-21T11:32:07.719Z - info: Droits insufisants : Utilisateur
+2014-10-21T11:32:08.842Z - info: Authentification OK pour Utilisateur
+2014-10-21T11:32:08.843Z - info: Droits insufisants : Utilisateur
+2014-10-22T20:41:35.265Z - info: Initialisation du serveur
+2014-10-22T20:41:35.325Z - info: require('./app\routes\categorie.js')
+2014-10-22T20:41:35.461Z - info: require('./app\routes\club.js')
+2014-10-22T20:41:35.560Z - info: require('./app\routes\equipe.js')
+2014-10-22T20:41:35.640Z - info: require('./app\routes\membre.js')
+2014-10-22T20:41:35.690Z - info: require('./app\routes\type_membre.js')
+2014-10-22T20:41:35.800Z - info: Serveur démarré sur le port 8080
+2014-10-22T20:41:37.010Z - error: uncaughtException: failed to connect to [localhost:27017] date=Wed Oct 22 2014 22:41:36 GMT+0200 (Paris, Madrid (heure d’été)), pid=10736, uid=null, gid=null, cwd=D:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[node, D:\Perso\MCW\MCW_API\server.js], rss=35926016, heapTotal=28055552, heapUsed=17048864, loadavg=[0, 0, 0], uptime=27523.1413024, trace=[column=74, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\server.js, function=, line=540, method=null, native=false, column=17, file=events.js, function=emit, line=106, method=null, native=false, column=15, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection_pool.js, function=, line=140, method=null, native=false, column=17, file=events.js, function=emit, line=98, method=null, native=false, column=10, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection.js, function=, line=478, method=null, native=false, column=17, file=events.js, function=Socket.emit, line=95, method=emit, native=false, column=14, file=net.js, function=null, line=440, method=null, native=false, column=13, file=node.js, function=process._tickCallback, line=419, method=_tickCallback, native=false], stack=[Error: failed to connect to [localhost:27017],     at null.<anonymous> (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\server.js:540:74),     at emit (events.js:106:17),     at null.<anonymous> (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:140:15),     at emit (events.js:98:17),     at Socket.<anonymous> (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection.js:478:10),     at Socket.emit (events.js:95:17),     at net.js:440:14,     at process._tickCallback (node.js:419:13)]
+2014-10-22T20:42:35.925Z - info: Initialisation du serveur
+2014-10-22T20:42:35.945Z - info: require('./app\routes\categorie.js')
+2014-10-22T20:42:35.965Z - info: require('./app\routes\club.js')
+2014-10-22T20:42:35.975Z - info: require('./app\routes\equipe.js')
+2014-10-22T20:42:35.995Z - info: require('./app\routes\membre.js')
+2014-10-22T20:42:36.015Z - info: require('./app\routes\type_membre.js')
+2014-10-22T20:42:36.045Z - info: Serveur démarré sur le port 8080
+2014-10-22T20:46:50.735Z - info: Initialisation du serveur
+2014-10-22T20:46:50.755Z - info: require('./app\routes\categorie.js')
+2014-10-22T20:46:50.775Z - info: require('./app\routes\club.js')
+2014-10-22T20:46:50.785Z - info: require('./app\routes\equipe.js')
+2014-10-22T20:46:50.795Z - info: require('./app\routes\membre.js')
+2014-10-22T20:46:50.825Z - info: require('./app\routes\type_membre.js')
+2014-10-22T20:46:50.845Z - info: Serveur démarré sur le port 8080
