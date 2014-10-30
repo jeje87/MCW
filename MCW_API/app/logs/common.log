@@ -704,3 +704,201 @@
 2014-10-30T19:36:25.589Z - info: require('./app\routes\membre.js')
 2014-10-30T19:36:26.014Z - info: require('./app\routes\type_membre.js')
 2014-10-30T19:36:26.089Z - info: Serveur démarré sur le port 8080
+2014-10-30T20:52:04.772Z - info: Initialisation du serveur
+2014-10-30T20:52:04.782Z - info: require('./app\routes\categorie.js')
+2014-10-30T20:52:04.787Z - info: require('./app\routes\club.js')
+2014-10-30T20:52:04.792Z - info: require('./app\routes\equipe.js')
+2014-10-30T20:52:04.795Z - info: require('./app\routes\membre.js')
+2014-10-30T20:52:04.798Z - info: require('./app\routes\type_membre.js')
+2014-10-30T20:52:04.806Z - info: Serveur démarré sur le port 8080
+2014-10-30T20:52:21.484Z - error: uncaughtException: clubs is not defined date=Thu Oct 30 2014 21:52:21 GMT+0100 (Paris, Madrid), pid=10440, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=37171200, heapTotal=29075456, heapUsed=18146136, loadavg=[0, 0, 0], uptime=162436.0332375, trace=[column=28, file=d:\Perso\MCW\MCW_API\app\controllers\club.js, function=, line=58, method=null, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=15, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\promise.js, function=Promise.resolve, line=108, method=resolve, native=false, column=16, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js, function=null, line=414, method=null, native=false, column=7, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection.js, function=null, line=594, method=null, native=false, column=27, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\utils.js, function=null, line=153, method=null, native=false, column=9, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\db.js, function=null, line=1670, method=null, native=false], stack=[ReferenceError: clubs is not defined,     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\club.js:58:28),     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at Promise.resolve (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\promise.js:108:15),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js:414:16,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection.js:594:7,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\utils.js:153:27,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mongodb\lib\mongodb\db.js:1670:9]
+2014-10-30T20:53:14.523Z - info: Initialisation du serveur
+2014-10-30T20:53:14.537Z - info: require('./app\routes\categorie.js')
+2014-10-30T20:53:14.543Z - info: require('./app\routes\club.js')
+2014-10-30T20:53:14.550Z - info: require('./app\routes\equipe.js')
+2014-10-30T20:53:14.554Z - info: require('./app\routes\membre.js')
+2014-10-30T20:53:14.558Z - info: require('./app\routes\type_membre.js')
+2014-10-30T20:53:14.568Z - info: Serveur démarré sur le port 8080
+2014-10-30T20:53:19.062Z - error: uncaughtException: No default engine was specified and no extension was provided. date=Thu Oct 30 2014 21:53:19 GMT+0100 (Paris, Madrid), pid=13340, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=37138432, heapTotal=29075456, heapUsed=18159200, loadavg=[0, 0, 0], uptime=162493.657917, trace=[column=42, file=d:\Perso\MCW\MCW_API\node_modules\express\lib\view.js, function=new View, line=41, method=null, native=false, column=12, file=d:\Perso\MCW\MCW_API\node_modules\express\lib\application.js, function=Function.app.render, line=484, method=app.render, native=false, column=7, file=d:\Perso\MCW\MCW_API\node_modules\express\lib\response.js, function=ServerResponse.res.render, line=777, method=res.render, native=false, column=21, file=d:\Perso\MCW\MCW_API\app\controllers\club.js, function=, line=57, method=null, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=15, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\promise.js, function=Promise.resolve, line=108, method=resolve, native=false, column=16, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js, function=null, line=414, method=null, native=false], stack=[Error: No default engine was specified and no extension was provided.,     at new View (d:\Perso\MCW\MCW_API\node_modules\express\lib\view.js:41:42),     at Function.app.render (d:\Perso\MCW\MCW_API\node_modules\express\lib\application.js:484:12),     at ServerResponse.res.render (d:\Perso\MCW\MCW_API\node_modules\express\lib\response.js:777:7),     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\club.js:57:21),     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at Promise.resolve (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\promise.js:108:15),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js:414:16]
+2014-10-30T20:54:03.272Z - info: Initialisation du serveur
+2014-10-30T20:54:03.290Z - info: require('./app\routes\categorie.js')
+2014-10-30T20:54:03.296Z - info: require('./app\routes\club.js')
+2014-10-30T20:54:03.303Z - info: require('./app\routes\equipe.js')
+2014-10-30T20:54:03.307Z - info: require('./app\routes\membre.js')
+2014-10-30T20:54:03.311Z - info: require('./app\routes\type_membre.js')
+2014-10-30T20:54:03.321Z - info: Serveur démarré sur le port 8080
+2014-10-30T20:55:58.217Z - info: Initialisation du serveur
+2014-10-30T20:55:58.228Z - info: require('./app\routes\categorie.js')
+2014-10-30T20:55:58.234Z - info: require('./app\routes\club.js')
+2014-10-30T20:55:58.240Z - info: require('./app\routes\equipe.js')
+2014-10-30T20:55:58.245Z - info: require('./app\routes\membre.js')
+2014-10-30T20:55:58.248Z - info: require('./app\routes\type_membre.js')
+2014-10-30T20:55:58.256Z - info: Serveur démarré sur le port 8080
+2014-10-30T20:58:39.083Z - info: Initialisation du serveur
+2014-10-30T20:58:39.096Z - info: require('./app\routes\categorie.js')
+2014-10-30T20:58:39.136Z - info: require('./app\routes\club.js')
+2014-10-30T20:58:39.143Z - info: require('./app\routes\equipe.js')
+2014-10-30T20:58:39.147Z - info: require('./app\routes\membre.js')
+2014-10-30T20:58:39.151Z - info: require('./app\routes\type_membre.js')
+2014-10-30T20:58:39.158Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:00:21.043Z - info: Initialisation du serveur
+2014-10-30T21:00:21.053Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:00:21.057Z - info: require('./app\routes\club.js')
+2014-10-30T21:00:21.063Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:00:21.066Z - info: require('./app\routes\membre.js')
+2014-10-30T21:00:21.069Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:00:21.077Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:00:33.921Z - info: Initialisation du serveur
+2014-10-30T21:00:33.932Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:00:33.936Z - info: require('./app\routes\club.js')
+2014-10-30T21:00:33.941Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:00:33.944Z - info: require('./app\routes\membre.js')
+2014-10-30T21:00:33.947Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:00:33.955Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:01:03.853Z - info: Initialisation du serveur
+2014-10-30T21:01:03.863Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:01:03.869Z - info: require('./app\routes\club.js')
+2014-10-30T21:01:03.876Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:01:03.881Z - info: require('./app\routes\membre.js')
+2014-10-30T21:01:03.885Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:01:03.896Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:02:31.781Z - info: Initialisation du serveur
+2014-10-30T21:02:31.792Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:02:31.798Z - info: require('./app\routes\club.js')
+2014-10-30T21:02:31.804Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:02:31.808Z - info: require('./app\routes\membre.js')
+2014-10-30T21:02:31.811Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:02:31.821Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:04:47.735Z - info: Initialisation du serveur
+2014-10-30T21:04:47.749Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:04:47.754Z - info: require('./app\routes\club.js')
+2014-10-30T21:04:47.759Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:04:47.762Z - info: require('./app\routes\membre.js')
+2014-10-30T21:04:47.766Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:04:47.773Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:05:07.844Z - info: Initialisation du serveur
+2014-10-30T21:05:07.855Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:05:07.860Z - info: require('./app\routes\club.js')
+2014-10-30T21:05:07.865Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:05:07.868Z - info: require('./app\routes\membre.js')
+2014-10-30T21:05:07.872Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:05:07.879Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:05:44.021Z - info: Initialisation du serveur
+2014-10-30T21:05:44.036Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:05:44.041Z - info: require('./app\routes\club.js')
+2014-10-30T21:05:44.048Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:05:44.053Z - info: require('./app\routes\membre.js')
+2014-10-30T21:05:44.056Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:05:44.063Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:06:00.015Z - info: Initialisation du serveur
+2014-10-30T21:06:00.027Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:06:00.032Z - info: require('./app\routes\club.js')
+2014-10-30T21:06:00.037Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:06:00.040Z - info: require('./app\routes\membre.js')
+2014-10-30T21:06:00.043Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:06:00.051Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:06:38.029Z - info: Initialisation du serveur
+2014-10-30T21:06:38.039Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:06:38.043Z - info: require('./app\routes\club.js')
+2014-10-30T21:06:38.049Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:06:38.052Z - info: require('./app\routes\membre.js')
+2014-10-30T21:06:38.055Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:06:38.063Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:07:05.098Z - info: Initialisation du serveur
+2014-10-30T21:07:05.108Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:07:05.113Z - info: require('./app\routes\club.js')
+2014-10-30T21:07:05.118Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:07:05.121Z - info: require('./app\routes\membre.js')
+2014-10-30T21:07:05.124Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:07:05.132Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:07:20.613Z - info: Initialisation du serveur
+2014-10-30T21:07:20.622Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:07:20.627Z - info: require('./app\routes\club.js')
+2014-10-30T21:07:20.632Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:07:20.635Z - info: require('./app\routes\membre.js')
+2014-10-30T21:07:20.638Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:07:20.646Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:07:37.020Z - info: Initialisation du serveur
+2014-10-30T21:07:37.030Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:07:37.034Z - info: require('./app\routes\club.js')
+2014-10-30T21:07:37.039Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:07:37.042Z - info: require('./app\routes\membre.js')
+2014-10-30T21:07:37.045Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:07:37.053Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:08:26.132Z - info: Initialisation du serveur
+2014-10-30T21:08:26.142Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:08:26.147Z - info: require('./app\routes\club.js')
+2014-10-30T21:08:26.152Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:08:26.155Z - info: require('./app\routes\membre.js')
+2014-10-30T21:08:26.158Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:08:26.166Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:10:21.044Z - info: Initialisation du serveur
+2014-10-30T21:10:21.058Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:10:21.066Z - info: require('./app\routes\club.js')
+2014-10-30T21:10:21.074Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:10:21.078Z - info: require('./app\routes\membre.js')
+2014-10-30T21:10:21.082Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:10:21.091Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:22:13.816Z - info: Initialisation du serveur
+2014-10-30T21:22:13.827Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:22:13.831Z - info: require('./app\routes\club.js')
+2014-10-30T21:22:13.836Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:22:13.840Z - info: require('./app\routes\membre.js')
+2014-10-30T21:22:13.843Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:22:13.851Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:24:56.647Z - info: Initialisation du serveur
+2014-10-30T21:24:56.656Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:24:56.660Z - info: require('./app\routes\club.js')
+2014-10-30T21:24:56.665Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:24:56.668Z - info: require('./app\routes\membre.js')
+2014-10-30T21:24:56.671Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:24:56.679Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:31:52.119Z - info: Initialisation du serveur
+2014-10-30T21:31:52.129Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:31:52.133Z - info: require('./app\routes\club.js')
+2014-10-30T21:31:52.138Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:31:52.142Z - info: require('./app\routes\membre.js')
+2014-10-30T21:31:52.145Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:31:52.153Z - info: Serveur démarré sur le port 8080
+2014-10-30T21:32:14.549Z - info: Initialisation du serveur
+2014-10-30T21:32:14.560Z - info: require('./app\routes\categorie.js')
+2014-10-30T21:32:14.564Z - info: require('./app\routes\club.js')
+2014-10-30T21:32:14.569Z - info: require('./app\routes\equipe.js')
+2014-10-30T21:32:14.573Z - info: require('./app\routes\membre.js')
+2014-10-30T21:32:14.576Z - info: require('./app\routes\type_membre.js')
+2014-10-30T21:32:14.585Z - info: Serveur démarré sur le port 8080
+2014-10-30T22:01:50.974Z - info: Initialisation du serveur
+2014-10-30T22:01:50.984Z - info: require('./app\routes\categorie.js')
+2014-10-30T22:01:50.988Z - info: require('./app\routes\club.js')
+2014-10-30T22:01:50.994Z - info: require('./app\routes\equipe.js')
+2014-10-30T22:01:50.997Z - info: require('./app\routes\membre.js')
+2014-10-30T22:01:51.000Z - info: require('./app\routes\type_membre.js')
+2014-10-30T22:01:51.008Z - info: Serveur démarré sur le port 8080
+2014-10-30T22:02:32.450Z - info: Initialisation du serveur
+2014-10-30T22:02:32.460Z - info: require('./app\routes\categorie.js')
+2014-10-30T22:02:32.464Z - info: require('./app\routes\club.js')
+2014-10-30T22:02:32.469Z - info: require('./app\routes\equipe.js')
+2014-10-30T22:02:32.472Z - info: require('./app\routes\membre.js')
+2014-10-30T22:02:32.475Z - info: require('./app\routes\type_membre.js')
+2014-10-30T22:02:32.483Z - info: Serveur démarré sur le port 8080
+2014-10-30T22:14:53.718Z - info: Initialisation du serveur
+2014-10-30T22:14:53.727Z - info: require('./app\routes\categorie.js')
+2014-10-30T22:14:53.731Z - info: require('./app\routes\club.js')
+2014-10-30T22:14:53.736Z - info: require('./app\routes\equipe.js')
+2014-10-30T22:14:53.739Z - info: require('./app\routes\membre.js')
+2014-10-30T22:14:53.742Z - info: require('./app\routes\type_membre.js')
+2014-10-30T22:14:53.749Z - info: Serveur démarré sur le port 8080
+2014-10-30T22:15:13.026Z - info: Initialisation du serveur
+2014-10-30T22:15:13.036Z - info: require('./app\routes\categorie.js')
+2014-10-30T22:15:13.040Z - info: require('./app\routes\club.js')
+2014-10-30T22:15:13.045Z - info: require('./app\routes\equipe.js')
+2014-10-30T22:15:13.048Z - info: require('./app\routes\membre.js')
+2014-10-30T22:15:13.051Z - info: require('./app\routes\type_membre.js')
+2014-10-30T22:15:13.059Z - info: Serveur démarré sur le port 8080
+2014-10-30T22:15:41.275Z - info: Initialisation du serveur
+2014-10-30T22:15:41.285Z - info: require('./app\routes\categorie.js')
+2014-10-30T22:15:41.289Z - info: require('./app\routes\club.js')
+2014-10-30T22:15:41.294Z - info: require('./app\routes\equipe.js')
+2014-10-30T22:15:41.297Z - info: require('./app\routes\membre.js')
+2014-10-30T22:15:41.300Z - info: require('./app\routes\type_membre.js')
+2014-10-30T22:15:41.308Z - info: Serveur démarré sur le port 8080

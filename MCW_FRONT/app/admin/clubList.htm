@@ -9,13 +9,13 @@
              </tr>
             </thead>
             <tbody>
-                <tr dir-paginate="c in clubList | itemsPerPage: 10">
+                <tr dir-paginate="c in clubList | itemsPerPage: itemsPerPage" total-items="totalItems">
                     <td>{{c.nom}}</td>
                     <td>{{c.url[0]}}</td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <p class="text-center"> <dir-pagination-controls></dir-pagination-controls></p>
+    <p class="text-center"> <dir-pagination-controls on-page-change="pageChanged(newPageNumber)"></dir-pagination-controls></p>
 </div>
 
