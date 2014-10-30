@@ -2,30 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9547deab-625f-4090-8577-c07cc213d932" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view1\view1.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view1\view1.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view1\view1_test.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view2\view2.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view2\view2.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view2\view2_test.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewCalendrier\viewCalendrier.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewCalendrier\viewCalendrier.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewCalendrier\viewCalendrier_test.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewClub\viewClub.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewClub\viewClub.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewClub\viewClub_test.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewListClub\viewListClub.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewListClub\viewListClub.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewListClub\viewListClub_test.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewListEquipe\viewClub.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewListEquipe\viewClub.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewListEquipe\viewClub_test.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewListJoueur\viewClub.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewListJoueur\viewClub.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewListJoueur\viewClub_test.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewTest\viewTest.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewTest\viewTest.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\Perso\MCW\MCW_FRONT\view\viewTest\viewTest_test.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MCW.iws" />
@@ -141,6 +117,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MCW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MCW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MCW_FRONT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MCW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MCW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MCW_FRONT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -230,7 +246,11 @@
       <created>1414707898986</created>
       <updated>1414707898986</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="nettoyage">
+      <created>1414708123227</created>
+      <updated>1414708123227</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -275,7 +295,8 @@
     <MESSAGE value="gestion liste club" />
     <MESSAGE value="gestion liste club : pagination" />
     <MESSAGE value="nettoyage" />
-    <option name="LAST_COMMIT_MESSAGE" value="nettoyage" />
+    <MESSAGE value="service" />
+    <option name="LAST_COMMIT_MESSAGE" value="service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
