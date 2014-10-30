@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9547deab-625f-4090-8577-c07cc213d932" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCW_FRONT/app/archives/clubService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCW_FRONT/index.html" afterPath="$PROJECT_DIR$/MCW_FRONT/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MCW.iws" />
@@ -259,7 +257,11 @@
       <created>1414708312246</created>
       <updated>1414708312246</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="service">
+      <created>1414708389154</created>
+      <updated>1414708389154</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
