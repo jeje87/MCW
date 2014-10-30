@@ -6,9 +6,9 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My AngularJS App</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css"/>
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css"/>
   <link rel="stylesheet" href="app.css"/>
@@ -20,7 +20,10 @@
 <body>
   <ul class="menu">
     <li><a href="#/admin">Administration</a></li>
-    <li><a href="#/viewListClub">Gestion du Club</a></li>
+    <li><a href="#/viewListClub">Club</a></li>
+    <li><a href="#/viewListClub">Catégories</a></li>
+    <li><a href="#/viewListClub">Equipes</a></li>
+    <li><a href="#/viewListClub">Membres</a></li>
     <li><a href="#/viewCalendrier">Calendrier</a></li>
     <li><a href="#/viewTest">Test</a></li>
   </ul>
@@ -46,8 +49,9 @@
   <script src="components/ui.calendar/calendar.js"></script>
   <script src="app.js"></script>
   <script src="app/admin/clubListView.js"></script>
-  <script src="app/admin/clubListCtrl.js"></script>
-  <script src="app/Service/clubService.js"></script>
+  <script src="app/admin/clubListController.js"></script>
+  <script src="app/service/clubService.js"></script>
+  <script src="app/directive/pagination/dirPagination.js"></script>
   <script src="view/viewListClub/viewListClub.js"></script>
   <script src="view/viewCalendrier/viewCalendrier.js"></script>
   <script src="view/viewTest/viewTest.js"></script>

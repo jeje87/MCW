@@ -1,7 +1,21 @@
-Liste des clubs :
-
-
-    <ul>
-        <li ng-repeat="c in clubList">{{c.nom}} - {{c.url[0]}}</li>
-    </ul>
+<div class="container-fluid">
+    <h3>Liste des clubs :</h3>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+             <tr>
+                 <th>Libellé</th>
+                 <th>Url</th>
+             </tr>
+            </thead>
+            <tbody>
+                <tr dir-paginate="c in clubList | itemsPerPage: 10">
+                    <td>{{c.nom}}</td>
+                    <td>{{c.url[0]}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="text-center"> <dir-pagination-controls></dir-pagination-controls></p>
+</div>
 

@@ -251,7 +251,7 @@ function setupModuleLoader(window) {
            * @name angular.Module#value
            * @module ng
            * @param {string} name service name
-           * @param {*} object Service instance object.
+           * @param {*} object service instance object.
            * @description
            * See {@link auto.$provide#value $provide.value()}.
            */

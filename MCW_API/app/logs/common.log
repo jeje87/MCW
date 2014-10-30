@@ -697,3 +697,10 @@
 2014-10-22T20:46:50.795Z - info: require('./app\routes\membre.js')
 2014-10-22T20:46:50.825Z - info: require('./app\routes\type_membre.js')
 2014-10-22T20:46:50.845Z - info: Serveur démarré sur le port 8080
+2014-10-30T19:36:25.329Z - info: Initialisation du serveur
+2014-10-30T19:36:25.339Z - info: require('./app\routes\categorie.js')
+2014-10-30T19:36:25.430Z - info: require('./app\routes\club.js')
+2014-10-30T19:36:25.517Z - info: require('./app\routes\equipe.js')
+2014-10-30T19:36:25.589Z - info: require('./app\routes\membre.js')
+2014-10-30T19:36:26.014Z - info: require('./app\routes\type_membre.js')
+2014-10-30T19:36:26.089Z - info: Serveur démarré sur le port 8080

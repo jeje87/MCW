@@ -8,7 +8,8 @@ angular.module('myApp', [
   'clubList',
   'myApp.viewListClub',
   'myApp.viewCalendrier',
-  'myApp.viewTest'   
+  'myApp.viewTest',
+  'angularUtils.directives.dirPagination'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/admin'});
