@@ -28,3 +28,26 @@ var recursiveRoutes = function(folderName, router) {
 }
 
 module.exports.recursiveRoutes = recursiveRoutes;
+
+// recuperation generique paramètre requete
+var reqParam = function(request) {
+
+   this.page=1;
+   if (request.param('page') && !isNaN(request.param('page')))
+        this.page=parseInt(request.param('page'));
+
+   this.perPage=10;
+    if (request.param('perPage')  && !isNaN(request.param('perPage')))
+        this.perPage=parseInt(request.param('perPage'));
+
+   this.skip=(this.page-1)*this.perPage;
+
+   this.sortStr="";
+   if (request.param('sortStr'))
+        this.sortStr=request.param('sortStr');
+
+   return this;
+
+}
+
+module.exports.reqParam = reqParam;

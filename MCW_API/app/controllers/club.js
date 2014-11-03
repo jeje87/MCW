@@ -36,36 +36,25 @@ exports.getItems = function(req, res) {
         return;
     }*/
 
-    /*Club.find(function(err, clubs) {
-        if (err)
-            res.send(err);
-        else
-            res.json(clubs);
-    }); */
-
-    var perPage = Math.max(10, req.param('perPage')), page = Math.max(1, req.param('page'));
-
-    if(!perPage)
-        perPage = 10;
-    if(!page)
-        page = 1;
+    var reqParam = Tools.reqParam(req);
 
     Club.find()
         .select('nom ville urls')
-        .limit(perPage)
-        .skip(perPage * page)
+        .limit(reqParam.perPage)
+        .skip(reqParam.skip)
         .sort({
             nom: 'asc'
         })
+        .where("dateSuppression").equals(null)
         .exec(function(err, clubs) {
             Club.count().exec(function(err, count) {
                 if (err)
                     res.send(err);
                 else
-                    res.json('clubs', {
+                    res.json({
                         clubs: clubs,
-                        page: page,
-                        pages: Math.floor(count / perPage),
+                        page: reqParam.page,
+                        pages: Math.ceil(count / reqParam.perPage),
                         count: count
                     })
             })

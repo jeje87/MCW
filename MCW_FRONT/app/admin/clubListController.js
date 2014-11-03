@@ -10,7 +10,7 @@ angular.module('clubList').controller('clubListController',['$scope','clubServic
         current: 1
     };
 
-    getResultsPage(0);
+    getResultsPage(1);
 
     function getResultsPage(pageNumber) {
         clubService.getClubList(pageNumber,$scope.itemsPerPage).then(
