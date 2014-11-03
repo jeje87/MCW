@@ -46,6 +46,8 @@ var reqParam = function(request) {
    if (request.param('sortStr'))
         this.sortStr=request.param('sortStr');
 
+   this.regSearch=new RegExp(request.param('search'), 'i');
+
    return this;
 
 }

@@ -4,7 +4,7 @@ angular.module('clubList').service('clubService', ['$http',
 
         var self = this;
 
-        self.getClubList = function(page,perPage) {
+        self.getClubList = function(page,perPage,search) {
 
             var request = $http({
                 method: "get",
@@ -12,7 +12,8 @@ angular.module('clubList').service('clubService', ['$http',
                 params: {
                     action: "get",
                     page: page,
-                    perPage: perPage
+                    perPage: perPage,
+                    search: search
                 }
             });
 

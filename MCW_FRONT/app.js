@@ -5,6 +5,7 @@ angular.module('myApp', [
   'ngRoute',
   'ui.bootstrap',
   'ui.calendar',
+  'ui.select',
   'clubList',
   'angularUtils.directives.dirPagination'
 ]).

@@ -38,27 +38,37 @@ exports.getItems = function(req, res) {
 
     var reqParam = Tools.reqParam(req);
 
-    Club.find()
+    var query = Club.find()
         .select('nom ville urls')
         .limit(reqParam.perPage)
         .skip(reqParam.skip)
         .sort({
             nom: 'asc'
         })
-        .where("dateSuppression").equals(null)
-        .exec(function(err, clubs) {
-            Club.count().exec(function(err, count) {
-                if (err)
-                    res.send(err);
-                else
-                    res.json({
-                        clubs: clubs,
-                        page: reqParam.page,
-                        pages: Math.ceil(count / reqParam.perPage),
-                        count: count
-                    })
+        .where("dateSuppression").equals(null);
+
+    if (reqParam.regSearch)
+        query = query.where("nom").equals(reqParam.regSearch);
+
+    query.exec(function(err, clubs) {
+
+        query = Club.where("dateSuppression").equals(null);
+
+        if (reqParam.regSearch)
+            query = query.where("nom").equals(reqParam.regSearch);
+
+        query.count().exec(function(err, count) {
+        if (err)
+            res.send(err);
+        else
+            res.json({
+                clubs: clubs,
+                page: reqParam.page,
+                pages: Math.ceil(count / reqParam.perPage),
+                count: count
             })
-        });
+        })
+    });
 
 };
 

@@ -1139,3 +1139,145 @@
 2014-11-03T13:12:09.463Z - info: require('./app\routes\membre.js')
 2014-11-03T13:12:09.473Z - info: require('./app\routes\type_membre.js')
 2014-11-03T13:12:09.483Z - info: Serveur démarré sur le port 8080
+2014-11-03T20:10:05.613Z - info: Initialisation du serveur
+2014-11-03T20:10:05.629Z - info: require('./app\routes\categorie.js')
+2014-11-03T20:10:05.629Z - info: require('./app\routes\club.js')
+2014-11-03T20:10:05.629Z - info: require('./app\routes\equipe.js')
+2014-11-03T20:10:05.644Z - info: require('./app\routes\membre.js')
+2014-11-03T20:10:05.644Z - info: require('./app\routes\type_membre.js')
+2014-11-03T20:10:05.644Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:33:58.584Z - info: Initialisation du serveur
+2014-11-03T21:33:58.600Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:33:58.600Z - info: require('./app\routes\club.js')
+2014-11-03T21:33:58.600Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:33:58.615Z - info: require('./app\routes\membre.js')
+2014-11-03T21:33:58.615Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:33:58.615Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:35:02.859Z - info: Initialisation du serveur
+2014-11-03T21:35:02.859Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:35:02.874Z - info: require('./app\routes\club.js')
+2014-11-03T21:35:02.874Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:35:02.874Z - info: require('./app\routes\membre.js')
+2014-11-03T21:35:02.874Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:35:02.890Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:35:37.637Z - info: Initialisation du serveur
+2014-11-03T21:35:37.653Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:35:37.653Z - info: require('./app\routes\club.js')
+2014-11-03T21:35:37.653Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:35:37.668Z - info: require('./app\routes\membre.js')
+2014-11-03T21:35:37.668Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:35:37.668Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:36:05.788Z - info: Initialisation du serveur
+2014-11-03T21:36:05.788Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:36:05.804Z - info: require('./app\routes\club.js')
+2014-11-03T21:36:05.804Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:36:05.804Z - info: require('./app\routes\membre.js')
+2014-11-03T21:36:05.804Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:36:05.820Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:37:33.009Z - info: Initialisation du serveur
+2014-11-03T21:37:33.025Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:37:33.025Z - info: require('./app\routes\club.js')
+2014-11-03T21:37:33.025Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:37:33.040Z - info: require('./app\routes\membre.js')
+2014-11-03T21:37:33.040Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:37:33.040Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:41:04.212Z - info: Initialisation du serveur
+2014-11-03T21:41:04.227Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:41:04.227Z - info: require('./app\routes\club.js')
+2014-11-03T21:41:04.227Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:41:04.243Z - info: require('./app\routes\membre.js')
+2014-11-03T21:41:04.243Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:41:04.243Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:41:08.797Z - error: uncaughtException: count is not defined date=Mon Nov 03 2014 22:41:08 GMT+0100 (Paris, Madrid), pid=13380, uid=null, gid=null, cwd=D:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[node, D:\Perso\MCW\MCW_API\server.js], rss=37285888, heapTotal=29075456, heapUsed=18260920, loadavg=[0, 0, 0], uptime=45728.6031454, trace=[column=38, file=D:\Perso\MCW\MCW_API\app\controllers\club.js, function=, line=59, method=null, native=false, column=8, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=15, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\lib\promise.js, function=Promise.resolve, line=108, method=resolve, native=false, column=8, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false], stack=[ReferenceError: count is not defined,     at Promise.<anonymous> (D:\Perso\MCW\MCW_API\app\controllers\club.js:59:38),     at Promise.<anonymous> (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at Promise.resolve (D:\Perso\MCW\MCW_API\node_modules\mongoose\lib\promise.js:108:15),     at Promise.<anonymous> (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20)]
+2014-11-03T21:41:36.311Z - info: Initialisation du serveur
+2014-11-03T21:41:36.326Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:41:36.342Z - info: require('./app\routes\club.js')
+2014-11-03T21:41:36.342Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:41:36.342Z - info: require('./app\routes\membre.js')
+2014-11-03T21:41:36.342Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:41:36.357Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:41:37.875Z - error: uncaughtException: Property 'length' of object { _id: 544023bdc38ba8b81c00000e,
+  nom: 'Club 2014-10-16 21:59:56 +02:00_TestModif',
+  urls: [] },{ _id: 544024aec38ba8b81c00000f,
+  nom: 'Club 2014-10-16 22:03:57 +02:00_TestModif',
+  urls: [] },{ _id: 54402519c38ba8b81c000010,
+  nom: 'Club 2014-10-16 22:05:44 +02:00_TestModif',
+  urls: [] },{ _id: 54402540c38ba8b81c000011,
+  nom: 'Club 2014-10-16 22:06:23 +02:00_TestModif',
+  urls: [] },{ _id: 5440263fc38ba8b81c000012,
+  nom: 'Club 2014-10-16 22:10:37 +02:00_TestModif',
+  urls: [] },{ _id: 54402674795afe041600000c,
+  nom: 'Club 2014-10-16 22:11:31 +02:00_TestModif',
+  urls: [] },{ _id: 544026ee795afe041600000d,
+  nom: 'Club 2014-10-16 22:13:33 +02:00_TestModif',
+  urls: [] },{ _id: 5440339ab0ae15682500000c,
+  nom: 'Club 2014-10-16 23:07:36 +02:00_TestModif',
+  urls: [] },{ _id: 544033d4b0ae15682500000d,
+  nom: 'Club 2014-10-16 23:08:35 +02:00_TestModif',
+  urls: [] },{ _id: 54403485b0ae15682500000e,
+  nom: 'Club 2014-10-16 23:11:32 +02:00_TestModif',
+  urls: [] } is not a function date=Mon Nov 03 2014 22:41:37 GMT+0100 (Paris, Madrid), pid=13068, uid=null, gid=null, cwd=D:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[node, D:\Perso\MCW\MCW_API\server.js], rss=37314560, heapTotal=29075456, heapUsed=18261104, loadavg=[0, 0, 0], uptime=45757.6873421, trace=[column=44, file=D:\Perso\MCW\MCW_API\app\controllers\club.js, function=, line=59, method=null, native=false, column=8, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=15, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\lib\promise.js, function=Promise.resolve, line=108, method=resolve, native=false, column=8, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false], stack=[TypeError: Property 'length' of object { _id: 544023bdc38ba8b81c00000e,,   nom: 'Club 2014-10-16 21:59:56 +02:00_TestModif',,   urls: [] },{ _id: 544024aec38ba8b81c00000f,,   nom: 'Club 2014-10-16 22:03:57 +02:00_TestModif',,   urls: [] },{ _id: 54402519c38ba8b81c000010,,   nom: 'Club 2014-10-16 22:05:44 +02:00_TestModif',,   urls: [] },{ _id: 54402540c38ba8b81c000011,,   nom: 'Club 2014-10-16 22:06:23 +02:00_TestModif',,   urls: [] },{ _id: 5440263fc38ba8b81c000012,,   nom: 'Club 2014-10-16 22:10:37 +02:00_TestModif',,   urls: [] },{ _id: 54402674795afe041600000c,,   nom: 'Club 2014-10-16 22:11:31 +02:00_TestModif',,   urls: [] },{ _id: 544026ee795afe041600000d,,   nom: 'Club 2014-10-16 22:13:33 +02:00_TestModif',,   urls: [] },{ _id: 5440339ab0ae15682500000c,,   nom: 'Club 2014-10-16 23:07:36 +02:00_TestModif',,   urls: [] },{ _id: 544033d4b0ae15682500000d,,   nom: 'Club 2014-10-16 23:08:35 +02:00_TestModif',,   urls: [] },{ _id: 54403485b0ae15682500000e,,   nom: 'Club 2014-10-16 23:11:32 +02:00_TestModif',,   urls: [] } is not a function,     at Promise.<anonymous> (D:\Perso\MCW\MCW_API\app\controllers\club.js:59:44),     at Promise.<anonymous> (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at Promise.resolve (D:\Perso\MCW\MCW_API\node_modules\mongoose\lib\promise.js:108:15),     at Promise.<anonymous> (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20)]
+2014-11-03T21:42:17.862Z - info: Initialisation du serveur
+2014-11-03T21:42:17.862Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:42:17.862Z - info: require('./app\routes\club.js')
+2014-11-03T21:42:17.877Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:42:17.877Z - info: require('./app\routes\membre.js')
+2014-11-03T21:42:17.877Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:42:17.893Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:44:04.723Z - info: Initialisation du serveur
+2014-11-03T21:44:04.739Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:44:04.739Z - info: require('./app\routes\club.js')
+2014-11-03T21:44:04.739Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:44:04.755Z - info: require('./app\routes\membre.js')
+2014-11-03T21:44:04.755Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:44:04.755Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:47:37.826Z - info: Initialisation du serveur
+2014-11-03T21:47:37.826Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:47:37.826Z - info: require('./app\routes\club.js')
+2014-11-03T21:47:37.841Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:47:37.841Z - info: require('./app\routes\membre.js')
+2014-11-03T21:47:37.841Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:47:37.857Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:47:40.478Z - error: uncaughtException: regex is not defined date=Mon Nov 03 2014 22:47:40 GMT+0100 (Paris, Madrid), pid=9524, uid=null, gid=null, cwd=D:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[node, D:\Perso\MCW\MCW_API\server.js], rss=37277696, heapTotal=29075456, heapUsed=18227128, loadavg=[0, 0, 0], uptime=46120.3283526, trace=[column=38, file=D:\Perso\MCW\MCW_API\app\controllers\club.js, function=, line=52, method=null, native=false, column=8, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=15, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\lib\promise.js, function=Promise.resolve, line=108, method=resolve, native=false, column=8, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false], stack=[ReferenceError: regex is not defined,     at Promise.<anonymous> (D:\Perso\MCW\MCW_API\app\controllers\club.js:52:38),     at Promise.<anonymous> (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at Promise.resolve (D:\Perso\MCW\MCW_API\node_modules\mongoose\lib\promise.js:108:15),     at Promise.<anonymous> (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (D:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20)]
+2014-11-03T21:49:21.211Z - info: Initialisation du serveur
+2014-11-03T21:49:21.226Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:49:21.226Z - info: require('./app\routes\club.js')
+2014-11-03T21:49:21.242Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:49:21.242Z - info: require('./app\routes\membre.js')
+2014-11-03T21:49:21.242Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:49:21.257Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:49:50.437Z - info: Initialisation du serveur
+2014-11-03T21:49:50.453Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:49:50.453Z - info: require('./app\routes\club.js')
+2014-11-03T21:49:50.453Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:49:50.469Z - info: require('./app\routes\membre.js')
+2014-11-03T21:49:50.469Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:49:50.469Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:50:19.223Z - info: Initialisation du serveur
+2014-11-03T21:50:19.245Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:50:19.250Z - info: require('./app\routes\club.js')
+2014-11-03T21:50:19.255Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:50:19.260Z - info: require('./app\routes\membre.js')
+2014-11-03T21:50:19.264Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:50:19.274Z - info: Serveur démarré sur le port 8080
+2014-11-03T21:51:10.428Z - info: Initialisation du serveur
+2014-11-03T21:51:10.444Z - info: require('./app\routes\categorie.js')
+2014-11-03T21:51:10.444Z - info: require('./app\routes\club.js')
+2014-11-03T21:51:10.459Z - info: require('./app\routes\equipe.js')
+2014-11-03T21:51:10.459Z - info: require('./app\routes\membre.js')
+2014-11-03T21:51:10.459Z - info: require('./app\routes\type_membre.js')
+2014-11-03T21:51:10.476Z - info: Serveur démarré sur le port 8080
+2014-11-03T22:07:52.451Z - info: Initialisation du serveur
+2014-11-03T22:07:52.451Z - info: require('./app\routes\categorie.js')
+2014-11-03T22:07:52.466Z - info: require('./app\routes\club.js')
+2014-11-03T22:07:52.466Z - info: require('./app\routes\equipe.js')
+2014-11-03T22:07:52.466Z - info: require('./app\routes\membre.js')
+2014-11-03T22:07:52.466Z - info: require('./app\routes\type_membre.js')
+2014-11-03T22:07:52.482Z - info: Serveur démarré sur le port 8080
+2014-11-03T22:10:20.364Z - info: Initialisation du serveur
+2014-11-03T22:10:20.380Z - info: require('./app\routes\categorie.js')
+2014-11-03T22:10:20.380Z - info: require('./app\routes\club.js')
+2014-11-03T22:10:20.380Z - info: require('./app\routes\equipe.js')
+2014-11-03T22:10:20.380Z - info: require('./app\routes\membre.js')
+2014-11-03T22:10:20.396Z - info: require('./app\routes\type_membre.js')
+2014-11-03T22:10:20.396Z - info: Serveur démarré sur le port 8080
