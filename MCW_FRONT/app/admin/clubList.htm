@@ -1,18 +1,20 @@
 <div class="container-fluid">
-    <h3>Liste des clubs :</h3>
+    <h3>Liste  :</h3>
     <input type="text" ng-model="search" placeholder="Rechercher un club..."  class="input-large" ng-change="rechercherClub()">
     <div class="table-responsive">
-        <table class="table table-striped">
+        <table class="table table-striped table-hover">
             <thead>
              <tr>
                  <th>Libellé</th>
-                 <th>Url</th>
+                 <th>Description</th>
+                 <th>Ville</th>
              </tr>
             </thead>
             <tbody>
-                <tr dir-paginate="c in clubList | itemsPerPage: itemsPerPage" total-items="totalItems">
+                <tr dir-paginate="c in clubList | itemsPerPage: itemsPerPage" total-items="totalItems" ng-click="selectRow(c)" >
                     <td>{{c.nom}}</td>
-                    <td>{{c.url[0]}}</td>
+                    <td>{{c.description}}</td>
+                    <td>{{c.ville}}</td>
                 </tr>
             </tbody>
         </table>

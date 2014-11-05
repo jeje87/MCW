@@ -1281,3 +1281,62 @@
 2014-11-03T22:10:20.380Z - info: require('./app\routes\membre.js')
 2014-11-03T22:10:20.396Z - info: require('./app\routes\type_membre.js')
 2014-11-03T22:10:20.396Z - info: Serveur démarré sur le port 8080
+2014-11-04T12:33:16.538Z - info: Initialisation du serveur
+2014-11-04T12:33:16.555Z - info: require('./app\routes\categorie.js')
+2014-11-04T12:33:16.584Z - info: require('./app\routes\club.js')
+2014-11-04T12:33:16.692Z - info: require('./app\routes\equipe.js')
+2014-11-04T12:33:16.729Z - info: require('./app\routes\membre.js')
+2014-11-04T12:33:16.744Z - info: require('./app\routes\type_membre.js')
+2014-11-04T12:33:16.773Z - info: Serveur démarré sur le port 8080
+2014-11-04T12:34:33.803Z - info: Initialisation du serveur
+2014-11-04T12:34:33.814Z - info: require('./app\routes\categorie.js')
+2014-11-04T12:34:33.819Z - info: require('./app\routes\club.js')
+2014-11-04T12:34:33.824Z - info: require('./app\routes\equipe.js')
+2014-11-04T12:34:33.828Z - info: require('./app\routes\membre.js')
+2014-11-04T12:34:33.831Z - info: require('./app\routes\type_membre.js')
+2014-11-04T12:34:33.840Z - info: Serveur démarré sur le port 8080
+2014-11-04T17:14:49.186Z - info: Initialisation du serveur
+2014-11-04T17:14:49.197Z - info: require('./app\routes\categorie.js')
+2014-11-04T17:14:49.202Z - info: require('./app\routes\club.js')
+2014-11-04T17:14:49.207Z - info: require('./app\routes\equipe.js')
+2014-11-04T17:14:49.211Z - info: require('./app\routes\membre.js')
+2014-11-04T17:14:49.214Z - info: require('./app\routes\type_membre.js')
+2014-11-04T17:14:49.222Z - info: Serveur démarré sur le port 8080
+2014-11-05T18:50:19.595Z - info: Initialisation du serveur
+2014-11-05T18:50:19.606Z - info: require('./app\routes\categorie.js')
+2014-11-05T18:50:19.611Z - info: require('./app\routes\club.js')
+2014-11-05T18:50:19.617Z - info: require('./app\routes\equipe.js')
+2014-11-05T18:50:19.621Z - info: require('./app\routes\membre.js')
+2014-11-05T18:50:19.625Z - info: require('./app\routes\type_membre.js')
+2014-11-05T18:50:19.632Z - info: Serveur démarré sur le port 8080
+2014-11-05T20:49:51.847Z - info: Initialisation du serveur
+2014-11-05T20:49:51.856Z - info: require('./app\routes\categorie.js')
+2014-11-05T20:49:51.861Z - info: require('./app\routes\club.js')
+2014-11-05T20:49:51.868Z - info: require('./app\routes\equipe.js')
+2014-11-05T20:49:51.871Z - info: require('./app\routes\membre.js')
+2014-11-05T20:49:51.874Z - info: require('./app\routes\type_membre.js')
+2014-11-05T20:49:51.881Z - info: Serveur démarré sur le port 8080
+2014-11-05T20:49:56.386Z - error: uncaughtException: Cannot read property 'droit' of undefined date=Wed Nov 05 2014 21:49:56 GMT+0100 (Paris, Madrid), pid=2332, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=36876288, heapTotal=29075456, heapUsed=17811720, loadavg=[0, 0, 0], uptime=120434.658751, trace=[column=33, file=d:\Perso\MCW\MCW_API\app\controllers\club.js, function=, line=91, method=null, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=13, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1833, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js, function=model.Document.init, line=251, method=Document.init, native=false, column=10, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=completeOne, line=1831, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1799, method=null, native=false, column=16, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js, function=null, line=414, method=null, native=false], stack=[TypeError: Cannot read property 'droit' of undefined,     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\club.js:91:33),     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1833:13,     at model.Document.init (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js:251:11),     at completeOne (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1831:10),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1799:11,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js:414:16]
+2014-11-05T20:52:35.162Z - info: Initialisation du serveur
+2014-11-05T20:52:35.171Z - info: require('./app\routes\categorie.js')
+2014-11-05T20:52:35.175Z - info: require('./app\routes\club.js')
+2014-11-05T20:52:35.180Z - info: require('./app\routes\equipe.js')
+2014-11-05T20:52:35.183Z - info: require('./app\routes\membre.js')
+2014-11-05T20:52:35.186Z - info: require('./app\routes\type_membre.js')
+2014-11-05T20:52:35.193Z - info: Serveur démarré sur le port 8080
+2014-11-05T20:52:40.324Z - error: uncaughtException: Cannot read property 'droit' of undefined date=Wed Nov 05 2014 21:52:40 GMT+0100 (Paris, Madrid), pid=8808, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=36900864, heapTotal=29075456, heapUsed=17812000, loadavg=[0, 0, 0], uptime=120598.60571, trace=[column=33, file=d:\Perso\MCW\MCW_API\app\controllers\club.js, function=, line=91, method=null, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=13, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1833, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js, function=model.Document.init, line=251, method=Document.init, native=false, column=10, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=completeOne, line=1831, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1799, method=null, native=false, column=16, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js, function=null, line=414, method=null, native=false], stack=[TypeError: Cannot read property 'droit' of undefined,     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\club.js:91:33),     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1833:13,     at model.Document.init (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js:251:11),     at completeOne (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1831:10),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1799:11,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js:414:16]
+2014-11-05T20:53:16.867Z - info: Initialisation du serveur
+2014-11-05T20:53:16.877Z - info: require('./app\routes\categorie.js')
+2014-11-05T20:53:16.881Z - info: require('./app\routes\club.js')
+2014-11-05T20:53:16.886Z - info: require('./app\routes\equipe.js')
+2014-11-05T20:53:16.889Z - info: require('./app\routes\membre.js')
+2014-11-05T20:53:16.893Z - info: require('./app\routes\type_membre.js')
+2014-11-05T20:53:16.900Z - info: Serveur démarré sur le port 8080
+2014-11-05T20:53:20.155Z - error: uncaughtException: Cannot read property 'droit' of undefined date=Wed Nov 05 2014 21:53:20 GMT+0100 (Paris, Madrid), pid=13488, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=37203968, heapTotal=29075456, heapUsed=18102080, loadavg=[0, 0, 0], uptime=120638.4339794, trace=[column=33, file=d:\Perso\MCW\MCW_API\app\controllers\club.js, function=, line=91, method=null, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=13, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1833, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js, function=model.Document.init, line=251, method=Document.init, native=false, column=10, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=completeOne, line=1831, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1799, method=null, native=false, column=16, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js, function=null, line=414, method=null, native=false], stack=[TypeError: Cannot read property 'droit' of undefined,     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\club.js:91:33),     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1833:13,     at model.Document.init (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js:251:11),     at completeOne (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1831:10),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1799:11,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js:414:16]
+2014-11-05T20:53:55.491Z - info: Initialisation du serveur
+2014-11-05T20:53:55.501Z - info: require('./app\routes\categorie.js')
+2014-11-05T20:53:55.505Z - info: require('./app\routes\club.js')
+2014-11-05T20:53:55.510Z - info: require('./app\routes\equipe.js')
+2014-11-05T20:53:55.514Z - info: require('./app\routes\membre.js')
+2014-11-05T20:53:55.517Z - info: require('./app\routes\type_membre.js')
+2014-11-05T20:53:55.524Z - info: Serveur démarré sur le port 8080

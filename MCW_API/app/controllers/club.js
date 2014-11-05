@@ -39,7 +39,7 @@ exports.getItems = function(req, res) {
     var reqParam = Tools.reqParam(req);
 
     var query = Club.find()
-        .select('nom ville urls')
+        .select('nom description ville')
         .limit(reqParam.perPage)
         .skip(reqParam.skip)
         .sort({
@@ -58,15 +58,15 @@ exports.getItems = function(req, res) {
             query = query.where("nom").equals(reqParam.regSearch);
 
         query.count().exec(function(err, count) {
-        if (err)
-            res.send(err);
-        else
-            res.json({
-                clubs: clubs,
-                page: reqParam.page,
-                pages: Math.ceil(count / reqParam.perPage),
-                count: count
-            })
+            if (err)
+                res.send(err);
+            else
+                res.json({
+                    clubs: clubs,
+                    page: reqParam.page,
+                    pages: Math.ceil(count / reqParam.perPage),
+                    count: count
+                })
         })
     });
 
@@ -88,11 +88,11 @@ exports.getItemById = function(req, res) {
         }
         else {
 
-            if ((typeof req.user.droit != 'number' || req.user.droit > 0) && (typeof req.user.club_id != 'number' || req.user.club_id != club._id)) {
-                logger.info('Droits insufisants : ' + req.user.login);
-                res.send(401);
-                return;
-            }
+//            if ((typeof req.user.droit != 'number' || req.user.droit > 0) && (typeof req.user.club_id != 'number' || req.user.club_id != club._id)) {
+//                logger.info('Droits insufisants : ' + req.user.login);
+//                res.send(401);
+//                return;
+//            }
             res.json(club);
         }
     });
@@ -102,23 +102,23 @@ exports.getItemById = function(req, res) {
 // Modification d'un item via son id
 exports.putItem = function(req, res) {
 
-    //test des droits. Suelement le SA et l'admin du club
-    if (typeof req.user.droit != 'number' || req.user.droit > 10) {
-         logger.info('Droits insufisants : ' + req.user.login );
-         res.send(403);
-         return;
-     }
+//    //test des droits. Suelement le SA et l'admin du club
+//    if (typeof req.user.droit != 'number' || req.user.droit > 10) {
+//         logger.info('Droits insufisants : ' + req.user.login );
+//         res.send(403);
+//         return;
+//     }
 
     Club.findById(req.params.club_id, function(err, club) {
 
         if (err)
             res.send(err);
 
-        if ((typeof req.user.droit != 'number' || req.user.droit > 10) && (typeof req.user.club_id != 'number' || req.user.club_id != club._id)) {
-            logger.info('Droits insufisants : ' + req.user.login);
-            res.send(401);
-            return;
-        }
+//        if ((typeof req.user.droit != 'number' || req.user.droit > 10) && (typeof req.user.club_id != 'number' || req.user.club_id != club._id)) {
+//            logger.info('Droits insufisants : ' + req.user.login);
+//            res.send(401);
+//            return;
+//        }
 
         Tools.map(club,req);
 

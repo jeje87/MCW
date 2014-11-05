@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('clubList').controller('clubListController',['$scope','clubService', function($scope,clubService) {
+angular.module('clubList').controller('clubListController',['$scope','$location','clubService', function($scope,$location,clubService) {
 
     $scope.clubList = [];
     $scope.totalItems = 0;
@@ -32,6 +32,10 @@ angular.module('clubList').controller('clubListController',['$scope','clubServic
             getResultsPage(1,$scope.search);
         else if ($scope.search.length===0)
             getResultsPage(1);
+    };
+
+    $scope.selectRow = function(club) {
+        $location.path("/club/"+club._id);
     };
 
 }]);

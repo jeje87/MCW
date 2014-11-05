@@ -3,17 +3,31 @@ angular.module('clubList').service('clubService', ['$http',
     function($http) {
 
         var self = this;
+        self.apiUrl = "http://localhost:8080/api/"
 
         self.getClubList = function(page,perPage,search) {
 
             var request = $http({
                 method: "get",
-                url: "http://localhost:8080/api/clubs",
+                url: self.apiUrl + "clubs",
                 params: {
                     action: "get",
                     page: page,
                     perPage: perPage,
                     search: search
+                }
+            });
+
+            return( request.then( self.handleSuccess, self.handleError ) );
+        };
+
+        self.getClub = function(club_id) {
+
+            var request = $http({
+                method: "get",
+                url: self.apiUrl +"clubs/"+club_id,
+                params: {
+                    action: "get"
                 }
             });
 

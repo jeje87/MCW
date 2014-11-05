@@ -32,3 +32,53 @@ body
 {
  
 }
+
+.table-hover tbody tr:hover td
+{
+    background-color: #ffef9c !important;
+    cursor: pointer;
+}
+
+.div-menu{
+    display:block;
+    width:100%;
+
+}
+.view-animate{
+    display:block;
+    width:100%;
+
+    position:absolute;
+    top:30px;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+
+.view-animate.ng-enter, .view-animate.ng-leave {
+    -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s;
+
+    display:block;
+    width:100%;
+    /*border-left:1px solid black;*/
+
+    position:absolute;
+    top:30px;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.view-animate.ng-enter {
+    left:100%;
+}
+.view-animate.ng-enter.ng-enter-active {
+    left:0;
+}
+.view-animate.ng-leave.ng-leave-active {
+    left:-100%;
+}
+
+

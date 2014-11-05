@@ -13,7 +13,8 @@ module.exports = function(router) {
 
     router.route('/clubs/:club_id')
     // Sélection d'un item via son id
-	.get(AuthController.isAuthenticated, ClubControler.getItemById)
+	//.get(AuthController.isAuthenticated, ClubControler.getItemById)
+    .get(ClubControler.getItemById)
     // Modification d'un item via son id
     .put(AuthController.isAuthenticated, ClubControler.putItem)
     // Suppression d'un item via son id
