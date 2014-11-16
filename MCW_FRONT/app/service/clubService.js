@@ -1,6 +1,8 @@
 
-angular.module('clubList').service('clubService', ['$http',
-    function($http) {
+angular.module('clubList').service('clubService', ['$http','$q',
+    function($http,$q) {
+
+        $http.defaults.headers.common.Authorization = 'Basic U3VwZXJBZG1pbjpzYTE4OTc4MTM7'
 
         var self = this;
         self.apiUrl = "http://localhost:8080/api/"
@@ -29,6 +31,20 @@ angular.module('clubList').service('clubService', ['$http',
                 params: {
                     action: "get"
                 }
+            });
+
+            return( request.then( self.handleSuccess, self.handleError ) );
+        };
+
+
+        self.saveClub = function(club) {
+
+            alert(club._id);
+            var request = $http({
+                method: "put",
+                url: self.apiUrl +"clubs/"+club._id,
+                data: club
+
             });
 
             return( request.then( self.handleSuccess, self.handleError ) );

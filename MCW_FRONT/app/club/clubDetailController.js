@@ -12,5 +12,19 @@ angular.module('clubDetail').controller('clubDetailController',['$scope','$route
         );
     }
 
+    $scope.delete  = function() {};
+    $scope.add = function() {};
+    $scope.copy  = function() {};
+    $scope.save  = function() {
+        clubService.saveClub($scope.club).then(
+        function(data) {
+            $scope.club = data;
+        }
+        ).then(null, function (error) {
+                alert(error);
+        });
+     ;};
+
     init();
+
 }]);
