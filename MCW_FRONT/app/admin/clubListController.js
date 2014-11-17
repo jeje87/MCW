@@ -1,20 +1,21 @@
 'use strict';
 
-angular.module('clubList').controller('clubListController',['$scope','$location','clubService', function($scope,$location,clubService) {
+angular.module('clubList').controller('clubListController',['$scope','$location','clubService','clubListStateService', function($scope,$location, clubService, clubListStateService) {
 
     $scope.clubList = [];
     $scope.totalItems = 0;
     $scope.itemsPerPage = 10;
-    $scope.search = '';
+    $scope.state=clubListStateService;
 
-    $scope.pagination = {
-        current: 1
-    };
+    function init() {
+        if (!clubListStateService.currentPage)
+            clubListStateService.currentPage=1;
+        getResultsPage(clubListStateService.currentPage,clubListStateService.search);
+    }
 
-    getResultsPage($scope.pagination.current);
+    init();
 
     function getResultsPage(pageNumber, search) {
-        $scope.pagination.current=1;
         clubService.getClubList(pageNumber,$scope.itemsPerPage, search).then(
             function(data) {
                 $scope.clubList = data.clubs;
@@ -24,19 +25,22 @@ angular.module('clubList').controller('clubListController',['$scope','$location'
     }
 
     $scope.pageChanged = function(newPage) {
-        getResultsPage(newPage,$scope.search);
+        getResultsPage(newPage,clubListStateService.search);
+        clubListStateService.currentPage=newPage;
     };
 
     $scope.rechercherClub = function() {
-        if ($scope.search.length>2)
-            getResultsPage(1,$scope.search);
-        else if ($scope.search.length===0)
+        if (clubListStateService.search.length>2)
+            getResultsPage(1,clubListStateService.search);
+        else if (clubListStateService.search.length===0)
             getResultsPage(1);
     };
 
     $scope.selectRow = function(club) {
+        clubListStateService.idSelected=club._id;
         $location.path("/club/"+club._id);
     };
+
 
 }]);
 

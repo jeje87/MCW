@@ -39,7 +39,6 @@ angular.module('clubList').service('clubService', ['$http','$q',
 
         self.saveClub = function(club) {
 
-            alert(club._id);
             var request = $http({
                 method: "put",
                 url: self.apiUrl +"clubs/"+club._id,

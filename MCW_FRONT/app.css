@@ -36,6 +36,7 @@ body
 .table-hover tbody tr:hover td
 {
     background-color: #ffef9c !important;
+    color: #000000;
     cursor: pointer;
 }
 
@@ -79,6 +80,16 @@ body
 }
 .view-animate.ng-leave.ng-leave-active {
     left:-100%;
+}
+
+.selected td
+{
+    background-color: #428bca !important;
+    color: #ffffff;
+}
+
+.header {
+    margin-top:20px;
 }
 
 

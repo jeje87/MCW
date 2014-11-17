@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('clubDetail').controller('clubDetailController',['$scope','$routeParams','clubService', function($scope,$routeParams,clubService) {
+angular.module('clubDetail').controller('clubDetailController',['$scope','$routeParams','$location','clubService', function($scope,$routeParams,$location,clubService) {
 
     var club_id=$routeParams.club_id;
 
@@ -15,6 +15,11 @@ angular.module('clubDetail').controller('clubDetailController',['$scope','$route
     $scope.delete  = function() {};
     $scope.add = function() {};
     $scope.copy  = function() {};
+
+    $scope.back  = function() {
+        $location.path("/admin/");
+    };
+
     $scope.save  = function() {
         clubService.saveClub($scope.club).then(
         function(data) {
