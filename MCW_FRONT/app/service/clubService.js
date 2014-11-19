@@ -39,12 +39,32 @@ angular.module('clubList').service('clubService', ['$http','$q',
 
         self.saveClub = function(club) {
 
-            var request = $http({
-                method: "put",
-                url: self.apiUrl +"clubs/"+club._id,
-                data: club
+            var request;
+            if (club._id) {
+                request = $http({
+                    method: "put",
+                    url: self.apiUrl + "clubs/" + club._id,
+                    data: club
 
-            });
+                })
+            }
+            else {
+                request = $http({
+                    method: "post",
+                    url: self.apiUrl + "clubs/",
+                    data: club
+                })
+            }
+
+            return( request.then( self.handleSuccess, self.handleError ) );
+        };
+
+        self.deleteClub = function(club) {
+
+            var request = $http({
+                method: "delete",
+                url: self.apiUrl +"clubs/"+club._id,
+             });
 
             return( request.then( self.handleSuccess, self.handleError ) );
         };

@@ -1174,7 +1174,7 @@ $.extend(Datepicker.prototype, {
 					throw "Unknown name at position " + iValue;
 				}
 			},
-			// Confirm that a literal character matches the string value
+			// confirm that a literal character matches the string value
 			checkLiteral = function() {
 				if (value.charAt(iValue) !== format.charAt(iFormat)) {
 					throw "Unexpected literal at position " + iValue;

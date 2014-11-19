@@ -4,12 +4,13 @@
 angular.module('myApp', [
   'ngRoute',
   'ui.bootstrap',
-  'ui.calendar',
+//  'ui.calendar',
   'ui.select',
   'ngAnimate',
   'clubList',
   'clubDetail',
-  'angularUtils.directives.dirPagination'
+  'angularUtils.directives.dirPagination',
+  'angularModalService'
 ]).
 config(['$routeProvider', function($routeProvider) {
         $routeProvider
@@ -18,6 +19,10 @@ config(['$routeProvider', function($routeProvider) {
             controller: 'clubListController'
         })
         .when('/club/:club_id', {
+            templateUrl: 'app/club/clubDetail.htm',
+            controller: 'clubDetailController'
+        })
+        .when('/club/', {
             templateUrl: 'app/club/clubDetail.htm',
             controller: 'clubDetailController'
         })

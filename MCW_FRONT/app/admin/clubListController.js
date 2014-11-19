@@ -41,6 +41,9 @@ angular.module('clubList').controller('clubListController',['$scope','$location'
         $location.path("/club/"+club._id);
     };
 
+    $scope.add = function() {
+        $location.path("/club/");
+    };
 
 }]);
 
