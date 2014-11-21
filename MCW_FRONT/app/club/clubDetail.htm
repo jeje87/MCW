@@ -58,7 +58,7 @@
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-8">
                 <input type="submit" class="btn btn-default" value="Retour" ng_click="back()" ng-disabled=""/>
-                <input type="submit" class="btn btn-danger" value="Supprimer" ng_click="confirmClick() && delete()" ng-disabled="mode == 'Ajout'" confirm-click/>
+                <input type="submit" class="btn btn-danger" value="Supprimer" ng_click="delete()" ng-disabled="mode == 'Ajout'"/>
                 <input type="submit" class="btn btn-primary" value="Nouveau" ng_click="add()" ng-disabled="mode == 'Ajout'"/>
                 <input type="submit" class="btn btn-primary" value="Copier" ng_click="copy()" ng-disabled="mode == 'Ajout'"/>
                 <input type="submit" class="btn btn-warning" value="Enregistrer" ng_click="save()" ng-disabled=""/>

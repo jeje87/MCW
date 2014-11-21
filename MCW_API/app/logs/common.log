@@ -2256,3 +2256,93 @@
 2014-11-19T22:14:20.728Z - info: Authentification OK pour SuperAdmin
 2014-11-19T22:14:48.279Z - info: Authentification OK pour SuperAdmin
 2014-11-19T22:18:49.316Z - info: Authentification OK pour SuperAdmin
+2014-11-20T20:31:40.441Z - info: Initialisation du serveur
+2014-11-20T20:31:40.467Z - info: require('./app\routes\categorie.js')
+2014-11-20T20:31:40.495Z - info: require('./app\routes\club.js')
+2014-11-20T20:31:40.512Z - info: require('./app\routes\equipe.js')
+2014-11-20T20:31:40.528Z - info: require('./app\routes\membre.js')
+2014-11-20T20:31:40.545Z - info: require('./app\routes\type_membre.js')
+2014-11-20T20:31:40.585Z - info: Serveur démarré sur le port 8080
+2014-11-20T20:32:19.870Z - info: Authentification OK pour SuperAdmin
+2014-11-20T20:32:31.848Z - info: Authentification OK pour SuperAdmin
+2014-11-20T20:33:58.560Z - info: Authentification OK pour SuperAdmin
+2014-11-20T20:34:35.710Z - info: Authentification OK pour SuperAdmin
+2014-11-20T20:34:36.972Z - info: Authentification OK pour SuperAdmin
+2014-11-20T20:35:21.134Z - info: Authentification OK pour SuperAdmin
+2014-11-20T20:35:55.399Z - info: Authentification OK pour SuperAdmin
+2014-11-20T20:45:17.060Z - info: Authentification OK pour SuperAdmin
+2014-11-20T21:08:27.774Z - info: Authentification OK pour SuperAdmin
+2014-11-20T21:08:29.418Z - info: Authentification OK pour SuperAdmin
+2014-11-20T21:08:30.386Z - info: Authentification OK pour SuperAdmin
+2014-11-20T21:08:31.449Z - info: Authentification OK pour SuperAdmin
+2014-11-20T21:08:32.942Z - info: Authentification OK pour SuperAdmin
+2014-11-20T21:08:34.487Z - info: Authentification OK pour SuperAdmin
+2014-11-20T21:08:53.152Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:35:44.475Z - info: Initialisation du serveur
+2014-11-21T20:35:44.484Z - info: require('./app\routes\categorie.js')
+2014-11-21T20:35:44.488Z - info: require('./app\routes\club.js')
+2014-11-21T20:35:44.492Z - info: require('./app\routes\equipe.js')
+2014-11-21T20:35:44.495Z - info: require('./app\routes\membre.js')
+2014-11-21T20:35:44.498Z - info: require('./app\routes\type_membre.js')
+2014-11-21T20:35:44.506Z - info: Serveur démarré sur le port 8080
+2014-11-21T20:35:48.071Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:35:51.455Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:36:21.953Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:36:36.745Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:38:11.144Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:38:27.170Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:38:46.760Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:39:39.809Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:39:42.598Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:40:53.756Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:41:24.824Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:42:38.126Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:45:43.835Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:46:17.732Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:47:09.168Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:47:55.734Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:48:49.385Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:49:53.278Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:51:03.282Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:53:13.627Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:53:23.292Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:53:25.348Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:53:44.597Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:54:53.969Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:54:59.093Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:55:53.762Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:57:39.971Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:58:51.675Z - info: Authentification OK pour SuperAdmin
+2014-11-21T20:59:18.955Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:00:32.595Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:00:49.318Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:16:47.039Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:19:00.823Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:19:16.121Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:19:30.811Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:20:02.729Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:20:21.634Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:22:01.539Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:22:06.836Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:22:07.205Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:22:09.361Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:22:11.148Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:23:17.900Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:24:42.620Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:24:51.658Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:24:52.017Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:24:53.700Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:25:17.695Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:25:20.515Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:25:30.384Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:25:32.246Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:25:33.937Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:25:35.776Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:25:54.867Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:26:01.532Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:26:03.858Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:26:06.384Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:26:09.776Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:26:12.040Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:26:34.464Z - info: Authentification OK pour SuperAdmin
+2014-11-21T21:26:35.958Z - info: Authentification OK pour SuperAdmin

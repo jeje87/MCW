@@ -10,7 +10,7 @@ angular.module('myApp', [
   'clubList',
   'clubDetail',
   'angularUtils.directives.dirPagination',
-  'angularModalService'
+  'ngDialog'
 ]).
 config(['$routeProvider', function($routeProvider) {
         $routeProvider

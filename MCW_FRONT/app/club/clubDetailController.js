@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('clubDetail').controller('clubDetailController',['$scope','$routeParams','$location','clubService','ModalService', function($scope,$routeParams,$location,clubService,ModalService) {
+angular.module('clubDetail').controller('clubDetailController',['$scope','$routeParams','$location','clubService','ngDialog', function($scope,$routeParams,$location,clubService,ngDialog) {
 
     var club_id=$routeParams.club_id;
     if (club_id)
@@ -19,35 +19,36 @@ angular.module('clubDetail').controller('clubDetailController',['$scope','$route
     }
 
     $scope.delete  = function() {
-        clubService.deleteClub($scope.club).then(
-            function(data) {
-                if(data.message==="OK"){
-                    backToList();
-                }
-                else {
-                    alert(data.message);
-                }
+
+        ngDialog.open({
+            template: 'app/modal/confirm.html',
+            className: 'ngdialog-theme-plain',
+            controller: ['$scope', function($scope) {
+                // controller logic
+            }]
+        })
+        .closePromise.then(function (data) {
+            if(data.value==="1") {
+                clubService.deleteClub($scope.club).then(
+                    function(data) {
+                        if(data.message==="OK"){
+                            backToList();
+                        }
+                        else {
+                            alert(data.message);
+                        }
+                    }
+                ).then(null, function (error) {
+                        alert(error);
+                });
             }
-        ).then(null, function (error) {
-                alert(error);
         });
+
     };
 
     $scope.add = function() {
         $scope.mode = "Ajout";
         $scope.club=null;
-
-        ModalService.showModal({
-            templateUrl: "app/modal/confirm.html",
-            controller: "ModalController"
-        }).then(function(modal) {
-
-            //it's a bootstrap element, use 'modal' to show it
-            modal.element.modal();
-            modal.close.then(function(result) {
-                console.log(result);
-            });
-        });
 
     };
 
