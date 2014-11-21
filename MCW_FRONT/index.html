@@ -22,18 +22,10 @@
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
 
 </head>
-<body>
-<div class="div-menu">
-  <ul class="menu">
-    <li><a href="#/admin">Administration</a></li>
-    <li><a href="#/viewListClub">Club</a></li>
-    <li><a href="#/viewListClub">Catégories</a></li>
-    <li><a href="#/viewListClub">Equipes</a></li>
-    <li><a href="#/viewListClub">Membres</a></li>
-    <li><a href="#/viewCalendrier">Calendrier</a></li>
-    <li><a href="#/viewTest">Test</a></li>
-  </ul>
-  </div>
+<body ng-app='myApp' ng-controller='navbarDirectiveTestCtrl'>
+<!-- Here's the "Angled Navbar" directive in use -->
+<angled-navbar affixed='affixed' brand='brand' inverse='inverse' menus='menus' navfn='navfn(action)' search='search' searchfn='searchfn()'></angled-navbar>
+<!-- /angled-navbar -->
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -51,11 +43,14 @@
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-animate/angular-animate.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script> 
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+  <script src="bower_components/bootstrap-css/js/bootstrap.js"></script>
   <!--<script src="bower_components/fullcalendar/dist/fullcalendar.js"></script>-->
   <!--<script src="bower_components/fullcalendar/dist/gcal.js"></script>-->
   <script src="bower_components/angular-ui-select/dist/select.min.js"></script>
-<script src="bower_components/ngDialog/js/ngDialog.min.js"></script>
+  <script src="bower_components/ngDialog/js/ngDialog.min.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+
   <!--<script src="bower_components/angular-modal-service/dst/angular-modal-service.min.js"></script>-->
   
   <!--<script src="components/ui.calendar/calendar.js"></script>-->
@@ -64,12 +59,14 @@
   <!--<script src="components/version/interpolate-filter.js"></script>-->
 
     <script src="app.js"></script>
+    <script src="index.js"></script>
     <script src="app/admin/clubListView.js"></script>
     <script src="app/admin/clubListController.js"></script>
     <script src="app/service/clubService.js"></script>
     <script src="app/club/clubDetailView.js"></script>
     <script src="app/club/clubDetailController.js"></script>
     <script src="app/directive/pagination/dirPagination.js"></script>
+    <script src="app/directive/navbar/navbar.js"></script>
 
     <script src="app/factory/httpInterceptor.js"></script>
     <script src="app/service/clubListStateService.js"></script>

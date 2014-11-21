@@ -10,6 +10,8 @@ angular.module('myApp', [
   'clubList',
   'clubDetail',
   'angularUtils.directives.dirPagination',
+  'ngSanitize',
+  'angledNavbar',
   'ngDialog'
 ]).
 config(['$routeProvider', function($routeProvider) {
