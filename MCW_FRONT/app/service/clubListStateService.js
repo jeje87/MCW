@@ -1,4 +1,4 @@
-angular.module('clubList').service('clubListStateService', ['$http','$q','$rootScope',
+angular.module('myApp').service('clubListStateService', ['$http','$q','$rootScope',
     function($http,$q,$rootScope) {
 
         var search="";

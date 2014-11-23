@@ -3,10 +3,10 @@ angular.module('myApp').controller('navbarDirectiveTestCtrl',['$scope','$locatio
 
     $scope.affixed = 'top';
     $scope.search = {
-        show : true,
+        show : false,
         terms : ''
     };
-    $scope.brand = "<span class='glyphicon glyphicon-user'></span> MyClub";
+    $scope.brand = "<span class='glyphicon glyphicon-user'></span> MonClub";
     $scope.inverse = true;
     $scope.menus = [
         {
@@ -49,8 +49,8 @@ angular.module('myApp').controller('navbarDirectiveTestCtrl',['$scope','$locatio
         for (var menuItem in $scope.menus){
             $scope.menus[menuItem].isSelected=false;
         }
-
         menu.isSelected=true;
+
         switch(menu.action){
             case 'item.club':
                 $location.path("/club/");

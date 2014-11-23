@@ -8,7 +8,7 @@ angular.module('myApp', [
   'ui.select',
   'ngAnimate',
   'clubList',
-  'clubDetail',
+  'clubEdit',
   'angularUtils.directives.dirPagination',
   'ngSanitize',
   'angledNavbar',
@@ -16,15 +16,15 @@ angular.module('myApp', [
 ]).
 config(['$routeProvider', function($routeProvider) {
         $routeProvider
-        .when('/club/', {
-            templateUrl: 'app/club/clubList.htm',
-            controller: 'clubListController'
-        })
-        .when('/club/:club_id', {
-            templateUrl: 'app/club/clubDetail.htm',
-            controller: 'clubDetailController'
-        })
-        .otherwise({redirectTo: '/club/'});
+            .when('/club/', {
+                templateUrl: 'app/club/clubList.htm',
+                controller: 'clubListController'
+            })
+            .when('/club/:club_id', {
+                templateUrl: 'app/club/clubEdit.htm',
+                controller: 'clubEditController'
+            })
+            .otherwise({redirectTo: '/club/'});
 }]).
 run(['$rootScope', function($rootScope)
     {

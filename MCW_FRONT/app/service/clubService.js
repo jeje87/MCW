@@ -1,5 +1,5 @@
 
-angular.module('clubList').service('clubService', ['$http','$q',
+angular.module('myApp').service('clubService', ['$http','$q',
     function($http,$q) {
 
         $http.defaults.headers.common.Authorization = 'Basic U3VwZXJBZG1pbjpzYTE4OTc4MTM7'

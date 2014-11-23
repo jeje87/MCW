@@ -1,5 +1,5 @@
 //Credit: http://stackoverflow.com/a/17850865
-angular.module('clubList').factory('httpInterceptor', ['$q', '$rootScope', function($q, $rootScope) {
+angular.module('myApp').factory('httpInterceptor', ['$q', '$rootScope', function($q, $rootScope) {
     var currentRequestsCount = 0;
     return {
         //Everytime a request starts, the loader is displayed
@@ -27,7 +27,7 @@ angular.module('clubList').factory('httpInterceptor', ['$q', '$rootScope', funct
     };
 }]);
 
-angular.module('clubList').config(['$httpProvider', function($httpProvider) {
+angular.module('myApp').config(['$httpProvider', function($httpProvider) {
     $httpProvider.interceptors.push('httpInterceptor');
 }]);
 

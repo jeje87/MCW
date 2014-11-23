@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('clubDetail').controller('clubDetailController',['$scope','$routeParams','$location','clubService','ngDialog', function($scope,$routeParams,$location,clubService,ngDialog) {
+angular.module('clubEdit').controller('clubEditController',['$scope','$routeParams','$location','clubService','ngDialog', function($scope,$routeParams,$location,clubService,ngDialog) {
 
     var club_id=$routeParams.club_id;
     if (club_id)
@@ -81,7 +81,7 @@ angular.module('clubDetail').controller('clubDetailController',['$scope','$route
 
 }]);
 
-angular.module('clubDetail').controller('ModalController', ['$scope', 'close', function($scope, close) {
+angular.module('clubEdit').controller('ModalController', ['$scope', 'close', function($scope, close) {
 
     $scope.close = function(result) {
         close(result, 500); // close, but give 500ms for bootstrap to animate
