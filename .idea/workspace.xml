@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9547deab-625f-4090-8577-c07cc213d932" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCW_FRONT/app/club/clubFiche.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheView.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCW_FRONT/app.js" afterPath="$PROJECT_DIR$/MCW_FRONT/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCW_FRONT/app/service/clubListStateService.js" afterPath="$PROJECT_DIR$/MCW_FRONT/app/service/clubListStateService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCW_FRONT/app/service/clubService.js" afterPath="$PROJECT_DIR$/MCW_FRONT/app/service/clubService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCW_FRONT/app/club/clubFiche.htm" afterPath="$PROJECT_DIR$/MCW_FRONT/app/club/clubFiche.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheController.js" afterPath="$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheView.js" afterPath="$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheView.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCW_API/app/logs/common.log" afterPath="$PROJECT_DIR$/MCW_API/app/logs/common.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCW_FRONT/app/factory/httpInterceptor.js" afterPath="$PROJECT_DIR$/MCW_FRONT/app/factory/httpInterceptor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCW_FRONT/index.html" afterPath="$PROJECT_DIR$/MCW_FRONT/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCW_FRONT/index.js" afterPath="$PROJECT_DIR$/MCW_FRONT/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Perso\MCW\MCW_FRONT\app\club\clubDetail.htm" afterPath="$PROJECT_DIR$/MCW_FRONT/app/club/clubEdit.htm" />
-      <change type="MOVED" beforePath="D:\Perso\MCW\MCW_FRONT\app\club\clubDetailController.js" afterPath="$PROJECT_DIR$/MCW_FRONT/app/club/clubEditController.js" />
-      <change type="MOVED" beforePath="D:\Perso\MCW\MCW_FRONT\app\club\clubDetailView.js" afterPath="$PROJECT_DIR$/MCW_FRONT/app/club/clubEditView.js" />
     </list>
     <ignored path="MCW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="clubFicheController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheController.js">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCW_FRONT/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="935">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -51,28 +44,58 @@
       <file leaf-file-name="clubFicheView.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clubListView.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubListView.js">
+      <file leaf-file-name="clubFiche.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubFiche.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MCW_FRONT/app.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCW_FRONT/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="288" max-vertical-offset="850">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state vertical-scroll-proportion="-6.730769" vertical-offset="964" max-vertical-offset="1394">
+              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clubEditController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubEditController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1251" max-vertical-offset="1598">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="81" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clubFicheController.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clubEditView.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubEditView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -103,36 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clubListController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubListController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="577" max-vertical-offset="935">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clubListTest.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubListTest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clubList.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubList.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="663">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -172,23 +165,24 @@
         <option value="$PROJECT_DIR$/MCW_FRONT/app/modal/confirm.html" />
         <option value="$PROJECT_DIR$/MCW_FRONT/bower_components/ngDialog/css/ngDialog.css" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app/directive/pagination/dirPagination.js" />
-        <option value="$PROJECT_DIR$/MCW_FRONT/index.html" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app/directive/navbar/navbar.js" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app.css" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubList.htm" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubDetail.htm" />
         <option value="$PROJECT_DIR$/MCW_FRONT/index.js" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubFiche.html" />
-        <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheController.js" />
-        <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheView.js" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubListController.js" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubListView.js" />
-        <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubEditView.js" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubEditController.js" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app/service/clubService.js" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app/service/clubListStateService.js" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app/factory/httpInterceptor.js" />
+        <option value="$PROJECT_DIR$/MCW_FRONT/index.html" />
+        <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheController.js" />
         <option value="$PROJECT_DIR$/MCW_FRONT/app.js" />
+        <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubEditView.js" />
+        <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheView.js" />
+        <option value="$PROJECT_DIR$/MCW_FRONT/app/club/clubFiche.htm" />
       </list>
     </option>
   </component>
@@ -446,7 +440,11 @@
       <created>1416763180044</created>
       <updated>1416763180044</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="refactoring">
+      <created>1416777947172</created>
+      <updated>1416777947172</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -501,7 +499,8 @@
     <MESSAGE value=" style" />
     <MESSAGE value="popup confirmation suppression" />
     <MESSAGE value="navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -769,58 +768,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MCW_FRONT/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1153846" vertical-offset="964" max-vertical-offset="1360">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubEdit.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614" vertical-offset="187" max-vertical-offset="1275">
           <caret line="12" column="103" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubEditController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1251" max-vertical-offset="1598">
-          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubEditView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubFiche.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="489">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="489">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="489">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -881,10 +832,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MCW_FRONT/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.730769" vertical-offset="964" max-vertical-offset="1394">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubEditController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1251" max-vertical-offset="1598">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="81" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MCW_FRONT/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="288" max-vertical-offset="850">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="935">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubEditView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubFiche.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="334">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCW_FRONT/app/club/clubFicheController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09798271" vertical-offset="0" max-vertical-offset="347">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="25" />
           <folding />
         </state>
       </provider>

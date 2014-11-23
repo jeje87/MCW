@@ -1,3 +1,3 @@
-/**
- * Created by jpiquet on 23/11/2014.
- */
+'use strict';
+
+angular.module('clubFiche', ['ngRoute']);
