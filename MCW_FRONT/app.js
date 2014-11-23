@@ -16,19 +16,15 @@ angular.module('myApp', [
 ]).
 config(['$routeProvider', function($routeProvider) {
         $routeProvider
-        .when('/admin', {
-            templateUrl: 'app/admin/clubList.htm',
+        .when('/club/', {
+            templateUrl: 'app/club/clubList.htm',
             controller: 'clubListController'
         })
         .when('/club/:club_id', {
             templateUrl: 'app/club/clubDetail.htm',
             controller: 'clubDetailController'
         })
-        .when('/club/', {
-            templateUrl: 'app/club/clubDetail.htm',
-            controller: 'clubDetailController'
-        })
-        .otherwise({redirectTo: '/admin'});
+        .otherwise({redirectTo: '/club/'});
 }]).
 run(['$rootScope', function($rootScope)
     {

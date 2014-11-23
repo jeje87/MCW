@@ -161,3 +161,7 @@ form[role=search] .form-group {
         border-bottom: 1px solid #333;
     }
 }
+
+.selectedItem {
+    color:#ffffff !important;
+}

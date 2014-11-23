@@ -6,23 +6,21 @@ angular.module('myApp').controller('navbarDirectiveTestCtrl',['$scope','$locatio
         show : true,
         terms : ''
     };
-    $scope.brand = "<span class='glyphicon glyphicon-user'></span> Brand";
+    $scope.brand = "<span class='glyphicon glyphicon-user'></span> MyClub";
     $scope.inverse = true;
     $scope.menus = [
-        {
-            title : "Administration",
-            action : "item.administration"
-        },
         {
             divider: true
         },
         {
-            title : "Club",
-            action : "item.club"
+            title : "Clubs",
+            action : "item.club",
+            isSelected : true
         },
         {
             title : "Catégories",
-            action : "item.categories"
+            action : "item.categories",
+            isSelected : false
         },
         {
             title : "Equipes",
@@ -33,8 +31,8 @@ angular.module('myApp').controller('navbarDirectiveTestCtrl',['$scope','$locatio
             action : "item.membres"
         },
         {
-            title : "Calendrier",
-            action : "item.calendrier"
+            title : "Calendriers",
+            action : "item.calendriers"
         }
     ]; // end menus
 
@@ -43,26 +41,31 @@ angular.module('myApp').controller('navbarDirectiveTestCtrl',['$scope','$locatio
     $scope.searchDisplay = 'Visible';
 
     $scope.searchfn = function(){
-        alert('Attempting search on: "' + $scope.search.terms + '"');
+
     }; // searchfn
 
-    $scope.navfn = function(action){
-        switch(action){
-            case 'item.administration':
-                $location.path("/admin/");
-                break;
+    $scope.navfn = function(menu){
+
+        for (var menuItem in $scope.menus){
+            $scope.menus[menuItem].isSelected=false;
+        }
+
+        menu.isSelected=true;
+        switch(menu.action){
             case 'item.club':
                 $location.path("/club/");
                 break;
-            case 'item.three':
-                $scope.item = 'Item three selected.';
+            case 'item.equipes':
+
                 break;
-            case 'singular':
-                alert('ot');
-                $scope.item = 'Singular link item selected.';
+            case 'item.membres':
+
+                break;
+            case 'item.calendriers':
+
                 break;
             default:
-                $scope.item = 'Default selection.';
+                $location.path("/admin/");
                 break;
         }; // end switch
     }; // end navfn
