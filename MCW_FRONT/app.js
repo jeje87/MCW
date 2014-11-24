@@ -10,10 +10,12 @@ angular.module('myApp', [
   'clubList',
   'clubEdit',
   'clubFiche',
+  'clubImage',
   'angularUtils.directives.dirPagination',
   'ngSanitize',
   'angledNavbar',
-  'ngDialog'
+  'ngDialog',
+  'angularFileUpload'
 ]).
 config(['$routeProvider', function($routeProvider) {
         $routeProvider
@@ -21,11 +23,15 @@ config(['$routeProvider', function($routeProvider) {
                 templateUrl: 'app/club/clubList.htm',
                 controller: 'clubListController'
             })
+            .when('/club/:club_id', {
+                templateUrl: 'app/club/clubImage.htm',
+                controller: 'clubImageController'
+            })
             .when('/club/edit/:club_id', {
                 templateUrl: 'app/club/clubEdit.htm',
                 controller: 'clubEditController'
             })
-            .when('/club/:club_id', {
+            .when('/club/fiche/:club_id', {
                 templateUrl: 'app/club/clubFiche.htm',
                 controller: 'clubFicheController'
             })

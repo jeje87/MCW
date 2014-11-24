@@ -9,7 +9,6 @@ var app        = express(); 				// define our app using express
 var config = require('./config');
 var bodyParser = require('body-parser');
 var passport = require('passport');
-var authController = require('./app/controllers/auth');
 var mongoose   = require('mongoose');
 var path = require('path');
 var Tools = require('./app/utils/tools'); //fonction utilitaires
@@ -22,8 +21,11 @@ app.use(passport.initialize());
 app.use(express.static(__dirname + '/public'));
 // configure app to use bodyParser()
 // this will let us get the data from a POST
+app.use(bodyParser({defer: true}));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+
 
 var port = config.web.port; 		// set our port
 mongoose.connect(config.db.mongodb);

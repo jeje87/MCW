@@ -2628,3 +2628,208 @@
 2014-11-23T21:29:18.686Z - info: Authentification OK pour SuperAdmin
 2014-11-23T21:29:54.879Z - info: Authentification OK pour SuperAdmin
 2014-11-23T21:31:04.042Z - info: Authentification OK pour SuperAdmin
+2014-11-23T21:40:49.233Z - info: Authentification OK pour SuperAdmin
+2014-11-23T21:40:52.141Z - info: Authentification OK pour SuperAdmin
+2014-11-23T21:40:56.423Z - info: Authentification OK pour SuperAdmin
+2014-11-23T21:41:34.147Z - info: Authentification OK pour SuperAdmin
+2014-11-24T19:48:42.843Z - info: Initialisation du serveur
+2014-11-24T19:48:42.942Z - info: require('./app\routes\categorie.js')
+2014-11-24T19:48:43.183Z - info: require('./app\routes\club.js')
+2014-11-24T19:48:43.281Z - info: require('./app\routes\equipe.js')
+2014-11-24T19:48:43.357Z - info: require('./app\routes\membre.js')
+2014-11-24T19:48:43.452Z - info: require('./app\routes\type_membre.js')
+2014-11-24T19:48:43.680Z - info: Serveur démarré sur le port 8080
+2014-11-24T19:50:06.727Z - info: Authentification OK pour SuperAdmin
+2014-11-24T19:50:30.795Z - info: Authentification OK pour SuperAdmin
+2014-11-24T19:50:34.733Z - info: Authentification OK pour SuperAdmin
+2014-11-24T19:51:27.610Z - info: Authentification OK pour SuperAdmin
+2014-11-24T19:51:29.777Z - info: Authentification OK pour SuperAdmin
+2014-11-24T20:08:35.817Z - info: Authentification OK pour SuperAdmin
+2014-11-24T20:11:03.957Z - info: Authentification OK pour SuperAdmin
+2014-11-24T20:43:39.843Z - info: Initialisation du serveur
+2014-11-24T20:43:39.853Z - info: require('./app\routes\categorie.js')
+2014-11-24T20:43:39.857Z - info: require('./app\routes\club.js')
+2014-11-24T20:43:39.862Z - info: require('./app\routes\equipe.js')
+2014-11-24T20:43:39.865Z - info: require('./app\routes\membre.js')
+2014-11-24T20:43:39.868Z - info: require('./app\routes\type_membre.js')
+2014-11-24T20:43:39.870Z - info: require('./app\routes\upload.js')
+2014-11-24T20:43:39.891Z - error: uncaughtException: Route.post() requires callback functions but got a [object Undefined] date=Mon Nov 24 2014 21:43:39 GMT+0100 (Paris, Madrid), pid=7816, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=34795520, heapTotal=28055552, heapUsed=16495528, loadavg=[0, 0, 0], uptime=142148.8903056, trace=[column=15, file=d:\Perso\MCW\MCW_API\node_modules\express\lib\router\route.js, function=null, line=171, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=true, column=15, file=d:\Perso\MCW\MCW_API\node_modules\express\lib\router\route.js, function=Route.(anonymous function) [as post], line=167, method=(anonymous function) [as post], native=false, column=3, file=d:\Perso\MCW\MCW_API\app\routes\upload.js, function=module.exports, line=11, method=exports, native=false, column=46, file=d:\Perso\MCW\MCW_API\app\utils\tools.js, function=null, line=25, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=true, column=32, file=d:\Perso\MCW\MCW_API\app\utils\tools.js, function=Object.recursiveRoutes, line=16, method=recursiveRoutes, native=false, column=7, file=d:\Perso\MCW\MCW_API\server.js, function=, line=56, method=null, native=false, column=26, file=module.js, function=Module._compile, line=456, method=_compile, native=false, column=10, file=module.js, function=Object.Module._extensions..js, line=474, method=Module._extensions..js, native=false], stack=[Error: Route.post() requires callback functions but got a [object Undefined],     at d:\Perso\MCW\MCW_API\node_modules\express\lib\router\route.js:171:15,     at Array.forEach (native),     at Route.(anonymous function) [as post] (d:\Perso\MCW\MCW_API\node_modules\express\lib\router\route.js:167:15),     at module.exports (d:\Perso\MCW\MCW_API\app\routes\upload.js:11:3),     at d:\Perso\MCW\MCW_API\app\utils\tools.js:25:46,     at Array.forEach (native),     at Object.recursiveRoutes (d:\Perso\MCW\MCW_API\app\utils\tools.js:16:32),     at Object.<anonymous> (d:\Perso\MCW\MCW_API\server.js:56:7),     at Module._compile (module.js:456:26),     at Object.Module._extensions..js (module.js:474:10)]
+2014-11-24T20:44:27.527Z - info: Initialisation du serveur
+2014-11-24T20:44:27.537Z - info: require('./app\routes\categorie.js')
+2014-11-24T20:44:27.541Z - info: require('./app\routes\club.js')
+2014-11-24T20:44:27.547Z - info: require('./app\routes\equipe.js')
+2014-11-24T20:44:27.550Z - info: require('./app\routes\membre.js')
+2014-11-24T20:44:27.553Z - info: require('./app\routes\type_membre.js')
+2014-11-24T20:44:27.555Z - info: require('./app\routes\upload.js')
+2014-11-24T20:44:27.573Z - error: uncaughtException: Route.post() requires callback functions but got a [object Undefined] date=Mon Nov 24 2014 21:44:27 GMT+0100 (Paris, Madrid), pid=11128, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=34807808, heapTotal=28055552, heapUsed=16493288, loadavg=[0, 0, 0], uptime=142196.5746062, trace=[column=15, file=d:\Perso\MCW\MCW_API\node_modules\express\lib\router\route.js, function=null, line=171, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=true, column=15, file=d:\Perso\MCW\MCW_API\node_modules\express\lib\router\route.js, function=Route.(anonymous function) [as post], line=167, method=(anonymous function) [as post], native=false, column=3, file=d:\Perso\MCW\MCW_API\app\routes\upload.js, function=module.exports, line=11, method=exports, native=false, column=46, file=d:\Perso\MCW\MCW_API\app\utils\tools.js, function=null, line=25, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=true, column=32, file=d:\Perso\MCW\MCW_API\app\utils\tools.js, function=Object.recursiveRoutes, line=16, method=recursiveRoutes, native=false, column=7, file=d:\Perso\MCW\MCW_API\server.js, function=, line=56, method=null, native=false, column=26, file=module.js, function=Module._compile, line=456, method=_compile, native=false, column=10, file=module.js, function=Object.Module._extensions..js, line=474, method=Module._extensions..js, native=false], stack=[Error: Route.post() requires callback functions but got a [object Undefined],     at d:\Perso\MCW\MCW_API\node_modules\express\lib\router\route.js:171:15,     at Array.forEach (native),     at Route.(anonymous function) [as post] (d:\Perso\MCW\MCW_API\node_modules\express\lib\router\route.js:167:15),     at module.exports (d:\Perso\MCW\MCW_API\app\routes\upload.js:11:3),     at d:\Perso\MCW\MCW_API\app\utils\tools.js:25:46,     at Array.forEach (native),     at Object.recursiveRoutes (d:\Perso\MCW\MCW_API\app\utils\tools.js:16:32),     at Object.<anonymous> (d:\Perso\MCW\MCW_API\server.js:56:7),     at Module._compile (module.js:456:26),     at Object.Module._extensions..js (module.js:474:10)]
+2014-11-24T20:44:57.885Z - info: Initialisation du serveur
+2014-11-24T20:44:57.895Z - info: require('./app\routes\categorie.js')
+2014-11-24T20:44:57.900Z - info: require('./app\routes\club.js')
+2014-11-24T20:44:57.904Z - info: require('./app\routes\equipe.js')
+2014-11-24T20:44:57.907Z - info: require('./app\routes\membre.js')
+2014-11-24T20:44:57.910Z - info: require('./app\routes\type_membre.js')
+2014-11-24T20:44:57.913Z - info: require('./app\routes\upload.js')
+2014-11-24T20:44:57.920Z - info: Serveur démarré sur le port 8080
+2014-11-24T20:47:40.994Z - info: Initialisation du serveur
+2014-11-24T20:47:41.004Z - info: require('./app\routes\categorie.js')
+2014-11-24T20:47:41.009Z - info: require('./app\routes\club.js')
+2014-11-24T20:47:41.013Z - info: require('./app\routes\equipe.js')
+2014-11-24T20:47:41.017Z - info: require('./app\routes\membre.js')
+2014-11-24T20:47:41.019Z - info: require('./app\routes\type_membre.js')
+2014-11-24T20:47:41.022Z - info: require('./app\routes\upload.js')
+2014-11-24T20:47:41.029Z - info: Serveur démarré sur le port 8080
+2014-11-24T20:56:06.571Z - info: Initialisation du serveur
+2014-11-24T20:56:06.581Z - info: require('./app\routes\categorie.js')
+2014-11-24T20:56:06.585Z - info: require('./app\routes\club.js')
+2014-11-24T20:56:06.590Z - info: require('./app\routes\equipe.js')
+2014-11-24T20:56:06.594Z - info: require('./app\routes\membre.js')
+2014-11-24T20:56:06.597Z - info: require('./app\routes\type_membre.js')
+2014-11-24T20:56:06.599Z - info: require('./app\routes\upload.js')
+2014-11-24T20:56:06.608Z - info: Serveur démarré sur le port 8080
+2014-11-24T20:56:07.064Z - info: Authentification OK pour SuperAdmin
+2014-11-24T20:56:17.870Z - info: Initialisation du serveur
+2014-11-24T20:56:17.880Z - info: require('./app\routes\categorie.js')
+2014-11-24T20:56:17.884Z - info: require('./app\routes\club.js')
+2014-11-24T20:56:17.890Z - info: require('./app\routes\equipe.js')
+2014-11-24T20:56:17.893Z - info: require('./app\routes\membre.js')
+2014-11-24T20:56:17.896Z - info: require('./app\routes\type_membre.js')
+2014-11-24T20:56:17.898Z - info: require('./app\routes\upload.js')
+2014-11-24T20:56:17.905Z - info: Serveur démarré sur le port 8080
+2014-11-24T20:56:29.696Z - info: Authentification OK pour SuperAdmin
+2014-11-24T20:58:23.838Z - info: Initialisation du serveur
+2014-11-24T20:58:23.848Z - info: require('./app\routes\categorie.js')
+2014-11-24T20:58:23.853Z - info: require('./app\routes\club.js')
+2014-11-24T20:58:23.857Z - info: require('./app\routes\equipe.js')
+2014-11-24T20:58:23.860Z - info: require('./app\routes\membre.js')
+2014-11-24T20:58:23.863Z - info: require('./app\routes\type_membre.js')
+2014-11-24T20:58:23.866Z - info: require('./app\routes\upload.js')
+2014-11-24T20:58:23.872Z - info: Serveur démarré sur le port 8080
+2014-11-24T20:58:24.358Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:04:58.616Z - info: Initialisation du serveur
+2014-11-24T21:04:58.629Z - info: require('./app\routes\categorie.js')
+2014-11-24T21:04:58.686Z - info: require('./app\routes\club.js')
+2014-11-24T21:04:58.690Z - info: require('./app\routes\equipe.js')
+2014-11-24T21:04:58.694Z - info: require('./app\routes\membre.js')
+2014-11-24T21:04:58.697Z - info: require('./app\routes\type_membre.js')
+2014-11-24T21:04:58.699Z - info: require('./app\routes\upload.js')
+2014-11-24T21:04:58.706Z - info: Serveur démarré sur le port 8080
+2014-11-24T21:05:59.316Z - info: Initialisation du serveur
+2014-11-24T21:05:59.326Z - info: require('./app\routes\categorie.js')
+2014-11-24T21:05:59.369Z - info: require('./app\routes\club.js')
+2014-11-24T21:05:59.373Z - info: require('./app\routes\equipe.js')
+2014-11-24T21:05:59.377Z - info: require('./app\routes\membre.js')
+2014-11-24T21:05:59.380Z - info: require('./app\routes\type_membre.js')
+2014-11-24T21:05:59.383Z - info: require('./app\routes\upload.js')
+2014-11-24T21:05:59.389Z - info: Serveur démarré sur le port 8080
+2014-11-24T21:06:06.351Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:07:32.420Z - info: Initialisation du serveur
+2014-11-24T21:07:32.430Z - info: require('./app\routes\categorie.js')
+2014-11-24T21:07:32.472Z - info: require('./app\routes\club.js')
+2014-11-24T21:07:32.477Z - info: require('./app\routes\equipe.js')
+2014-11-24T21:07:32.480Z - info: require('./app\routes\membre.js')
+2014-11-24T21:07:32.483Z - info: require('./app\routes\type_membre.js')
+2014-11-24T21:07:32.486Z - info: require('./app\routes\upload.js')
+2014-11-24T21:07:32.493Z - info: Serveur démarré sur le port 8080
+2014-11-24T21:07:47.295Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:08:52.114Z - info: Initialisation du serveur
+2014-11-24T21:08:52.124Z - info: require('./app\routes\categorie.js')
+2014-11-24T21:08:52.166Z - info: require('./app\routes\club.js')
+2014-11-24T21:08:52.170Z - info: require('./app\routes\equipe.js')
+2014-11-24T21:08:52.174Z - info: require('./app\routes\membre.js')
+2014-11-24T21:08:52.177Z - info: require('./app\routes\type_membre.js')
+2014-11-24T21:08:52.179Z - info: require('./app\routes\upload.js')
+2014-11-24T21:08:52.187Z - info: Serveur démarré sur le port 8080
+2014-11-24T21:09:02.559Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:09:02.598Z - error: uncaughtException: ENOENT, open 'd:\Perso\MCW\MCW_API\img\5a3127b9dcd2ba33d11c23174c4ca9d3.jpg' date=Mon Nov 24 2014 22:09:02 GMT+0100 (Paris, Madrid), pid=8780, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=38977536, heapTotal=30107392, heapUsed=12986008, loadavg=[0, 0, 0], uptime=143671.6037074, trace=[], stack=[Error: ENOENT, open 'd:\Perso\MCW\MCW_API\img\5a3127b9dcd2ba33d11c23174c4ca9d3.jpg']
+2014-11-24T21:09:30.768Z - info: Initialisation du serveur
+2014-11-24T21:09:30.781Z - info: require('./app\routes\categorie.js')
+2014-11-24T21:09:30.824Z - info: require('./app\routes\club.js')
+2014-11-24T21:09:30.830Z - info: require('./app\routes\equipe.js')
+2014-11-24T21:09:30.837Z - info: require('./app\routes\membre.js')
+2014-11-24T21:09:30.841Z - info: require('./app\routes\type_membre.js')
+2014-11-24T21:09:30.843Z - info: require('./app\routes\upload.js')
+2014-11-24T21:09:30.850Z - info: Serveur démarré sur le port 8080
+2014-11-24T21:09:31.470Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:09:31.504Z - error: uncaughtException: Cannot read property 'size' of undefined date=Mon Nov 24 2014 22:09:31 GMT+0100 (Paris, Madrid), pid=14224, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=38846464, heapTotal=30107392, heapUsed=12948024, loadavg=[0, 0, 0], uptime=143700.5045501, trace=[column=68, file=d:\Perso\MCW\MCW_API\app\controllers\upload.js, function=null, line=15, method=null, native=false, column=9, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=, line=104, method=null, native=false, column=17, file=events.js, function=IncomingForm.emit, line=92, method=emit, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=IncomingForm._maybeEnd, line=551, method=_maybeEnd, native=false, column=12, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=null, line=229, method=null, native=false, column=5, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\file.js, function=, line=70, method=null, native=false, column=16, file=events.js, function=WriteStream.g, line=180, method=g, native=false, column=20, file=events.js, function=WriteStream.emit, line=117, method=emit, native=false, column=12, file=_stream_writable.js, function=finishMaybe, line=359, method=null, native=false, column=5, file=_stream_writable.js, function=afterWrite, line=279, method=null, native=false], stack=[TypeError: Cannot read property 'size' of undefined,     at d:\Perso\MCW\MCW_API\app\controllers\upload.js:15:68,     at IncomingForm.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:104:9),     at IncomingForm.emit (events.js:92:17),     at IncomingForm._maybeEnd (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:551:8),     at d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:229:12,     at WriteStream.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\file.js:70:5),     at WriteStream.g (events.js:180:16),     at WriteStream.emit (events.js:117:20),     at finishMaybe (_stream_writable.js:359:12),     at afterWrite (_stream_writable.js:279:5)]
+2014-11-24T21:09:39.120Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:09:39.128Z - error: uncaughtException: Cannot read property 'size' of undefined date=Mon Nov 24 2014 22:09:39 GMT+0100 (Paris, Madrid), pid=14224, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=40886272, heapTotal=30107392, heapUsed=16463880, loadavg=[0, 0, 0], uptime=143708.1335856, trace=[column=68, file=d:\Perso\MCW\MCW_API\app\controllers\upload.js, function=null, line=15, method=null, native=false, column=9, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=, line=104, method=null, native=false, column=17, file=events.js, function=IncomingForm.emit, line=92, method=emit, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=IncomingForm._maybeEnd, line=551, method=_maybeEnd, native=false, column=12, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=null, line=229, method=null, native=false, column=5, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\file.js, function=, line=70, method=null, native=false, column=16, file=events.js, function=WriteStream.g, line=180, method=g, native=false, column=20, file=events.js, function=WriteStream.emit, line=117, method=emit, native=false, column=12, file=_stream_writable.js, function=finishMaybe, line=359, method=null, native=false, column=5, file=_stream_writable.js, function=afterWrite, line=279, method=null, native=false], stack=[TypeError: Cannot read property 'size' of undefined,     at d:\Perso\MCW\MCW_API\app\controllers\upload.js:15:68,     at IncomingForm.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:104:9),     at IncomingForm.emit (events.js:92:17),     at IncomingForm._maybeEnd (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:551:8),     at d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:229:12,     at WriteStream.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\file.js:70:5),     at WriteStream.g (events.js:180:16),     at WriteStream.emit (events.js:117:20),     at finishMaybe (_stream_writable.js:359:12),     at afterWrite (_stream_writable.js:279:5)]
+2014-11-24T21:15:30.923Z - info: Initialisation du serveur
+2014-11-24T21:15:30.935Z - info: require('./app\routes\categorie.js')
+2014-11-24T21:15:30.984Z - info: require('./app\routes\club.js')
+2014-11-24T21:15:30.989Z - info: require('./app\routes\equipe.js')
+2014-11-24T21:15:30.993Z - info: require('./app\routes\membre.js')
+2014-11-24T21:15:30.997Z - info: require('./app\routes\type_membre.js')
+2014-11-24T21:15:31.001Z - info: require('./app\routes\upload.js')
+2014-11-24T21:15:31.008Z - info: Serveur démarré sur le port 8080
+2014-11-24T21:15:47.717Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:15:47.762Z - error: uncaughtException: Cannot read property 'size' of undefined date=Mon Nov 24 2014 22:15:47 GMT+0100 (Paris, Madrid), pid=2444, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=38895616, heapTotal=30107392, heapUsed=13028416, loadavg=[0, 0, 0], uptime=144076.759036, trace=[column=68, file=d:\Perso\MCW\MCW_API\app\controllers\upload.js, function=null, line=15, method=null, native=false, column=9, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=, line=104, method=null, native=false, column=17, file=events.js, function=IncomingForm.emit, line=92, method=emit, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=IncomingForm._maybeEnd, line=551, method=_maybeEnd, native=false, column=12, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=null, line=229, method=null, native=false, column=5, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\file.js, function=, line=70, method=null, native=false, column=16, file=events.js, function=WriteStream.g, line=180, method=g, native=false, column=20, file=events.js, function=WriteStream.emit, line=117, method=emit, native=false, column=12, file=_stream_writable.js, function=finishMaybe, line=359, method=null, native=false, column=5, file=_stream_writable.js, function=afterWrite, line=279, method=null, native=false], stack=[TypeError: Cannot read property 'size' of undefined,     at d:\Perso\MCW\MCW_API\app\controllers\upload.js:15:68,     at IncomingForm.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:104:9),     at IncomingForm.emit (events.js:92:17),     at IncomingForm._maybeEnd (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:551:8),     at d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:229:12,     at WriteStream.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\file.js:70:5),     at WriteStream.g (events.js:180:16),     at WriteStream.emit (events.js:117:20),     at finishMaybe (_stream_writable.js:359:12),     at afterWrite (_stream_writable.js:279:5)]
+2014-11-24T21:17:48.457Z - info: Initialisation du serveur
+2014-11-24T21:17:48.467Z - info: require('./app\routes\categorie.js')
+2014-11-24T21:17:48.507Z - info: require('./app\routes\club.js')
+2014-11-24T21:17:48.511Z - info: require('./app\routes\equipe.js')
+2014-11-24T21:17:48.514Z - info: require('./app\routes\membre.js')
+2014-11-24T21:17:48.518Z - info: require('./app\routes\type_membre.js')
+2014-11-24T21:17:48.520Z - info: require('./app\routes\upload.js')
+2014-11-24T21:17:48.527Z - info: Serveur démarré sur le port 8080
+2014-11-24T21:18:04.856Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:18:04.895Z - error: uncaughtException: Can't set headers after they are sent. date=Mon Nov 24 2014 22:18:04 GMT+0100 (Paris, Madrid), pid=9060, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.32, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=39067648, heapTotal=30107392, heapUsed=13117048, loadavg=[0, 0, 0], uptime=144213.8940347, trace=[column=11, file=http.js, function=ServerResponse.OutgoingMessage.setHeader, line=689, method=OutgoingMessage.setHeader, native=false, column=10, file=d:\Perso\MCW\MCW_API\node_modules\express\lib\response.js, function=ServerResponse.res.set.res.header, line=524, method=res.set.res.header, native=false, column=36, file=d:\Perso\MCW\MCW_API\node_modules\express\lib\response.js, function=ServerResponse.res.json, line=189, method=res.json, native=false, column=13, file=d:\Perso\MCW\MCW_API\app\controllers\upload.js, function=null, line=30, method=null, native=false, column=9, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=, line=104, method=null, native=false, column=17, file=events.js, function=IncomingForm.emit, line=92, method=emit, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=IncomingForm._maybeEnd, line=551, method=_maybeEnd, native=false, column=12, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=null, line=229, method=null, native=false, column=5, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\file.js, function=, line=70, method=null, native=false, column=16, file=events.js, function=WriteStream.g, line=180, method=g, native=false], stack=[Error: Can't set headers after they are sent.,     at ServerResponse.OutgoingMessage.setHeader (http.js:689:11),     at ServerResponse.res.set.res.header (d:\Perso\MCW\MCW_API\node_modules\express\lib\response.js:524:10),     at ServerResponse.res.json (d:\Perso\MCW\MCW_API\node_modules\express\lib\response.js:189:36),     at d:\Perso\MCW\MCW_API\app\controllers\upload.js:30:13,     at IncomingForm.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:104:9),     at IncomingForm.emit (events.js:92:17),     at IncomingForm._maybeEnd (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:551:8),     at d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:229:12,     at WriteStream.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\file.js:70:5),     at WriteStream.g (events.js:180:16)]
+2014-11-24T21:18:43.847Z - info: Initialisation du serveur
+2014-11-24T21:18:43.857Z - info: require('./app\routes\categorie.js')
+2014-11-24T21:18:43.897Z - info: require('./app\routes\club.js')
+2014-11-24T21:18:43.902Z - info: require('./app\routes\equipe.js')
+2014-11-24T21:18:43.907Z - info: require('./app\routes\membre.js')
+2014-11-24T21:18:43.910Z - info: require('./app\routes\type_membre.js')
+2014-11-24T21:18:43.913Z - info: require('./app\routes\upload.js')
+2014-11-24T21:18:43.919Z - info: Serveur démarré sur le port 8080
+2014-11-24T21:18:59.197Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:21:09.314Z - info: Initialisation du serveur
+2014-11-24T21:21:09.324Z - info: require('./app\routes\categorie.js')
+2014-11-24T21:21:09.365Z - info: require('./app\routes\club.js')
+2014-11-24T21:21:09.369Z - info: require('./app\routes\equipe.js')
+2014-11-24T21:21:09.372Z - info: require('./app\routes\membre.js')
+2014-11-24T21:21:09.376Z - info: require('./app\routes\type_membre.js')
+2014-11-24T21:21:09.378Z - info: require('./app\routes\upload.js')
+2014-11-24T21:21:09.384Z - info: Serveur démarré sur le port 8080
+2014-11-24T21:21:37.649Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:21:38.001Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:21:38.383Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:21:38.730Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:21:39.134Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:21:39.606Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:21:39.967Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:21:40.356Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:21:40.782Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:21:41.143Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:22:45.563Z - info: Initialisation du serveur
+2014-11-24T21:22:45.572Z - info: require('./app\routes\categorie.js')
+2014-11-24T21:22:45.613Z - info: require('./app\routes\club.js')
+2014-11-24T21:22:45.617Z - info: require('./app\routes\equipe.js')
+2014-11-24T21:22:45.621Z - info: require('./app\routes\membre.js')
+2014-11-24T21:22:45.624Z - info: require('./app\routes\type_membre.js')
+2014-11-24T21:22:45.626Z - info: require('./app\routes\upload.js')
+2014-11-24T21:22:45.632Z - info: Serveur démarré sur le port 8080
+2014-11-24T21:23:01.460Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:23:01.827Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:23:02.166Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:23:02.532Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:23:02.933Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:23:30.630Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:23:30.961Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:23:31.298Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:23:33.931Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:23:34.251Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:23:34.591Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:23:34.923Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:24:05.214Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:24:06.447Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:27:22.389Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:27:22.713Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:27:23.031Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:27:23.345Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:27:23.677Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:27:23.996Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:27:24.317Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:27:24.662Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:27:25.003Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:28:22.520Z - info: Authentification OK pour SuperAdmin
+2014-11-24T21:28:30.220Z - info: Authentification OK pour SuperAdmin

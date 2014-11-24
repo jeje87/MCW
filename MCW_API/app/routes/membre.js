@@ -19,5 +19,5 @@ module.exports = function(router) {
     // Suppression d'un item via son id
 	.delete(AuthController.isAuthenticated, MembreControler.deleteItem);
 
-}
+};
 
