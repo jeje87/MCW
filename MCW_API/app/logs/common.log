@@ -2833,3 +2833,14 @@
 2014-11-24T21:27:25.003Z - info: Authentification OK pour SuperAdmin
 2014-11-24T21:28:22.520Z - info: Authentification OK pour SuperAdmin
 2014-11-24T21:28:30.220Z - info: Authentification OK pour SuperAdmin
+2014-11-26T19:34:54.520Z - info: Initialisation du serveur
+2014-11-26T19:34:54.528Z - info: require('./app\routes\categorie.js')
+2014-11-26T19:34:54.621Z - info: require('./app\routes\club.js')
+2014-11-26T19:34:54.631Z - info: require('./app\routes\equipe.js')
+2014-11-26T19:34:54.640Z - info: require('./app\routes\membre.js')
+2014-11-26T19:34:54.648Z - info: require('./app\routes\type_membre.js')
+2014-11-26T19:34:54.656Z - info: require('./app\routes\upload.js')
+2014-11-26T19:34:54.665Z - info: Serveur démarré sur le port 8080
+2014-11-26T19:35:07.412Z - info: Authentification OK pour SuperAdmin
+2014-11-26T19:36:45.686Z - info: Authentification OK pour SuperAdmin
+2014-11-26T19:36:48.353Z - info: Authentification OK pour SuperAdmin
