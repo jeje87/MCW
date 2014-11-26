@@ -42,13 +42,14 @@ exports.getItems = function(req, res) {
         .select('nom description ville')
         .limit(reqParam.perPage)
         .skip(reqParam.skip)
-        .sort({
-            nom: 'asc'
-        })
         .where("dateSuppression").equals(null);
 
     if (reqParam.regSearch)
         query = query.where("nom").equals(reqParam.regSearch);
+
+    query = query.sort({
+        nom: 'asc'
+    });
 
     query.exec(function(err, clubs) {
 

@@ -4,8 +4,10 @@ angular.module('clubImage').controller('clubImageController',['$scope','$routePa
 
     var uploadUrl = "http://localhost:8080/api/upload/";
 
+    var club_id=$routeParams.club_id;
+
     var uploader = $scope.uploader = new FileUploader({
-        url: uploadUrl,
+        url: uploadUrl + club_id,
         headers: {
             "Authorization" : "Basic U3VwZXJBZG1pbjpzYTE4OTc4MTM7"
         }

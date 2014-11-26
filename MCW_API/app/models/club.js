@@ -11,6 +11,7 @@ var ClubSchema   = new Schema({
     emails: [{ libelle: String, email: String }],
     urls: [{ libelle: String, date: Date, url: String }],
     commentaires: [{ de: String, date: Date, message: String }],
+    images: [{ path: String, date: Date }],
     dateSuppression: Date
 });
 

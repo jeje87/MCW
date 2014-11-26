@@ -2844,3 +2844,249 @@
 2014-11-26T19:35:07.412Z - info: Authentification OK pour SuperAdmin
 2014-11-26T19:36:45.686Z - info: Authentification OK pour SuperAdmin
 2014-11-26T19:36:48.353Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:05:40.231Z - info: Initialisation du serveur
+2014-11-26T20:05:40.238Z - info: require('./app\routes\categorie.js')
+2014-11-26T20:05:40.267Z - info: require('./app\routes\club.js')
+2014-11-26T20:05:40.270Z - info: require('./app\routes\equipe.js')
+2014-11-26T20:05:40.272Z - info: require('./app\routes\membre.js')
+2014-11-26T20:05:40.275Z - info: require('./app\routes\type_membre.js')
+2014-11-26T20:05:40.276Z - info: require('./app\routes\upload.js')
+2014-11-26T20:05:40.281Z - info: Serveur démarré sur le port 8080
+2014-11-26T20:05:50.937Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:05:55.368Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:05:56.490Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:05:58.485Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:05:59.194Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:06:00.901Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:06:02.460Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:11:57.273Z - info: Initialisation du serveur
+2014-11-26T20:11:57.280Z - info: require('./app\routes\categorie.js')
+2014-11-26T20:11:57.309Z - info: require('./app\routes\club.js')
+2014-11-26T20:11:57.313Z - info: require('./app\routes\equipe.js')
+2014-11-26T20:11:57.315Z - info: require('./app\routes\membre.js')
+2014-11-26T20:11:57.317Z - info: require('./app\routes\type_membre.js')
+2014-11-26T20:11:57.319Z - info: require('./app\routes\upload.js')
+2014-11-26T20:11:57.323Z - info: Serveur démarré sur le port 8080
+2014-11-26T20:12:03.840Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:12:08.646Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:12:09.776Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:12:15.477Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:12:17.226Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:12:18.003Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:12:19.654Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:12:33.380Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:13:41.760Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:13:42.016Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:14:00.965Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:14:19.327Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:14:23.821Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:20:29.399Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:22:28.572Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:22:32.254Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:22:41.916Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:22:42.184Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:22:42.450Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:22:42.706Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:22:42.967Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:22:43.235Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:22:43.508Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:22:43.784Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:41:22.851Z - info: Initialisation du serveur
+2014-11-26T20:41:22.858Z - info: require('./app\routes\categorie.js')
+2014-11-26T20:41:22.888Z - info: require('./app\routes\club.js')
+2014-11-26T20:41:22.891Z - info: require('./app\routes\equipe.js')
+2014-11-26T20:41:22.894Z - info: require('./app\routes\membre.js')
+2014-11-26T20:41:22.896Z - info: require('./app\routes\type_membre.js')
+2014-11-26T20:41:22.898Z - info: require('./app\routes\upload.js')
+2014-11-26T20:41:22.903Z - info: Serveur démarré sur le port 8080
+2014-11-26T20:41:32.114Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:42:32.089Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:43:53.269Z - info: Initialisation du serveur
+2014-11-26T20:43:53.276Z - info: require('./app\routes\categorie.js')
+2014-11-26T20:43:53.306Z - info: require('./app\routes\club.js')
+2014-11-26T20:43:53.309Z - info: require('./app\routes\equipe.js')
+2014-11-26T20:43:53.311Z - info: require('./app\routes\membre.js')
+2014-11-26T20:43:53.313Z - info: require('./app\routes\type_membre.js')
+2014-11-26T20:43:53.315Z - info: require('./app\routes\upload.js')
+2014-11-26T20:43:53.320Z - info: Serveur démarré sur le port 8080
+2014-11-26T20:44:05.876Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:44:06.160Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:46:34.669Z - info: Initialisation du serveur
+2014-11-26T20:46:34.676Z - info: require('./app\routes\categorie.js')
+2014-11-26T20:46:34.703Z - info: require('./app\routes\club.js')
+2014-11-26T20:46:34.707Z - info: require('./app\routes\equipe.js')
+2014-11-26T20:46:34.709Z - info: require('./app\routes\membre.js')
+2014-11-26T20:46:34.712Z - info: require('./app\routes\type_membre.js')
+2014-11-26T20:46:34.713Z - info: require('./app\routes\upload.js')
+2014-11-26T20:46:34.718Z - info: Serveur démarré sur le port 8080
+2014-11-26T20:46:43.144Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:46:43.168Z - error: uncaughtException: ENOENT, open 'd:\Perso\MCW\MCW_API\app\upload\club\ff70d83a42df53d93d7e9716bfcb76b2.jpg' date=Wed Nov 26 2014 21:46:43 GMT+0100 (Paris, Madrid), pid=7072, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=38301696, heapTotal=30107392, heapUsed=13001040, loadavg=[0, 0, 0], uptime=4995.8554105, trace=[], stack=[Error: ENOENT, open 'd:\Perso\MCW\MCW_API\app\upload\club\ff70d83a42df53d93d7e9716bfcb76b2.jpg']
+2014-11-26T20:48:44.054Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:57:00.904Z - info: Initialisation du serveur
+2014-11-26T20:57:00.911Z - info: require('./app\routes\categorie.js')
+2014-11-26T20:57:00.941Z - info: require('./app\routes\club.js')
+2014-11-26T20:57:00.944Z - info: require('./app\routes\equipe.js')
+2014-11-26T20:57:00.946Z - info: require('./app\routes\membre.js')
+2014-11-26T20:57:00.948Z - info: require('./app\routes\type_membre.js')
+2014-11-26T20:57:00.950Z - info: require('./app\routes\upload.js')
+2014-11-26T20:57:00.955Z - info: Serveur démarré sur le port 8080
+2014-11-26T20:57:14.643Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:57:14.670Z - error: uncaughtException: undefined is not a function date=Wed Nov 26 2014 21:57:14 GMT+0100 (Paris, Madrid), pid=6708, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=38146048, heapTotal=30107392, heapUsed=12787368, loadavg=[0, 0, 0], uptime=5627.3547463, trace=[column=16, file=d:\Perso\MCW\MCW_API\app\utils\tools.js, function=null, line=66, method=null, native=false, column=15, file=fs.js, function=Object.oncomplete, line=107, method=oncomplete, native=false], stack=[TypeError: undefined is not a function,     at d:\Perso\MCW\MCW_API\app\utils\tools.js:66:16,     at Object.oncomplete (fs.js:107:15)]
+2014-11-26T20:57:14.933Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:57:14.937Z - error: uncaughtException: undefined is not a function date=Wed Nov 26 2014 21:57:14 GMT+0100 (Paris, Madrid), pid=6708, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=40710144, heapTotal=30107392, heapUsed=16277616, loadavg=[0, 0, 0], uptime=5627.6307463, trace=[column=39, file=d:\Perso\MCW\MCW_API\app\utils\tools.js, function=null, line=64, method=null, native=false, column=15, file=fs.js, function=Object.oncomplete, line=107, method=oncomplete, native=false], stack=[TypeError: undefined is not a function,     at d:\Perso\MCW\MCW_API\app\utils\tools.js:64:39,     at Object.oncomplete (fs.js:107:15)]
+2014-11-26T20:57:15.199Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:57:15.204Z - error: uncaughtException: undefined is not a function date=Wed Nov 26 2014 21:57:15 GMT+0100 (Paris, Madrid), pid=6708, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=43937792, heapTotal=30107392, heapUsed=18831304, loadavg=[0, 0, 0], uptime=5627.8967463, trace=[column=39, file=d:\Perso\MCW\MCW_API\app\utils\tools.js, function=null, line=64, method=null, native=false, column=15, file=fs.js, function=Object.oncomplete, line=107, method=oncomplete, native=false], stack=[TypeError: undefined is not a function,     at d:\Perso\MCW\MCW_API\app\utils\tools.js:64:39,     at Object.oncomplete (fs.js:107:15)]
+2014-11-26T20:57:15.474Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:57:15.479Z - error: uncaughtException: undefined is not a function date=Wed Nov 26 2014 21:57:15 GMT+0100 (Paris, Madrid), pid=6708, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=45842432, heapTotal=31127296, heapUsed=13909224, loadavg=[0, 0, 0], uptime=5628.1707463, trace=[column=39, file=d:\Perso\MCW\MCW_API\app\utils\tools.js, function=null, line=64, method=null, native=false, column=15, file=fs.js, function=Object.oncomplete, line=107, method=oncomplete, native=false], stack=[TypeError: undefined is not a function,     at d:\Perso\MCW\MCW_API\app\utils\tools.js:64:39,     at Object.oncomplete (fs.js:107:15)]
+2014-11-26T20:57:15.745Z - info: Authentification OK pour SuperAdmin
+2014-11-26T20:57:15.749Z - error: uncaughtException: undefined is not a function date=Wed Nov 26 2014 21:57:15 GMT+0100 (Paris, Madrid), pid=6708, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=46477312, heapTotal=31127296, heapUsed=16464792, loadavg=[0, 0, 0], uptime=5628.4417463, trace=[column=39, file=d:\Perso\MCW\MCW_API\app\utils\tools.js, function=null, line=64, method=null, native=false, column=15, file=fs.js, function=Object.oncomplete, line=107, method=oncomplete, native=false], stack=[TypeError: undefined is not a function,     at d:\Perso\MCW\MCW_API\app\utils\tools.js:64:39,     at Object.oncomplete (fs.js:107:15)]
+2014-11-26T21:00:47.639Z - info: Initialisation du serveur
+2014-11-26T21:00:47.646Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:00:47.674Z - info: require('./app\routes\club.js')
+2014-11-26T21:00:47.677Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:00:47.679Z - info: require('./app\routes\membre.js')
+2014-11-26T21:00:47.682Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:00:47.683Z - info: require('./app\routes\upload.js')
+2014-11-26T21:00:47.688Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:01:02.582Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:01:02.853Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:01:03.129Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:01:03.397Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:01:03.659Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:01:50.547Z - info: Initialisation du serveur
+2014-11-26T21:01:50.554Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:01:50.584Z - info: require('./app\routes\club.js')
+2014-11-26T21:01:50.588Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:01:50.590Z - info: require('./app\routes\membre.js')
+2014-11-26T21:01:50.592Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:01:50.594Z - info: require('./app\routes\upload.js')
+2014-11-26T21:01:50.599Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:02:16.669Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:02:50.291Z - info: Initialisation du serveur
+2014-11-26T21:02:50.298Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:02:50.327Z - info: require('./app\routes\club.js')
+2014-11-26T21:02:50.331Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:02:50.333Z - info: require('./app\routes\membre.js')
+2014-11-26T21:02:50.335Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:02:50.337Z - info: require('./app\routes\upload.js')
+2014-11-26T21:02:50.341Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:02:56.129Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:03:14.011Z - info: Initialisation du serveur
+2014-11-26T21:03:14.019Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:03:14.048Z - info: require('./app\routes\club.js')
+2014-11-26T21:03:14.051Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:03:14.053Z - info: require('./app\routes\membre.js')
+2014-11-26T21:03:14.056Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:03:14.057Z - info: require('./app\routes\upload.js')
+2014-11-26T21:03:14.062Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:03:19.255Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:10:24.263Z - info: Initialisation du serveur
+2014-11-26T21:10:24.274Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:10:24.312Z - info: require('./app\routes\club.js')
+2014-11-26T21:10:24.315Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:10:24.317Z - info: require('./app\routes\membre.js')
+2014-11-26T21:10:24.319Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:10:24.321Z - info: require('./app\routes\upload.js')
+2014-11-26T21:10:24.326Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:10:34.150Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:10:36.125Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:10:36.893Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:10:45.306Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:10:45.338Z - error: uncaughtException: Club is not defined date=Wed Nov 26 2014 22:10:45 GMT+0100 (Paris, Madrid), pid=6620, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=43798528, heapTotal=31127296, heapUsed=13019368, loadavg=[0, 0, 0], uptime=6438.030238, trace=[column=17, file=d:\Perso\MCW\MCW_API\app\controllers\upload.js, function=null, line=20, method=null, native=false, column=9, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=, line=104, method=null, native=false, column=17, file=events.js, function=IncomingForm.emit, line=92, method=emit, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=IncomingForm._maybeEnd, line=551, method=_maybeEnd, native=false, column=12, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js, function=null, line=229, method=null, native=false, column=5, file=d:\Perso\MCW\MCW_API\node_modules\formidable\lib\file.js, function=, line=70, method=null, native=false, column=16, file=events.js, function=WriteStream.g, line=180, method=g, native=false, column=20, file=events.js, function=WriteStream.emit, line=117, method=emit, native=false, column=12, file=_stream_writable.js, function=finishMaybe, line=359, method=null, native=false, column=5, file=_stream_writable.js, function=afterWrite, line=279, method=null, native=false], stack=[ReferenceError: Club is not defined,     at d:\Perso\MCW\MCW_API\app\controllers\upload.js:20:17,     at IncomingForm.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:104:9),     at IncomingForm.emit (events.js:92:17),     at IncomingForm._maybeEnd (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:551:8),     at d:\Perso\MCW\MCW_API\node_modules\formidable\lib\incoming_form.js:229:12,     at WriteStream.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\formidable\lib\file.js:70:5),     at WriteStream.g (events.js:180:16),     at WriteStream.emit (events.js:117:20),     at finishMaybe (_stream_writable.js:359:12),     at afterWrite (_stream_writable.js:279:5)]
+2014-11-26T21:11:19.337Z - info: Initialisation du serveur
+2014-11-26T21:11:19.347Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:11:19.387Z - info: require('./app\routes\club.js')
+2014-11-26T21:11:19.390Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:11:19.392Z - info: require('./app\routes\membre.js')
+2014-11-26T21:11:19.395Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:11:19.397Z - info: require('./app\routes\upload.js')
+2014-11-26T21:11:19.401Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:11:20.053Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:11:20.092Z - error: uncaughtException: Cannot call method 'push' of undefined date=Wed Nov 26 2014 22:11:20 GMT+0100 (Paris, Madrid), pid=5872, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=38916096, heapTotal=30107392, heapUsed=13159104, loadavg=[0, 0, 0], uptime=6472.7810867, trace=[column=36, file=d:\Perso\MCW\MCW_API\app\controllers\upload.js, function=, line=26, method=null, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=13, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1833, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js, function=model.Document.init, line=251, method=Document.init, native=false, column=10, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=completeOne, line=1831, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1799, method=null, native=false, column=16, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js, function=null, line=414, method=null, native=false], stack=[TypeError: Cannot call method 'push' of undefined,     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\upload.js:26:36),     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1833:13,     at model.Document.init (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js:251:11),     at completeOne (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1831:10),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1799:11,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js:414:16]
+2014-11-26T21:11:46.421Z - info: Initialisation du serveur
+2014-11-26T21:11:46.428Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:11:46.457Z - info: require('./app\routes\club.js')
+2014-11-26T21:11:46.460Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:11:46.463Z - info: require('./app\routes\membre.js')
+2014-11-26T21:11:46.465Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:11:46.467Z - info: require('./app\routes\upload.js')
+2014-11-26T21:11:46.471Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:11:47.241Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:11:47.278Z - error: uncaughtException: Cannot call method 'push' of undefined date=Wed Nov 26 2014 22:11:47 GMT+0100 (Paris, Madrid), pid=4744, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=39247872, heapTotal=30107392, heapUsed=13499448, loadavg=[0, 0, 0], uptime=6499.9665227, trace=[column=36, file=d:\Perso\MCW\MCW_API\app\controllers\upload.js, function=, line=26, method=null, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=13, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1833, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js, function=model.Document.init, line=251, method=Document.init, native=false, column=10, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=completeOne, line=1831, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1799, method=null, native=false, column=16, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js, function=null, line=414, method=null, native=false], stack=[TypeError: Cannot call method 'push' of undefined,     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\upload.js:26:36),     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1833:13,     at model.Document.init (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js:251:11),     at completeOne (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1831:10),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1799:11,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js:414:16]
+2014-11-26T21:11:59.913Z - info: Initialisation du serveur
+2014-11-26T21:11:59.920Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:11:59.950Z - info: require('./app\routes\club.js')
+2014-11-26T21:11:59.953Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:11:59.955Z - info: require('./app\routes\membre.js')
+2014-11-26T21:11:59.957Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:11:59.959Z - info: require('./app\routes\upload.js')
+2014-11-26T21:11:59.964Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:12:00.299Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:12:00.332Z - error: uncaughtException: Cannot call method 'push' of undefined date=Wed Nov 26 2014 22:12:00 GMT+0100 (Paris, Madrid), pid=5200, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=39067648, heapTotal=30107392, heapUsed=13309720, loadavg=[0, 0, 0], uptime=6512.9901268, trace=[column=36, file=d:\Perso\MCW\MCW_API\app\controllers\upload.js, function=, line=26, method=null, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=13, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1833, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js, function=model.Document.init, line=251, method=Document.init, native=false, column=10, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=completeOne, line=1831, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1799, method=null, native=false, column=16, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js, function=null, line=414, method=null, native=false], stack=[TypeError: Cannot call method 'push' of undefined,     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\upload.js:26:36),     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1833:13,     at model.Document.init (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js:251:11),     at completeOne (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1831:10),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1799:11,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js:414:16]
+2014-11-26T21:12:14.240Z - info: Initialisation du serveur
+2014-11-26T21:12:14.247Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:12:14.278Z - info: require('./app\routes\club.js')
+2014-11-26T21:12:14.282Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:12:14.284Z - info: require('./app\routes\membre.js')
+2014-11-26T21:12:14.286Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:12:14.288Z - info: require('./app\routes\upload.js')
+2014-11-26T21:12:14.293Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:12:44.858Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:12:44.927Z - error: uncaughtException: Cannot call method 'push' of undefined date=Wed Nov 26 2014 22:12:44 GMT+0100 (Paris, Madrid), pid=5728, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=39268352, heapTotal=30107392, heapUsed=13532360, loadavg=[0, 0, 0], uptime=6557.6143498, trace=[column=36, file=d:\Perso\MCW\MCW_API\app\controllers\upload.js, function=, line=26, method=null, native=false, column=8, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=, line=162, method=null, native=false, column=17, file=events.js, function=Promise.emit, line=95, method=emit, native=false, column=38, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.emit, line=79, method=emit, native=false, column=20, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js, function=Promise.fulfill, line=92, method=fulfill, native=false, column=13, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1833, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js, function=model.Document.init, line=251, method=Document.init, native=false, column=10, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=completeOne, line=1831, method=null, native=false, column=11, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js, function=null, line=1799, method=null, native=false, column=16, file=d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js, function=null, line=414, method=null, native=false], stack=[TypeError: Cannot call method 'push' of undefined,     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\upload.js:26:36),     at Promise.<anonymous> (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:162:8),     at Promise.emit (events.js:95:17),     at Promise.emit (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:79:38),     at Promise.fulfill (d:\Perso\MCW\MCW_API\node_modules\mongoose\node_modules\mpromise\lib\promise.js:92:20),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1833:13,     at model.Document.init (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\document.js:251:11),     at completeOne (d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1831:10),     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\query.js:1799:11,     at d:\Perso\MCW\MCW_API\node_modules\mongoose\lib\utils.js:414:16]
+2014-11-26T21:13:02.358Z - info: Initialisation du serveur
+2014-11-26T21:13:02.365Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:13:02.396Z - info: require('./app\routes\club.js')
+2014-11-26T21:13:02.400Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:13:02.402Z - info: require('./app\routes\membre.js')
+2014-11-26T21:13:02.404Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:13:02.406Z - info: require('./app\routes\upload.js')
+2014-11-26T21:13:02.411Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:13:03.068Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:14:00.701Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:14:02.708Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:14:03.376Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:14:05.067Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:14:05.713Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:14:07.000Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:14:08.276Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:14:10.078Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:14:17.292Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:16:25.077Z - info: Initialisation du serveur
+2014-11-26T21:16:25.084Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:16:25.114Z - info: require('./app\routes\club.js')
+2014-11-26T21:16:25.118Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:16:25.121Z - info: require('./app\routes\membre.js')
+2014-11-26T21:16:25.123Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:16:25.125Z - info: require('./app\routes\upload.js')
+2014-11-26T21:16:25.129Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:16:35.145Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:16:35.452Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:16:35.727Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:16:35.999Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:16:36.266Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:16:36.534Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:16:36.801Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:16:37.078Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:17:40.559Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:22:43.933Z - info: Initialisation du serveur
+2014-11-26T21:22:43.940Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:22:43.969Z - info: require('./app\routes\club.js')
+2014-11-26T21:22:43.972Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:22:43.974Z - info: require('./app\routes\membre.js')
+2014-11-26T21:22:43.976Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:22:43.978Z - info: require('./app\routes\upload.js')
+2014-11-26T21:22:43.983Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:22:54.608Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:22:54.892Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:24:24.348Z - info: Initialisation du serveur
+2014-11-26T21:24:24.355Z - info: require('./app\routes\categorie.js')
+2014-11-26T21:24:24.382Z - info: require('./app\routes\club.js')
+2014-11-26T21:24:24.385Z - info: require('./app\routes\equipe.js')
+2014-11-26T21:24:24.387Z - info: require('./app\routes\membre.js')
+2014-11-26T21:24:24.389Z - info: require('./app\routes\type_membre.js')
+2014-11-26T21:24:24.390Z - info: require('./app\routes\upload.js')
+2014-11-26T21:24:24.395Z - info: Serveur démarré sur le port 8080
+2014-11-26T21:24:36.409Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:24:36.700Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:25:40.346Z - info: Authentification OK pour SuperAdmin
+2014-11-26T21:25:44.938Z - info: Authentification OK pour SuperAdmin
