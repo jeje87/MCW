@@ -19,4 +19,10 @@ module.exports = function(router) {
     .put(AuthController.isAuthenticated, ClubControler.putItem)
     // Suppression d'un item via son id
 	.delete(AuthController.isAuthenticated, ClubControler.deleteItem);
+
+    router.route('/clubs/images/:club_id')
+        // Sélection d'un item via son id
+        .get(AuthController.isAuthenticated, ClubControler.getItemImagesById)
+
+
 }

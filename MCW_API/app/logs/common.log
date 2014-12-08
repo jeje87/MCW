@@ -3090,3 +3090,300 @@
 2014-11-26T21:24:36.700Z - info: Authentification OK pour SuperAdmin
 2014-11-26T21:25:40.346Z - info: Authentification OK pour SuperAdmin
 2014-11-26T21:25:44.938Z - info: Authentification OK pour SuperAdmin
+2014-12-01T21:07:45.111Z - info: Initialisation du serveur
+2014-12-01T21:07:45.126Z - info: require('./app\routes\categorie.js')
+2014-12-01T21:07:45.307Z - info: require('./app\routes\club.js')
+2014-12-01T21:07:45.330Z - info: require('./app\routes\equipe.js')
+2014-12-01T21:07:45.351Z - info: require('./app\routes\membre.js')
+2014-12-01T21:07:45.366Z - info: require('./app\routes\type_membre.js')
+2014-12-01T21:07:45.382Z - info: require('./app\routes\upload.js')
+2014-12-01T21:07:45.400Z - info: Serveur démarré sur le port 8080
+2014-12-01T21:08:04.407Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:27:15.985Z - info: Initialisation du serveur
+2014-12-02T12:27:16.022Z - info: require('./app\routes\categorie.js')
+2014-12-02T12:27:16.352Z - info: require('./app\routes\club.js')
+2014-12-02T12:27:16.392Z - info: require('./app\routes\equipe.js')
+2014-12-02T12:27:16.424Z - info: require('./app\routes\membre.js')
+2014-12-02T12:27:16.450Z - info: require('./app\routes\type_membre.js')
+2014-12-02T12:27:16.481Z - info: require('./app\routes\upload.js')
+2014-12-02T12:27:16.518Z - info: Serveur démarré sur le port 8080
+2014-12-02T12:27:25.849Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:27:32.015Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:27:33.731Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:27:35.833Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:27:37.966Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:27:40.303Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:27:52.547Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:27:58.325Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:28:10.554Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:28:11.554Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:34:24.579Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:34:31.278Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:36:13.699Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:36:44.333Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:37:29.154Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:37:50.120Z - info: Authentification OK pour SuperAdmin
+2014-12-02T12:38:03.273Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:02:16.111Z - info: Initialisation du serveur
+2014-12-08T12:02:16.125Z - info: require('./app\routes\categorie.js')
+2014-12-08T12:02:16.266Z - info: require('./app\routes\club.js')
+2014-12-08T12:02:16.282Z - info: require('./app\routes\equipe.js')
+2014-12-08T12:02:16.295Z - info: require('./app\routes\membre.js')
+2014-12-08T12:02:16.306Z - info: require('./app\routes\type_membre.js')
+2014-12-08T12:02:16.319Z - info: require('./app\routes\upload.js')
+2014-12-08T12:02:16.335Z - info: Serveur démarré sur le port 8080
+2014-12-08T12:02:31.178Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:02:33.540Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:02:39.096Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:02:41.871Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:05:02.991Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:05:22.811Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:08:19.627Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:09:22.471Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:09:31.588Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:12:37.172Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:12:49.732Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:13:03.553Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:13:23.072Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:14:07.327Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:14:15.660Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:14:43.735Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:16:09.151Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:16:34.773Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:21:44.713Z - info: Initialisation du serveur
+2014-12-08T12:21:44.733Z - info: require('./app\routes\categorie.js')
+2014-12-08T12:21:44.817Z - info: require('./app\routes\club.js')
+2014-12-08T12:21:44.828Z - info: require('./app\routes\equipe.js')
+2014-12-08T12:21:44.834Z - info: require('./app\routes\membre.js')
+2014-12-08T12:21:44.840Z - info: require('./app\routes\type_membre.js')
+2014-12-08T12:21:44.846Z - info: require('./app\routes\upload.js')
+2014-12-08T12:21:44.859Z - info: Serveur démarré sur le port 8080
+2014-12-08T12:21:49.644Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:04.311Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:15.799Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:26.568Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:28.043Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:33.475Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:41.058Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:41.741Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:44.468Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:45.422Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:46.419Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:49.427Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:50.141Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:27:52.543Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:28:31.366Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:28:47.509Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:30:55.026Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:35:52.937Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:47:10.786Z - info: Initialisation du serveur
+2014-12-08T12:47:10.806Z - info: require('./app\routes\categorie.js')
+2014-12-08T12:47:10.887Z - info: require('./app\routes\club.js')
+2014-12-08T12:47:10.898Z - info: require('./app\routes\equipe.js')
+2014-12-08T12:47:10.904Z - info: require('./app\routes\membre.js')
+2014-12-08T12:47:10.911Z - info: require('./app\routes\type_membre.js')
+2014-12-08T12:47:10.916Z - info: require('./app\routes\upload.js')
+2014-12-08T12:47:10.929Z - info: Serveur démarré sur le port 8080
+2014-12-08T12:47:18.936Z - info: Authentification OK pour SuperAdmin
+2014-12-08T12:57:29.200Z - info: Authentification OK pour SuperAdmin
+2014-12-08T13:05:54.492Z - info: Initialisation du serveur
+2014-12-08T13:05:54.512Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:05:54.591Z - info: require('./app\routes\club.js')
+2014-12-08T13:05:54.601Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:05:54.608Z - info: require('./app\routes\membre.js')
+2014-12-08T13:05:54.614Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:05:54.619Z - info: require('./app\routes\upload.js')
+2014-12-08T13:05:54.632Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:06:13.486Z - info: Authentification OK pour SuperAdmin
+2014-12-08T13:10:19.242Z - info: Authentification OK pour SuperAdmin
+2014-12-08T13:11:44.570Z - info: Authentification OK pour SuperAdmin
+2014-12-08T13:14:38.448Z - info: Authentification OK pour SuperAdmin
+2014-12-08T13:24:36.251Z - info: Initialisation du serveur
+2014-12-08T13:24:36.274Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:24:36.368Z - info: require('./app\routes\club.js')
+2014-12-08T13:24:36.378Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:24:36.386Z - info: require('./app\routes\membre.js')
+2014-12-08T13:24:36.392Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:24:36.397Z - info: require('./app\routes\upload.js')
+2014-12-08T13:24:36.412Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:24:41.018Z - info: Authentification OK pour SuperAdmin
+2014-12-08T13:26:05.987Z - info: Initialisation du serveur
+2014-12-08T13:26:06.003Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:26:06.082Z - info: require('./app\routes\club.js')
+2014-12-08T13:26:06.090Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:26:06.096Z - info: require('./app\routes\membre.js')
+2014-12-08T13:26:06.102Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:26:06.107Z - info: require('./app\routes\upload.js')
+2014-12-08T13:26:06.117Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:26:10.605Z - info: Authentification OK pour SuperAdmin
+2014-12-08T13:26:49.843Z - info: Initialisation du serveur
+2014-12-08T13:26:49.864Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:26:49.981Z - info: require('./app\routes\club.js')
+2014-12-08T13:26:50.002Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:26:50.013Z - info: require('./app\routes\membre.js')
+2014-12-08T13:26:50.023Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:26:50.032Z - info: require('./app\routes\upload.js')
+2014-12-08T13:26:50.047Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:27:50.941Z - info: Initialisation du serveur
+2014-12-08T13:27:50.948Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:27:51.054Z - info: require('./app\routes\club.js')
+2014-12-08T13:27:51.064Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:27:51.072Z - info: require('./app\routes\membre.js')
+2014-12-08T13:27:51.080Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:27:51.086Z - info: require('./app\routes\upload.js')
+2014-12-08T13:27:51.103Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:28:56.478Z - info: Initialisation du serveur
+2014-12-08T13:28:56.518Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:28:56.648Z - info: require('./app\routes\club.js')
+2014-12-08T13:28:56.681Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:28:56.694Z - info: require('./app\routes\membre.js')
+2014-12-08T13:28:56.707Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:28:56.718Z - info: require('./app\routes\upload.js')
+2014-12-08T13:28:56.738Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:30:00.291Z - info: Initialisation du serveur
+2014-12-08T13:30:00.317Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:30:00.393Z - info: require('./app\routes\club.js')
+2014-12-08T13:30:00.402Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:30:00.408Z - info: require('./app\routes\membre.js')
+2014-12-08T13:30:00.414Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:30:00.419Z - info: require('./app\routes\upload.js')
+2014-12-08T13:30:00.430Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:30:44.466Z - info: Initialisation du serveur
+2014-12-08T13:30:44.496Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:30:44.611Z - info: require('./app\routes\club.js')
+2014-12-08T13:30:44.625Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:30:44.633Z - info: require('./app\routes\membre.js')
+2014-12-08T13:30:44.641Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:30:44.648Z - info: require('./app\routes\upload.js')
+2014-12-08T13:30:44.669Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:31:07.607Z - info: Initialisation du serveur
+2014-12-08T13:31:07.622Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:31:07.687Z - info: require('./app\routes\club.js')
+2014-12-08T13:31:07.695Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:31:07.700Z - info: require('./app\routes\membre.js')
+2014-12-08T13:31:07.704Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:31:07.708Z - info: require('./app\routes\upload.js')
+2014-12-08T13:31:07.719Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:34:07.114Z - info: Initialisation du serveur
+2014-12-08T13:34:07.142Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:34:07.262Z - info: require('./app\routes\club.js')
+2014-12-08T13:34:07.289Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:34:07.301Z - info: require('./app\routes\membre.js')
+2014-12-08T13:34:07.410Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:34:07.415Z - info: require('./app\routes\upload.js')
+2014-12-08T13:34:07.430Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:34:57.759Z - info: Initialisation du serveur
+2014-12-08T13:34:57.780Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:34:57.873Z - info: require('./app\routes\club.js')
+2014-12-08T13:34:57.884Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:34:57.890Z - info: require('./app\routes\membre.js')
+2014-12-08T13:34:57.898Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:34:57.903Z - info: require('./app\routes\upload.js')
+2014-12-08T13:34:57.917Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:35:10.531Z - info: Initialisation du serveur
+2014-12-08T13:35:10.550Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:35:10.629Z - info: require('./app\routes\club.js')
+2014-12-08T13:35:10.639Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:35:10.645Z - info: require('./app\routes\membre.js')
+2014-12-08T13:35:10.651Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:35:10.656Z - info: require('./app\routes\upload.js')
+2014-12-08T13:35:10.668Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:35:43.844Z - info: Initialisation du serveur
+2014-12-08T13:35:43.872Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:35:43.961Z - info: require('./app\routes\club.js')
+2014-12-08T13:35:43.972Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:35:43.980Z - info: require('./app\routes\membre.js')
+2014-12-08T13:35:43.987Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:35:43.994Z - info: require('./app\routes\upload.js')
+2014-12-08T13:35:44.009Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:36:25.596Z - info: Initialisation du serveur
+2014-12-08T13:36:25.616Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:36:25.701Z - info: require('./app\routes\club.js')
+2014-12-08T13:36:25.711Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:36:25.718Z - info: require('./app\routes\membre.js')
+2014-12-08T13:36:25.723Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:36:25.729Z - info: require('./app\routes\upload.js')
+2014-12-08T13:36:25.742Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:37:46.864Z - info: Initialisation du serveur
+2014-12-08T13:37:46.896Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:37:47.018Z - info: require('./app\routes\club.js')
+2014-12-08T13:37:47.032Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:37:47.045Z - info: require('./app\routes\membre.js')
+2014-12-08T13:37:47.053Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:37:47.061Z - info: require('./app\routes\upload.js')
+2014-12-08T13:37:47.082Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:37:50.533Z - info: Initialisation du serveur
+2014-12-08T13:37:50.561Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:37:50.680Z - info: require('./app\routes\club.js')
+2014-12-08T13:37:50.695Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:37:50.704Z - info: require('./app\routes\membre.js')
+2014-12-08T13:37:50.713Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:37:50.721Z - info: require('./app\routes\upload.js')
+2014-12-08T13:37:50.741Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:38:16.094Z - info: Initialisation du serveur
+2014-12-08T13:38:16.111Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:38:16.182Z - info: require('./app\routes\club.js')
+2014-12-08T13:38:16.191Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:38:16.196Z - info: require('./app\routes\membre.js')
+2014-12-08T13:38:16.201Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:38:16.205Z - info: require('./app\routes\upload.js')
+2014-12-08T13:38:16.216Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:40:03.358Z - info: Initialisation du serveur
+2014-12-08T13:40:03.382Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:40:03.481Z - info: require('./app\routes\club.js')
+2014-12-08T13:40:03.493Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:40:03.501Z - info: require('./app\routes\membre.js')
+2014-12-08T13:40:03.516Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:40:03.527Z - info: require('./app\routes\upload.js')
+2014-12-08T13:40:03.541Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:40:35.099Z - info: Initialisation du serveur
+2014-12-08T13:40:35.119Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:40:35.205Z - info: require('./app\routes\club.js')
+2014-12-08T13:40:35.216Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:40:35.223Z - info: require('./app\routes\membre.js')
+2014-12-08T13:40:35.229Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:40:35.234Z - info: require('./app\routes\upload.js')
+2014-12-08T13:40:35.248Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:40:52.151Z - info: Initialisation du serveur
+2014-12-08T13:40:52.168Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:40:52.242Z - info: require('./app\routes\club.js')
+2014-12-08T13:40:52.251Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:40:52.257Z - info: require('./app\routes\membre.js')
+2014-12-08T13:40:52.262Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:40:52.266Z - info: require('./app\routes\upload.js')
+2014-12-08T13:40:52.278Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:41:55.137Z - info: Initialisation du serveur
+2014-12-08T13:41:55.168Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:41:55.332Z - info: require('./app\routes\club.js')
+2014-12-08T13:41:55.347Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:41:55.355Z - info: require('./app\routes\membre.js')
+2014-12-08T13:41:55.363Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:41:55.370Z - info: require('./app\routes\upload.js')
+2014-12-08T13:41:55.387Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:43:27.684Z - info: Initialisation du serveur
+2014-12-08T13:43:27.705Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:43:27.837Z - info: require('./app\routes\club.js')
+2014-12-08T13:43:27.852Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:43:27.861Z - info: require('./app\routes\membre.js')
+2014-12-08T13:43:27.869Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:43:27.877Z - info: require('./app\routes\upload.js')
+2014-12-08T13:43:27.896Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:43:42.245Z - info: Initialisation du serveur
+2014-12-08T13:43:42.265Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:43:42.360Z - info: require('./app\routes\club.js')
+2014-12-08T13:43:42.373Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:43:42.380Z - info: require('./app\routes\membre.js')
+2014-12-08T13:43:42.388Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:43:42.394Z - info: require('./app\routes\upload.js')
+2014-12-08T13:43:42.408Z - info: Serveur démarré sur le port 8080
+2014-12-08T13:43:44.374Z - error: uncaughtException: fileName is not defined date=Mon Dec 08 2014 14:43:44 GMT+0100 (Paris, Madrid), pid=4212, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=38051840, heapTotal=30107392, heapUsed=18582288, loadavg=[0, 0, 0], uptime=115912.7225964, trace=[column=33, file=d:\Perso\MCW\MCW_API\app\controllers\upload.js, function=, line=68, method=null, native=false, column=20, file=events.js, function=ReadStream.emit, line=117, method=emit, native=false, column=16, file=_stream_readable.js, function=null, line=943, method=null, native=false, column=13, file=node.js, function=process._tickCallback, line=419, method=_tickCallback, native=false], stack=[ReferenceError: fileName is not defined,     at ReadStream.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\upload.js:68:33),     at ReadStream.emit (events.js:117:20),     at _stream_readable.js:943:16,     at process._tickCallback (node.js:419:13)]
+2014-12-08T13:44:22.946Z - info: Authentification OK pour SuperAdmin
+2014-12-08T13:44:23.099Z - error: uncaughtException: fileName is not defined date=Mon Dec 08 2014 14:44:23 GMT+0100 (Paris, Madrid), pid=4212, uid=null, gid=null, cwd=d:\Perso\MCW\MCW_API, execPath=C:\Program Files\nodejs\node.exe, version=v0.10.33, argv=[C:\Program Files\nodejs\node.exe, d:\Perso\MCW\MCW_API\server.js], rss=40693760, heapTotal=30107392, heapUsed=14461888, loadavg=[0, 0, 0], uptime=115951.4777964, trace=[column=33, file=d:\Perso\MCW\MCW_API\app\controllers\upload.js, function=, line=68, method=null, native=false, column=20, file=events.js, function=ReadStream.emit, line=117, method=emit, native=false, column=16, file=_stream_readable.js, function=null, line=943, method=null, native=false, column=13, file=node.js, function=process._tickCallback, line=419, method=_tickCallback, native=false], stack=[ReferenceError: fileName is not defined,     at ReadStream.<anonymous> (d:\Perso\MCW\MCW_API\app\controllers\upload.js:68:33),     at ReadStream.emit (events.js:117:20),     at _stream_readable.js:943:16,     at process._tickCallback (node.js:419:13)]
+2014-12-08T13:44:35.452Z - info: Initialisation du serveur
+2014-12-08T13:44:35.469Z - info: require('./app\routes\categorie.js')
+2014-12-08T13:44:35.537Z - info: require('./app\routes\club.js')
+2014-12-08T13:44:35.546Z - info: require('./app\routes\equipe.js')
+2014-12-08T13:44:35.551Z - info: require('./app\routes\membre.js')
+2014-12-08T13:44:35.555Z - info: require('./app\routes\type_membre.js')
+2014-12-08T13:44:35.560Z - info: require('./app\routes\upload.js')
+2014-12-08T13:44:35.571Z - info: Serveur démarré sur le port 8080

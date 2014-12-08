@@ -36,6 +36,10 @@ angular.module('myApp').service('clubService', ['$http','$q',
             return( request.then( self.handleSuccess, self.handleError ) );
         };
 
+        self.getFullImagePath = function(club, image) {
+            return self.apiUrl + "/" + image.path;
+        };
+
 
         self.saveClub = function(club) {
 
@@ -63,11 +67,24 @@ angular.module('myApp').service('clubService', ['$http','$q',
 
             var request = $http({
                 method: "delete",
-                url: self.apiUrl +"clubs/"+club._id,
+                url: self.apiUrl +"clubs/"+club._id
              });
 
             return( request.then( self.handleSuccess, self.handleError ) );
         };
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         // I transform the error response, unwrapping the application dta from
         // the API response payload.

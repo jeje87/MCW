@@ -1,1 +1,21 @@
-Fiche
+<div class="container-fluid">
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" >{{club.nom}}</label>
+        </div>
+    </form>
+    <div class="col-md-3" >
+    </div>
+    <div class="col-md-6" style="height: 400px">
+        <carousel interval="myInterval">
+            <slide ng-repeat="slide in slides" active="slide.active">
+                <img ng-src="{{slide.image}}" style="margin:auto;">
+                <div class="carousel-caption">
+                    <h4>Slide {{$index}}</h4>
+                    <p>{{slide.text}}</p>
+                </div>
+            </slide>
+        </carousel>
+    </div>
+
+</div>

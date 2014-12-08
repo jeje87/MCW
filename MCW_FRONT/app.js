@@ -24,16 +24,16 @@ config(['$routeProvider', function($routeProvider) {
                 controller: 'clubListController'
             })
             .when('/club/:club_id', {
-                templateUrl: 'app/club/clubImage.htm',
-                controller: 'clubImageController'
+                templateUrl: 'app/club/clubFiche.htm',
+                controller: 'clubFicheController'
             })
             .when('/club/edit/:club_id', {
                 templateUrl: 'app/club/clubEdit.htm',
                 controller: 'clubEditController'
             })
-            .when('/club/fiche/:club_id', {
-                templateUrl: 'app/club/clubFiche.htm',
-                controller: 'clubFicheController'
+            .when('/club/upload/:club_id', {
+                templateUrl: 'app/club/clubImage.htm',
+                controller: 'clubImageController'
             })
             .otherwise({redirectTo: '/club/'});
 }]).

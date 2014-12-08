@@ -35,3 +35,39 @@ exports.upload = function(req, res) {
     });
 
 };
+
+
+// Sélection d'un item via son id
+exports.getImage = function(req, res) {
+
+    //test des droits
+    /*if (typeof req.user.droit != 'number' || req.user.droit > 0) {
+     logger.info('Droits insufisants : ' + req.user.login );
+     res.send(403);
+     return;
+     }*/
+
+    var options = {
+        root: global.appRoot + "/app/upload/clubs/",
+        dotfiles: 'deny',
+        headers: {
+            'x-timestamp': Date.now(),
+            'x-sent': true
+        }
+    };
+
+   var imagePath = req.params.club_id +"/"+ req.params.image_id;
+
+   res.sendfile(imagePath, options, function(err){
+        if (err) {
+           console.log(err);
+           res.status(err.status).end();
+       }
+        else {
+           console.log('Sent image:', imagePath);
+       }
+    });
+
+
+
+};

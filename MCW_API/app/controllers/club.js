@@ -146,3 +146,32 @@ exports.deleteItem = function(req, res) {
     });
 };
 
+
+// Sélection des images d'un item via son id
+exports.getItemImagesById = function(req, res) {
+
+    //test des droits
+    /*if (typeof req.user.droit != 'number' || req.user.droit > 0) {
+     logger.info('Droits insufisants : ' + req.user.login );
+     res.send(403);
+     return;
+     }*/
+
+    Club.findById(req.params.club_id, function(err, club) {
+        if (err) {
+            res.send(err);
+        }
+        else {
+
+//            if ((typeof req.user.droit != 'number' || req.user.droit > 0) && (typeof req.user.club_id != 'number' || req.user.club_id != club._id)) {
+//                logger.info('Droits insufisants : ' + req.user.login);
+//                res.send(401);
+//                return;
+//            }
+            res.json(club.images);
+        }
+    });
+
+};
+
+
